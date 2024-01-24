@@ -61,10 +61,11 @@ Falta encontrar teclado Sun Tipo 5 y raton Sun Tipo 5 o emularlo con arduino
 - web server
 
 ### Pedir a reciclATICA
-- 2x disqueteras 3.5"
-- 2x disco IDE minimo 9GB, otro minimo 3GB
-- 2x CD IDE ~24x
-- si hubiera, perifericos Sun y SGI (prioridad teclado y raton Sun)
+- 2x disquetera 3.5" 1.44MB
+- 3x disco IDE >=9GB, otro minimo >=3GB, uno >=40GB
+- 2x disco SCSI >=2GB IDC50, otro UltraSCSI 68-pin SCSI-3 >20GB
+- 2x lector CD-ROM IDE ~24x
+- si hubiera, perifericos Sun y SGI (prioridad teclado y raton Sun Tipo 4, 5 o 6 (conector MiniDIN-8))
 
 ### Comprar
 - CR2032 holder
