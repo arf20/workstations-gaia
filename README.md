@@ -57,24 +57,26 @@ Debian sparc64/sun4u
 	
 	
 ### SGI Indy
-- arranca, falta contraseña
-- update: HDD muerto
+- HDD muerto
 ### SGI O2
-- arranca, falta contraseña
+- intenta arrancar pero se queja de que falta /disk
+### SGI O2 otra
+- arranca perfectamente IRIX original
+- contraseñas crackeadas o reseteadas
 
-### Monitor VGA coaxial raro (DB13W3)
+### SGI CRT 13W3
 - funciona
 
-## TODO	
-Falta encontrar teclado Sun Tipo 5 y raton Sun Tipo 5 o emularlo con arduino
 
 ### ideas chulas
-- repos de software
+- repos de software Sun
   - https://es.tldp.org/mirror/sunfreeware/
   - https://ftp.deu.edu.tr/pub/Solaris/sunfreeware/
   - http://www.sunfreeware.net/programlistsparc7.html
   - https://fsck.technology/software/Sun%20Microsystems/Solaris%20Applications/
   - http://www.cilinder.be/archive/
+- software IRIX
+  - https://fsck.technology/software/Silicon%20Graphics/Software/
 - IRC
 - netscape
 - web server
@@ -82,6 +84,7 @@ Falta encontrar teclado Sun Tipo 5 y raton Sun Tipo 5 o emularlo con arduino
 ### CDs quemados
 - Sun Solaris 9 SPARC
 - SGI IRIX 5.3 for Indy
+- SGI IRIX 6.5 for O2
 - Debian 12 sparc64 netinst
 - Debian 10.13 mips
 - OpenBSD 7.4 sparc64
@@ -100,20 +103,22 @@ Falta encontrar teclado Sun Tipo 5 y raton Sun Tipo 5 o emularlo con arduino
 - CR2032 baterias
 - 3x NVRAM M48T59Y-70PC1 (Ultra 10)
 - teclado Sun
-  - https://www.ebay.es/itm/235320822046?hash=item36ca36c91e:g:RuMAAOSwZMJlZu9x
-  - https://www.ebay.es/itm/335164745147?hash=item4e096025bb:g:uIQAAOSw6G9lergu
+  - https://www.ebay.es/itm/235320822046
+  - https://www.ebay.es/itm/335164745147
 - Raton Sun
-  - https://www.ebay.es/itm/276299573527?hash=item4054bce917:g:tMsAAOSwz-ZlE~zQ
-  - https://www.ebay.es/itm/295729721640?hash=item44dadd7128:g:XYoAAOSwoSNkdorC
-  - https://www.ebay.es/itm/126280807995?hash=item1d66ec363b:g:e24AAOSw5QhloufS
+  - https://www.ebay.es/itm/276299573527
+  - https://www.ebay.es/itm/295729721640
+  - https://www.ebay.es/itm/126280807995
 - conversor 13W3 VGA
-  - https://www.amazon.es/Premium-Cord-Sun-Adaptador-13W3/dp/B07NSMVDB2/ref=sr_1_1
+  - https://www.ebay.es/itm/314941743772
+  - https://www.ebay.com/itm/270832512031
+  - https://es.aliexpress.com/item/32612101833.html
 - RAM DIMM EDO ECC 256MB para Ultra 10 370-3201
-  - https://www.ebay.es/itm/334969192246?hash=item4dfdb83f36:g:fc0AAOSwqyRkxrJo
-  - https://www.ebay.es/itm/145031313084?hash=item21c48a36bc:g:lRkAAOSwRwhkNfI6
+  - https://www.ebay.es/itm/334969192246
+  - https://www.ebay.es/itm/145031313084
 - almacenamiento SCSI
   - HDDs (caro)
   - https://amigastore.eu/es/600-zuluscsi-rp2040-adaptador-scsi-a-sd.html
   - bluescsi https://bluescsi.com/
   - interfaz SCSI USB
-
+  - disco SCA https://www.ebay.es/itm/235576363600

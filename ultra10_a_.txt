@@ -1,0 +1,668 @@
+
+Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), No Keyboard
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok M
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok ?Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok 
+ok 
+ok setenv output-device ttya
+output-device =       ttya
+ok setenv output  -device ttya
+output-device =       ttya
+ok setenv output-device ttya-device ttya -device ttya -device ttya -device ttya -device ttya -device ttya i-device ttyan-device ttyap-device ttyau-device ttyat-device ttya
+input-device =        ttya
+ok boot cdrom
+Initializing Memory \                                                                      Initializing Memory \                                                                      Initializing Memory /-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\                                                                      Initializing Memory \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-                                                                      Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Can't read disk label.
+Can't open disk label package
+
+Can't open boot device
+
+ok 
+ok 
+ok 
+ok 
+ok ¸ ÄÄÄ$¿åD"	Ç Ñê0Å)D* &0ÄÄ É¿`Ä	Ä£(Hÿ	$ÄÇ˛Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), No Keyboard
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+
+ok Memory Address not Aligned
+ok Memory Address not Alig
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok 
+ok 
+
+
+ok 
+ok Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), No Keyboard
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+
+ok 
+ok 
+ok 
+ok banner
+Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), No Keyboard
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+ok probe-ide
+  Device 0  ( Primary Master ) 
+          ATA Model: ST380011A                               
+
+  Device 1  ( Primary Slave ) 
+         Not Present
+
+  Device 2  ( Secondary Master ) 
+         Not Present
+
+  Device 3  ( Secondary Slave ) 
+         Not Present
+
+ok Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), No Keyboard
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+
+ok 
+ok probe-ide
+  Device 0  ( Primary Master ) 
+          ATA Model: ST380011A                               
+
+  Device 1  ( Primary Slave ) 
+         Not Present
+
+  Device 2  ( Secondary Master ) 
+         Not Present
+
+  Device 3  ( Secondary Slave ) 
+         Not Present
+
+ok boot cdrom
+Initializing Memory \                                                                      Initializing Memory /-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\                                                                      Initializing Memory \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-                                                                      Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+
+Can't open boot device
+
+ok boot cdromprobe-ide 
+  Device 0  ( Primary Master ) 
+          ATA Model: ST380011A                               
+
+  Device 1  ( Primary Slave ) 
+         Not Present
+
+  Device 2  ( Secondary Master ) 
+         Not Present
+
+  Device 3  ( Secondary Slave ) 
+         Not Present
+
+ok probe-ide
+  Device 0  ( Primary Master ) 
+          ATA Model: ST380011A                               
+
+  Device 1  ( Primary Slave ) 
+         Not Present
+
+  Device 2  ( Secondary Master ) 
+         Not Present
+
+  Device 3  ( Secondary Slave ) 
+         Not Present
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+
+Can't open boot device
+
+ok Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), No Keyboard
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+
+ok 
+ok 
+ok probe-ide
+  Device 0  ( Primary Master ) 
+          ATA Model: ST380011A                               
+
+  Device 1  ( Primary Slave ) 
+         Not Present
+
+  Device 2  ( Secondary Master ) 
+         Not Present
+
+  Device 3  ( Secondary Slave ) 
+         Not Present
+
+ok Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), No Keyboard
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+In
+ok 
+ok 
+ok 
+ok probe-ide
+  Device 0  ( Primary Master ) 
+          ATA Model: ST380011A                               
+
+  Device 1  ( Primary Slave ) 
+         Not Present
+
+  Device 2  ( Secondary Master ) 
+         Removable ATAPI Model: CRD-8322B                               
+
+  Device 3  ( Secondary Slave ) 
+         Not Present
+
+ok probe-ide         
+ok 
+ok boot cdrom
+Initializing Memory \                                                                      Initializing Memory /-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\                                                                      Initializing Memory \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-                                                                      Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Can't read disk label.
+Can't open disk label package
+
+Can't open boot device
+
+ok Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), No Keyboard
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+
+ok 
+ok 
+ok probe-ide
+  Device 0  ( Primary Master ) 
+          ATA Model: ST380011A                               
+
+  Device 1  ( Primary Slave ) 
+         Not Present
+
+  Device 2  ( Secondary Master ) 
+         Removable ATAPI Model: HL-DT-STDVD-RAM GH22NP20                
+
+  Device 3  ( Secondary Slave ) 
+         Not Present
+
+ok setenv output-device ttya 
+output-device =       ttya
+ok setenv input-device ttya 
+input-device =        ttya
+ok boot cdrom
+Initializing Memory \                                                                      Initializing Memory /-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\                                                                      Initializing Memory \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-                                                                      Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+GRUB Welcome to GRUB!
+
+GNU GRUB  version 2.06-13
+
++----------------------------------------------------------------------------+||||||||||||||||||||||||+----------------------------------------------------------------------------+     Use the ^ and v keys to select which entry is highlighted.          
+      Press enter to boot the selected OS, `e' to edit the commands       
+      before booting or `c' for a command-line.                             Debian GNU/Linux installer boot menu                                                                                                                   *Default install                                                             Automated install                                                           Expert install                                                              Rescue mode                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Loading ...
+
+[    5.244943] Initramfs unpacking failed: write error
+/l[   15.911670] Kernel panic - not syncing: Attempted to kill init! exitcode=0x00007f00
+[   16.003451] CPU: 0 PID: 1 Comm: init Not tainted 6.1.0-9-sparc64 #1  Debian 6.1.27-1
+[   16.096126] Call Trace:
+[   16.124984] [<0000000000caaf50>] dump_stack+0x8/0x18
+[   16.184497] [<0000000000ca0dd8>] panic+0xec/0x344
+[   16.240725] [<000000000046bcec>] do_exit+0x9ec/0xa00
+[   16.300111] [<000000000046bee4>] do_group_exit+0x24/0xa0
+ib/sy[   16.368927] [<000000000046bf7c>] sys_exit_group+0x1c/0x40
+stemd[   16.438737] [<0000000000406174>] linux_sparc_syscall+0x34/0x44
+/syst[   16.513800] Press Stop-A (L1-A) from sun keyboard or send break
+[   16.513800] twice on console to return to the boot prom
+emd-udevd:[   16.657855] ---[ end Kernel panic - not syncing: Attempted to kill init! exitcode=0x00007f00 ]---
+ error while loading shared libraries: libkmod.so.2: cannot open shared object file: No such file or directory
+
+Type  'go' to resume
+ok √ß√ß  
+√ß ?
+ok 
+ok 
+ok 
+ok boot cdrom
+Resetting ... 
+
+Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), No Keyboard
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+Initializing Memory \                                                                      Initializing Memory /-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\                                                                      Initializing Memory \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-                                                                      Rebooting with command: boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+GRUB Welcome to GRUB!
+
+GNU GRUB  version 2.06-13
+
++----------------------------------------------------------------------------+||||||||||||||||||||||||+----------------------------------------------------------------------------+     Use the ^ and v keys to select which entry is highlighted.          
+      Press enter to boot the selected OS, `e' to edit the commands       
+      before booting or `c' for a command-line.                             Debian GNU/Linux installer boot menu                                                                                                                   *Default install                                                             Automated install                                                           Expert install                                                              Rescue mode                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Loading ...
+
+[    5.239406] Initramfs unpacking failed: write error
+/l[   15.903947] Kernel panic - not syncing: Attempted to kill init! exitcode=0x00007f00
+[   15.995660] CPU: 0 PID: 1 Comm: init Not tainted 6.1.0-9-sparc64 #1  Debian 6.1.27-1
+[   16.088332] Call Trace:
+[   16.117197] [<0000000000caaf50>] dump_stack+0x8/0x18
+[   16.176705] [<0000000000ca0dd8>] panic+0xec/0x344
+[   16.232934] [<000000000046bcec>] do_exit+0x9ec/0xa00
+[   16.292319] [<000000000046bee4>] do_group_exit+0x24/0xa0
+ib/sy[   16.361391] [<000000000046bf7c>] sys_exit_group+0x1c/0x40
+stemd[   16.431530] [<0000000000406174>] linux_sparc_syscall+0x34/0x44
+/syste[   16.506623] Press Stop-A (L1-A) from sun keyboard or send break
+[   16.506623] twice on console to return to the boot prom
+md-udevd: e[   16.652309] ---[ end Kernel panic - not syncing: Attempted to kill init! exitcode=0x00007f00 ]---
+rror while loading shared libraries: libkmod.so.2: cannot open shared object file: No such file or directory
+
+Type  'go' to resume
+ok boot cdeo  rom
+Resetting ... 
+
+Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), No Keyboard
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+Initializing Memory \                                                                      Initializing Memory /-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\                                                                      Initializing Memory \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-                                                                      Rebooting with command: boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+GRUB Welcome to GRUB!
+
+GNU GRUB  version 2.06-13
+
++----------------------------------------------------------------------------+||||||||||||||||||||||||+----------------------------------------------------------------------------+     Use the ^ and v keys to select which entry is highlighted.          
+      Press enter to boot the selected OS, `e' to edit the commands       
+      before booting or `c' for a command-line.                             Debian GNU/Linux installer boot menu                                                                                                                   *Default install                                                             Automated install                                                           Expert install                                                              Rescue mode                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Default install                                                            *Automated install                                                           Automated install                                                          *Expert install                                                              Expert install                                                             *Rescue mode                                                                Loading ...
+
+[    5.252447] Initramfs unpacking failed: write error
+/l[   15.943243] Kernel panic - not syncing: Attempted to kill init! exitcode=0x00007f00
+[   16.035037] CPU: 0 PID: 1 Comm: init Not tainted 6.1.0-9-sparc64 #1  Debian 6.1.27-1
+[   16.127704] Call Trace:
+[   16.156562] [<0000000000caaf50>] dump_stack+0x8/0x18
+[   16.216080] [<0000000000ca0dd8>] panic+0xec/0x344
+[   16.272302] [<000000000046bcec>] do_exit+0x9ec/0xa00
+[   16.331692] [<000000000046bee4>] do_group_exit+0x24/0xa0
+ib/sy[   16.400566] [<000000000046bf7c>] sys_exit_group+0x1c/0x40
+stemd[   16.470571] [<0000000000406174>] linux_sparc_syscall+0x34/0x44
+/syste[   16.545966] Press Stop-A (L1-A) from sun keyboard or send break
+[   16.545966] twice on console to return to the boot prom
+md-udevd: e[   16.691708] ---[ end Kernel panic - not syncing: Attempted to kill init! exitcode=0x00007f00 ]---
+rror while loading shared libraries: libkmod.so.2: cannot open shared object file: No such file or directory
+
+Type  'go' to resume
+ok boot cdrom
+Resetting ... 
+
+Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), No Keyboard
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+Initializing Memory \                                                                      Initializing Memory /-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\                                                                      Initializing Memory \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-                                                                      Rebooting with command: boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Bad magic number in disk label
+Can't open disk label package
+Evaluating: boot cdrom
+
+Can't open boot device
+
+Bad magic number in disk label
+Can't open disk label package
+Bad magic number in disk label
+Can't open disk label package
+Boot device: net  File and args: 
+Network Link Setup Failed. 
+Please Check Cable and Try Again. 
+
+ok 
+ok 
+ok 
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Bad magic number in disk label
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Can't read disk label.
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+NetBSD IEEE 1275 Multi-FS Bootblock
+Version $NetBSD: bootblk.fth,v 1.15 2015/08/20 05:40:08 dholland Exp $
+..>> NetBSD/sparc64 OpenFirmware Boot, Revision 1.20 (Thu Aug  4 15:30:37 UTC 2022)
+=0x96f618
+Loading netbsd: 9893336+480784+338872 [717864+472316]=0xdeb4a0
+[   1.0000000] Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+[   1.0000000]     2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017,
+[   1.0000000]     2018, 2019, 2020, 2021, 2022
+[   1.0000000]     The NetBSD Foundation, Inc.  All rights reserved.
+[   1.0000000] Copyright (c) 1982, 1986, 1989, 1991, 1993
+[   1.0000000]     The Regents of the University of California.  All rights reserved.
+
+[   1.0000000] NetBSD 9.3 (GENERIC) #0: Thu Aug  4 15:30:37 UTC 2022
+[   1.0000000] 	mkrepro@mkrepro.NetBSD.org:/usr/src/sys/arch/sparc64/compile/GENERIC
+[   1.0000000] total memory = 256 MB
+[   1.0000000] avail memory = 233 MB
+[   1.0000000] running cgd selftest aes-xts-256 aes-xts-512 done
+[   1.0000000] mainbus0 (root): SUNW,Ultra-5_10 (Sun Ultra 5/10 UPA/PCI): hostid 80a515a0
+[   1.0000000] cpu0 at mainbus0: SUNW,UltraSPARC-IIi @ 333 MHz, CPU id 0
+[   1.0000000] cpu0: manuf 17, impl 12, mask 13
+[   1.0000000] cpu0: 16K instruction (32 b/l), 16K data (32 b/l), 2048K external (64 b/l)
+[   1.0000000] psycho0 at mainbus0 addr 0xfffc4000
+[   1.0000000] psycho0: SUNW,sabre: impl 0, version 0: ign 7c0 bus range 0 to 2; PCI bus 0
+[   1.0000000] pci0 at psycho0
+[   1.0000000] ppb0 at pci0 dev 1 function 1: Sun Microsystems Simba PCI Bridge (rev. 0x13)
+[   1.0000000] pci1 at ppb0 bus 1
+[   1.0000000] ebus0 at pci1 dev 1 function 0: Sun Microsystems PCIO Ebus2, revision 0x01
+[   1.0000000] auxio0 at ebus0 addr 726000-726003, 728000-728003, 72a000-72a003, 72c000-72c003, 72f000-72f003
+[   1.0000000] power at ebus0 addr 724000-724003 ipl 25 not configured
+[   1.0000000] SUNW,pll at ebus0 addr 504000-504002 not configured
+[   1.0000000] sab0 at ebus0 addr 400000-40007f ipl 2b: rev 3.2
+[   1.0000000] sabtty0 at sab0 port 0: console i/o
+[   1.0000000] sabtty1 at sab0 port 1
+[   1.0000000] com0 at ebus0 addr 3083f8-3083ff ipl 29: ns16550a, working fifo
+[   1.0000000] kbd0 at com0
+[   1.0000000] com1 at ebus0 addr 3062f8-3062ff ipl 2a: ns16550a, working fifo
+[   1.0000000] ms0 at com1
+[   1.0000000] wsmouse0 at ms0 mux 0
+[   1.0000000] lpt0 at ebus0 addr 3043bc-3043cb, 30015c-30015d, 700000-70000f ipl 22
+[   1.0000000] fdthree at ebus0 addr 3023f0-3023f7, 706000-70600f, 720000-720003 ipl 27 not configured
+[   1.0000000] clock0 at ebus0 addr 0-1fff: mk48t59
+[   1.0000000] flashprom at ebus0 addr 0-fffff not configured
+[   1.0000000] audiocs0 at ebus0 addr 200000-2000ff, 702000-70200f, 704000-70400f, 722000-722003 ipl 23 ipl 24: CS4231A
+[   1.0000000] audio0 at audiocs0: playback, capture, full duplex
+[   1.0000000] audio0: slinear_be:16 -> slinear_le:16 2ch 48000Hz, blk 1920 bytes (10ms) for playback
+[   1.0000000] audio0: slinear_be:16 <- slinear_le:16 2ch 48000Hz, blk 1920 bytes (10ms) for recording
+[   1.0000000] spkr0 at audio0: PC Speaker (synthesized)
+[   1.0000000] wsbell at spkr0 not configured
+[   1.0000000] hme0 at pci1 dev 1 function 1: Sun Happy Meal Ethernet, rev. 1
+[   1.0000000] hme0: interrupting at ivec 3021
+[   1.0000000] hme0: Ethernet address 08:00:20:a5:15:a0
+[   1.0000000] nsphy0 at hme0 phy 1: DP83840 10/100 media interface, rev. 1
+[   1.0000000] nsphy0: 10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, auto
+[   1.0000000] machfb0 at pci1 dev 2 function 0: ATI Technologies 3D Rage Pro (rev. 0x5c)
+[   1.0000000] machfb0: using MMIO aperture
+[   1.0000000] machfb0: 16 MB aperture at 0xe1000000, 4 KB registers at 0xe2000000
+[   1.0000000] machfb0: 128 KB ROM at 0xe1020000
+[   1.0000000] machfb0: 4096 KB SGRAM 98.924 MHz, maximum RAMDAC clock 230 MHz
+[   1.0000000] machfb0: unable to use preferred mode
+[   1.0000000] machfb0: initializing the DSP
+[   1.0000000] machfb0: initial resolution 1280x720 at 8 bpp
+[   1.0000000] wsdisplay1 at machfb0 kbdmux 1
+[   1.0000000] direct rendering for machfb0 unsupported
+[   1.0000000] cmdide0 at pci1 dev 3 function 0: CMD Technology PCI0646 (rev. 0x03)
+[   1.0000000] cmdide0: primary channel configured to native-PCI mode, channel non-independant
+[   1.0000000] cmdide0: using ivec 1820 for native-PCI interrupt
+[   1.0000000] atabus0 at cmdide0 channel 0
+[   1.0000000] cmdide0: secondary channel configured to native-PCI mode, channel non-independant
+[   1.0000000] atabus1 at cmdide0 channel 1
+[   1.0000000] ppb1 at pci0 dev 1 function 0: Sun Microsystems Simba PCI Bridge (rev. 0x13)
+[   1.0000000] pci2 at ppb1 bus 2
+[   1.0000000] ffb0 at mainbus0: Creator3D, model SUNW,501-4788, dac 10
+[   1.0000000] ffb0: attached to /dev/fb0
+[   1.0000000] wsdisplay2 at ffb0 kbdmux 1
+[   1.0000000] pcons at mainbus0 not configured
+[   1.0000030] No counter-timer -- using %tick at 333MHz as system clock.
+[   1.0899667] wskbd0 at kbd0 mux 1
+[   4.1699650] kbd0: reset failed
+[   4.4299652] wd0 at atabus0 drive 0
+[   4.4702315] wd0: <ST380011A>
+[   4.5075211] wd0: 76319 MB, 155061 cyl, 16 head, 63 sec, 512 bytes/sect x 156301488 sectors
+[   4.6099659] atapibus0 at atabus1: 2 targets
+[   4.6699667] cd0 at atapibus0 drive 0: <HL-DT-STDVD-RAM GH22NP20, , 1.01> cdrom removable
+[   4.7799667] WARNING: 1 error while detecting hardware; check system log.
+[  11.8599636] root on cd0a dumps on cd0b
+[  12.1499636] root file system type: cd9660
+[  12.3199638] kern.module.path=/stand/sparc64/9.3/modules
+Created tmpfs /dev (802816 byte, 1536 inodes)
+init: kernel security level changed from 0 to 1
+
+
+You are using a serial console, we do not know your terminal emulation.
+Please select one, typical values are:
+
+        vt100
+        ansi
+        xterm
+
+Terminal type (just hit ENTER for 'vt220'): 
+
+ NetBSD/sparc64 9.3
+
+ This menu-driven tool is designed to help you install NetBSD to a hard disk,
+ or upgrade an existing NetBSD system, with a minimum of work.
+ In the following menus type the reference letter (a, b, c, ...) to select an
+ item, or type CTRL+N/CTRL+P to select the next/previous item.
+ The arrow keys and Page-up/Page-down may also work.
+ Activate the current selection from the menu by typing the enter key.
+ lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqkx>a: Installation messages in Englishxx b: Installation auf Deutschxx c: Mensajes de instalacion en castellano    xx d: Messages d'installation en franÁais      xx e: Komunikaty instalacyjne w jezyku polskim xmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+ Thank you for using NetBSD!
+ lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqkx NetBSD-9.3 Install Systemxxxx>a: Install NetBSD to hard diskxx b: Upgrade NetBSD on a hard diskxx c: Re-install sets or install additional sets xx d: Reboot the computerxx e: Utility menuxx f: Config menuxx x: Exit Install Systemxmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj a: Install NetBSD to hard disk>b: Upgrade NetBSD on a hard disk b: Upgrade NetBSD on a hard disk>c: Re-install sets or install additional sets c: Re-install sets or install additional sets>d: Reboot the computer
+
+
+
+
+
+[ 133.8199716] syncing disks... done
+[ 133.8899746] wd0: detached
+[ 133.9287637] atabus0: detached
+[ 133.9641733] pci2: detached
+[ 133.9964624] ppb1: detached
+[ 134.8099636] cd0: detached
+[ 134.8486040] atapibus0: detached
+[ 134.8861029] atabus1: detached
+[ 134.9215156] cpu0: rebooting
+
+Resetting ... 
+
+Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), No Keyboard
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+Initializing
+ok boot cdrom
+Initializing Memory \                                                                      Initializing Memory /-\                                                                      Initializing Memory \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-                                                                      Initializing Memory \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-                                                                      Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Can't read disk label.
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Bad magic number in disk label
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Bad magic number in disk label
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Bad magic number in disk label
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Bad magic number in disk label
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Bad magic number in disk label
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Bad magic number in disk label
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Bad magic number in disk label
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Bad magic number in disk label
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom:d
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:d  File and args: 
+Bad magic number in disk label
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom:d
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:d  File and args: 
+Bad magic number in disk label
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom:d  
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Bad magic number in disk label
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Bad magic number in disk label
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Can't read disk label.
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Can't read disk label.
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Can't read disk label.
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Can't read disk label.
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Can't read disk label.
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Can't read disk label.
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Can't read disk label.
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Can't read disk label.
+Can't open disk label package
+
+Can't open boot device
+
+ok poweroff
+poweroff ?
+ok power-off

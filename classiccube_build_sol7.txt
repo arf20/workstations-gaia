@@ -1,0 +1,192 @@
+Audio.c:1526:3: warning: no newline at end of file
+Drawer2D.c:675:3: warning: no newline at end of file
+Formats.c:1880:3: warning: no newline at end of file
+Graphics_3DS.c:681:7: warning: no newline at end of file
+Graphics_Dreamcast.c:459:7: warning: no newline at end of file
+Graphics_GCWii.c:563:7: warning: no newline at end of file
+In file included from Graphics_GL1.c:3:
+_GraphicsBase.h:368:3: warning: no newline at end of file
+Graphics_PSP.c:427:7: warning: no newline at end of file
+In file included from Http_Worker.c:3:
+_HttpBase.h: In function `HttpRequest_Free':
+_HttpBase.h:17: warning: passing arg 1 of `Mem_Free' discards qualifiers from pointer target type
+Http_Worker.c: In function `HttpBackend_Do':
+Http_Worker.c:420: warning: passing arg 1 of `Mem_Free' discards qualifiers from pointer target type
+Http_Worker.c:1528:7: warning: no newline at end of file
+Logger.c:370:22: execinfo.h: No such file or directory
+Platform_3DS.c:476:7: warning: no newline at end of file
+Platform_Dreamcast.c:455:7: warning: no newline at end of file
+Platform_GCWii.c:604:7: warning: no newline at end of file
+Platform_Posix.c: In function `ParseHost':
+Platform_Posix.c:533: error: variable `hints' has initializer but incomplete type
+Platform_Posix.c:533: warning: excess elements in struct initializer
+Platform_Posix.c:533: warning: (near initialization for `hints')
+Platform_Posix.c:533: error: storage size of 'hints' isn't known
+Platform_Posix.c:545: error: dereferencing pointer to incomplete type
+Platform_Posix.c:546: error: dereferencing pointer to incomplete type
+Platform_Posix.c:549: error: dereferencing pointer to incomplete type
+Platform_Posix.c:549: error: dereferencing pointer to incomplete type
+Platform_Posix.c: In function `GetMachineID':
+Platform_Posix.c:1245: error: `HW_HOSTID_LEN' undeclared (first use in this function)
+Platform_Posix.c:1245: error: (Each undeclared identifier is reported only once
+Platform_Posix.c:1245: error: for each function it appears in.)
+Program.c:169:7: warning: no newline at end of file
+Resources.c: In function `SoundPatcher_WriteWav':
+Resources.c:319: warning: passing arg 2 of `Stream_Write' from incompatible pointer type
+Resources.c: At top level:
+Resources.c:636: warning: initialization discards qualifiers from pointer target type
+SSL.c:695:7: warning: no newline at end of file
+String.c:999:2: warning: no newline at end of file
+Window_3DS.c:278:7: warning: no newline at end of file
+Window_Dreamcast.c:176:7: warning: no newline at end of file
+Window_GCWii.c:521:7: warning: no newline at end of file
+In file included from Window_X11.c:12:
+/usr/include/X11/XKBlib.h:31:35: X11/extensions/XKBstr.h: No such file or directory
+In file included from Window_X11.c:12:
+/usr/include/X11/XKBlib.h:216: error: `XkbActionMessageLength' undeclared here (not in a function)
+/usr/include/X11/XKBlib.h:731: error: syntax error before "XkbAllocKeyboard"
+/usr/include/X11/XKBlib.h:777: error: syntax error before "XkbAddKeyType"
+/usr/include/X11/XKBlib.h:799: error: syntax error before "XkbGetMap"
+/usr/include/X11/XKBlib.h:967: error: syntax error before "XkbAddSymInterpret"
+/usr/include/X11/XKBlib.h:1124: error: syntax error before '*' token
+/usr/include/X11/XKBlib.h:1145: error: syntax error before "XkbListComponents"
+/usr/include/X11/XKBlib.h:1160: error: syntax error before "XkbGetKeyboard"
+/usr/include/X11/XKBlib.h:1168: error: syntax error before "XkbGetKeyboardByName"
+/usr/include/X11/XKBlib.h:1213: error: syntax error before "XkbAddDeviceLedInfo"
+/usr/include/X11/XKBlib.h:1228: error: syntax error before "XkbAllocDeviceInfo"
+/usr/include/X11/XKBlib.h:1252: error: syntax error before "XkbGetDeviceInfo"
+Window_X11.c:14:36: X11/extensions/XInput2.h: No such file or directory
+Window_X11.c: In function `MapNativeKey':
+Window_X11.c:49: error: `XK_0' undeclared (first use in this function)
+Window_X11.c:49: error: (Each undeclared identifier is reported only once
+Window_X11.c:49: error: for each function it appears in.)
+Window_X11.c:49: error: `XK_9' undeclared (first use in this function)
+Window_X11.c:50: error: `XK_A' undeclared (first use in this function)
+Window_X11.c:50: error: `XK_Z' undeclared (first use in this function)
+Window_X11.c:51: error: `XK_a' undeclared (first use in this function)
+Window_X11.c:51: error: `XK_z' undeclared (first use in this function)
+Window_X11.c:53: error: `XK_F1' undeclared (first use in this function)
+Window_X11.c:53: error: `XK_F24' undeclared (first use in this function)
+Window_X11.c:54: error: `XK_KP_0' undeclared (first use in this function)
+Window_X11.c:54: error: `XK_KP_9' undeclared (first use in this function)
+Window_X11.c:57: error: `XK_KP_Home' undeclared (first use in this function)
+Window_X11.c:57: error: `XK_KP_Delete' undeclared (first use in this function)
+Window_X11.c:59: error: `XK_KP_Up' undeclared (first use in this function)
+Window_X11.c:60: error: `XK_KP_Page_Up' undeclared (first use in this function)
+Window_X11.c:62: error: `XK_KP_Left' undeclared (first use in this function)
+Window_X11.c:63: error: `XK_KP_Insert' undeclared (first use in this function)
+Window_X11.c:64: error: `XK_KP_Right' undeclared (first use in this function)
+Window_X11.c:66: error: `XK_KP_End' undeclared (first use in this function)
+Window_X11.c:67: error: `XK_KP_Down' undeclared (first use in this function)
+Window_X11.c:68: error: `XK_KP_Page_Down' undeclared (first use in this function)
+Window_X11.c:80: error: `XK_Escape' undeclared (first use in this function)
+Window_X11.c:81: error: `XK_Return' undeclared (first use in this function)
+Window_X11.c:82: error: `XK_space' undeclared (first use in this function)
+Window_X11.c:83: error: `XK_BackSpace' undeclared (first use in this function)
+Window_X11.c:85: error: `XK_Shift_L' undeclared (first use in this function)
+Window_X11.c:86: error: `XK_Shift_R' undeclared (first use in this function)
+Window_X11.c:87: error: `XK_Alt_L' undeclared (first use in this function)
+Window_X11.c:88: error: `XK_Alt_R' undeclared (first use in this function)
+Window_X11.c:89: error: `XK_Control_L' undeclared (first use in this function)
+Window_X11.c:90: error: `XK_Control_R' undeclared (first use in this function)
+Window_X11.c:91: error: `XK_Super_L' undeclared (first use in this function)
+Window_X11.c:92: error: `XK_Super_R' undeclared (first use in this function)
+Window_X11.c:93: error: `XK_Meta_L' undeclared (first use in this function)
+Window_X11.c:94: error: `XK_Meta_R' undeclared (first use in this function)
+Window_X11.c:96: error: `XK_Menu' undeclared (first use in this function)
+Window_X11.c:97: error: `XK_Tab' undeclared (first use in this function)
+Window_X11.c:98: error: `XK_minus' undeclared (first use in this function)
+Window_X11.c:99: error: `XK_plus' undeclared (first use in this function)
+Window_X11.c:100: error: `XK_equal' undeclared (first use in this function)
+Window_X11.c:102: error: `XK_Caps_Lock' undeclared (first use in this function)
+Window_X11.c:103: error: `XK_Num_Lock' undeclared (first use in this function)
+Window_X11.c:105: error: `XK_Pause' undeclared (first use in this function)
+Window_X11.c:106: error: `XK_Break' undeclared (first use in this function)
+Window_X11.c:107: error: `XK_Scroll_Lock' undeclared (first use in this function)
+Window_X11.c:108: error: `XK_Insert' undeclared (first use in this function)
+Window_X11.c:109: error: `XK_Print' undeclared (first use in this function)
+Window_X11.c:110: error: `XK_Sys_Req' undeclared (first use in this function)
+Window_X11.c:112: error: `XK_backslash' undeclared (first use in this function)
+Window_X11.c:113: error: `XK_bar' undeclared (first use in this function)
+Window_X11.c:114: error: `XK_braceleft' undeclared (first use in this function)
+Window_X11.c:115: error: `XK_bracketleft' undeclared (first use in this function)
+Window_X11.c:116: error: `XK_braceright' undeclared (first use in this function)
+Window_X11.c:117: error: `XK_bracketright' undeclared (first use in this function)
+Window_X11.c:118: error: `XK_colon' undeclared (first use in this function)
+Window_X11.c:119: error: `XK_semicolon' undeclared (first use in this function)
+Window_X11.c:120: error: `XK_quoteright' undeclared (first use in this function)
+Window_X11.c:121: error: `XK_quotedbl' undeclared (first use in this function)
+Window_X11.c:122: error: `XK_quoteleft' undeclared (first use in this function)
+Window_X11.c:123: error: `XK_asciitilde' undeclared (first use in this function)
+Window_X11.c:125: error: `XK_comma' undeclared (first use in this function)
+Window_X11.c:126: error: `XK_less' undeclared (first use in this function)
+Window_X11.c:127: error: `XK_period' undeclared (first use in this function)
+Window_X11.c:128: error: `XK_greater' undeclared (first use in this function)
+Window_X11.c:129: error: `XK_slash' undeclared (first use in this function)
+Window_X11.c:130: error: `XK_question' undeclared (first use in this function)
+Window_X11.c:132: error: `XK_Left' undeclared (first use in this function)
+Window_X11.c:133: error: `XK_Down' undeclared (first use in this function)
+Window_X11.c:134: error: `XK_Right' undeclared (first use in this function)
+Window_X11.c:135: error: `XK_Up' undeclared (first use in this function)
+Window_X11.c:137: error: `XK_Delete' undeclared (first use in this function)
+Window_X11.c:138: error: `XK_Home' undeclared (first use in this function)
+Window_X11.c:139: error: `XK_End' undeclared (first use in this function)
+Window_X11.c:140: error: `XK_Page_Up' undeclared (first use in this function)
+Window_X11.c:141: error: `XK_Page_Down' undeclared (first use in this function)
+Window_X11.c:143: error: `XK_KP_Add' undeclared (first use in this function)
+Window_X11.c:144: error: `XK_KP_Subtract' undeclared (first use in this function)
+Window_X11.c:145: error: `XK_KP_Multiply' undeclared (first use in this function)
+Window_X11.c:146: error: `XK_KP_Divide' undeclared (first use in this function)
+Window_X11.c:147: error: `XK_KP_Decimal' undeclared (first use in this function)
+Window_X11.c:153: error: `XK_KP_Begin' undeclared (first use in this function)
+Window_X11.c:159: error: `XK_KP_Enter' undeclared (first use in this function)
+Window_X11.c: In function `FilterEvent':
+Window_X11.c:496: error: `GenericEvent' undeclared (first use in this function)
+Window_X11.c: In function `Window_ProcessEvents':
+Window_X11.c:527: error: `GenericEvent' undeclared (first use in this function)
+Window_X11.c: In function `X11_MessageBox':
+Window_X11.c:938: error: `XK_Escape' undeclared (first use in this function)
+Window_X11.c: In function `HandleGenericEvent':
+Window_X11.c:1158: error: `XIRawEvent' undeclared (first use in this function)
+Window_X11.c:1158: error: `ev' undeclared (first use in this function)
+Window_X11.c:1161: error: union has no member named `xcookie'
+Window_X11.c:1162: error: union has no member named `xcookie'
+Window_X11.c:1164: error: union has no member named `xcookie'
+Window_X11.c:1164: error: `XI_RawMotion' undeclared (first use in this function)
+Window_X11.c:1165: error: syntax error before ')' token
+Window_X11.c:1176: error: union has no member named `xcookie'
+Window_X11.c: In function `InitRawMouse':
+Window_X11.c:1180: error: `XIEventMask' undeclared (first use in this function)
+Window_X11.c:1180: error: syntax error before "evmask"
+Window_X11.c:1181: error: `XI_LASTEVENT' undeclared (first use in this function)
+Window_X11.c:1181: error: variable-sized object may not be initialized
+Window_X11.c:1181: warning: excess elements in array initializer
+Window_X11.c:1181: warning: (near initialization for `masks')
+Window_X11.c:1208: error: `XI_RawMotion' undeclared (first use in this function)
+Window_X11.c:1209: error: `evmask' undeclared (first use in this function)
+Window_X11.c:1209: error: `XIAllMasterDevices' undeclared (first use in this function)
+Window_X11.c:1251:20: GL/glx.h: No such file or directory
+Window_X11.c: At top level:
+Window_X11.c:1252: error: syntax error before "ctx_handle"
+Window_X11.c:1252: warning: data definition has no type or storage class
+Window_X11.c: In function `GLContext_Create':
+Window_X11.c:1282: warning: assignment makes pointer from integer without a cast
+Window_X11.c: In function `GLContext_Free':
+Window_X11.c:1302: warning: assignment makes integer from pointer without a cast
+Window_X11.c: In function `GLContext_GetAddress':
+Window_X11.c:1306: error: syntax error before "GLubyte"
+Window_X11.c: In function `GetAttribs':
+Window_X11.c:1341: error: `GLX_RGBA' undeclared (first use in this function)
+Window_X11.c:1342: error: `GLX_RED_SIZE' undeclared (first use in this function)
+Window_X11.c:1343: error: `GLX_GREEN_SIZE' undeclared (first use in this function)
+Window_X11.c:1344: error: `GLX_BLUE_SIZE' undeclared (first use in this function)
+Window_X11.c:1345: error: `GLX_ALPHA_SIZE' undeclared (first use in this function)
+Window_X11.c:1346: error: `GLX_DEPTH_SIZE' undeclared (first use in this function)
+Window_X11.c:1348: error: `GLX_DOUBLEBUFFER' undeclared (first use in this function)
+Window_X11.c: In function `GLContext_SelectVisual':
+Window_X11.c:1358: error: `GLXFBConfig' undeclared (first use in this function)
+Window_X11.c:1358: error: `fbconfigs' undeclared (first use in this function)
+Window_X11.c:1373: warning: assignment makes pointer from integer without a cast
+Window_X11.c:1380: warning: assignment makes pointer from integer without a cast
+Window_X11.c:1385: warning: assignment makes pointer from integer without a cast
+

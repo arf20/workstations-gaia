@@ -1,0 +1,242 @@
+Hardware Power ON
+
+@(#) Sun Ultra 5/10 UPA/PCI 3.25 Version 1 created 2000/01/14 13:40
+Probing keyboard Done
+%o0 = 0000.0000.0055.4001
+
+Executing Power On SelfTest
+
+@(#) Sun Ultra 5/10 (Darwin) POST 3.0.8 (Build No. 623) 16:05 on 01/14/00
+
+CPU: UltraSPARC-LC (Clock Frequency: 440MHz, Ecache Size: 2048KB)
+
+Init POST BSS
+	Init System BSS
+NVRAM
+	NVRAM Battery Detect Test
+
+***********************
+STATUS =FAILED
+TEST   =NVRAM Battery Detect
+SUSPECT=NVRAM U13
+MESSAGE=NVRAM Low Battery
+	addr 000001ff.f1001ff0
+	exp  00
+	obs  10
+
+
+
+Status of this POST run:	FAIL
+manfacturing mode=CHAMBER
+Time Stamp [hour:min:sec] e4:c2:80  [month/date year] fd/6a 1970
+
+             
+
+
+Power On Selftest Completed
+    Status  = 0000.0000.0000.0001 ffff.ffff.f00b.31a8 0000.3333.0200.001bSoftware Power ON
+
+@(#) Sun Ultra 5/10 UPA/PCI 3.25 Version 1 created 2000/01/14 13:40
+Clearing E$ Tags  Done
+Clearing I/D TLBs Done
+Probing Memory Done
+MEM BASE = 0000.0000.1000.0000
+MEM SIZE = 0000.0000.0800.0000
+11-Column Mode Enabled 
+MMUs ON
+Copy Done
+PC = 0000.01ff.f000.201c
+PC = 0000.0000.0000.2060
+Decompressing into Memory Done
+Size = 0000.0000.0006.e320
+ttya initialized
+Starting real time clock...
+Incorrect configuration checksum; 
+Setting NVRAM parameters to default values.
+Setting diag-switch? NVRAM parameter to true
+Reset Control: BXIR:0 BPOR:0 SXIR:0 SPOR:1 POR:0 
+UltraSPARC-IIi 2-2 module
+Probing Memory Bank #0  64 +  64 : 128 Megabytes
+Probing Memory Bank #2  64 +  64 : 128 Megabytes
+Probing UPA Slot at 1e,0 Nothing There
+Probing /pci@1f,0/pci@1,1 at Device 1  pci108e,1000 network 
+Probing /pci@1f,0/pci@1,1 at Device 2  SUNW,m64B 
+Probing /pci@1f,0/pci@1,1 at Device 3  ide disk cdrom 
+Probing /pci@1f,0/pci@1 at Device 1  Nothing there
+Probing /pci@1f,0/pci@1 at Device 2  Nothing there
+Probing /pci@1f,0/pci@1 at Device 3  Nothing there
+Probing /pci@1f,0/pci@1 at Device 4  Nothing there
+Starting real time clock...
+Incorrect configuration checksum; 
+Setting NVRAM parameters to default values.
+Setting diag-switch? NVRAM parameter to true
+Reset Control: BXIR:0 BPOR:0 SXIR:0 SPOR:1 POR:0 
+UltraSPARC-IIi 2-2 module
+Probing Memory Bank #0  64 +  64 : 128 Megabytes
+Probing Memory Bank #2  64 +  64 : 128 Megabytes
+Probing UPA Slot at 1e,0 Nothing There
+Probing /pci@1f,0/pci@1,1 at Device 1  pci108e,1000 network 
+Probing /pci@1f,0/pci@1,1 at Device 2  SUNW,m64B 
+Probing /pci@1f,0/pci@1,1 at Device 3  ide disk cdrom 
+Probing /pci@1f,0/pci@1 at Device 1  Nothing there
+Probing /pci@1f,0/pci@1 at Device 2  Nothing there
+Probing /pci@1f,0/pci@1 at Device 3  Nothing there
+Probing /pci@1f,0/pci@1 at Device 4  Nothing there
+
+Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 440MHz), No Keyboard
+OpenBoot 3.25, 256 MB (50 ns) memory installed, Serial #16777215.
+Ethernet address ff:ff:ff:ff:ff:ff, Host ID: ffffffff.
+
+
+The IDPROM contents are invalid
+
+Initializing    1 megs of memory at addr          17f4a000    0                                                                      Initializing    1 megs of memory at addr          17f00000    0                                                                      Initializing  127 megs of memory at addr          10000000  126  125  124  123  122  121  120  119  118  117  116  115  114  113  112  111  110  109  108  107  106  105  104  103  102  101  100   99   98   97   96   95   94   93   92   91   90   89   88   87   86   85   84   83   82   81   80   79   78   77   76   75   74   73   72   71   70   69   68   67   66   65   64   63   62   61   60   59   58   57   56   55   54   53   52   51   50   49   48   47   46   45   44   43   42   41   40   39   38   37   36   35   34   33   32   31   30   29   28   27   26   25   24   23   22   21   20   19   18   17   16   15   14   13   12   11   10    9    8    7    6    5    4    3    2    1    0                                                                      Initializing  128 megs of memory at addr                 0  127  126  125  124  123  122  121  120  119  118  117  116  115  114  113  112  111  110  109  108  107  106  105  104  103  102  101  100   99   98   97   96   95   94   93   92   91   90   89   88   87   86   85   84   83   82   81   80   79   78   77   76   75   74   73   72   71   70   69   68   67   66   65   64   63   62   61   60   59   58   57   56   55   54   53   52   51   50   49   48   47   46   45   44   43   42   41   40   39   38   37   36   35   34   33   32   31   30   29   28   27   26   25   24   23   22   21   20   19   18   17   16   15   14   13   12   11   10    9    8    7    6    5    4    3    2    1    0                                                                      Power On Self Test Failed.  Cause: NVRAM U13
+ok 
+ok 
+ok version
+ok .version
+Release 3.25 Version 1 created 2000/01/14 13:40
+OBP 3.25.1 2000/01/14 13:40
+POST 3.0.8 2000/01/14 16:05
+ok banner
+Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 440MHz), No Keyboard
+OpenBoot 3.25, 256 MB (50 ns) memory installed, Serial #16777215.
+Ethernet address ff:ff:ff:ff:ff:ff, Host ID: ffffffff.
+
+
+The IDPROM contents are invalid
+
+ok .speed
+CPU  Speed : 440.00MHz
+UPA  Speed : 110.00MHz
+PCI  Bus A : 33Mhz
+PCI  Bus B : 33Mhz
+ok probe-scsi-all
+ok probe-ide
+  Device 0  ( Primary Master ) 
+          ATA Model: ST39120A                                
+
+  Device 1  ( Primary Slave ) 
+          ATA Model: ST39120A                                
+
+  Device 2  ( Secondary Master ) 
+         Removable ATAPI Model: CRD-8322B                               
+
+  Device 3  ( Secondary Slave ) 
+         Not Present
+
+ok boot
+Boot device: net  File and args: 
+Internal loopback test -- Did not receive expected loopback packet.
+
+Can't open boot device
+
+ok show  -devs
+/SUNW,UltraSPARC-IIi@0,0
+/pci@1f,0
+/virtual-memory
+/memory@0,0
+/aliases
+/options
+/openprom
+/chosen
+/packages
+/pci@1f,0/pci@1
+/pci@1f,0/pci@1,1
+/pci@1f,0/pci@1,1/ide@3
+/pci@1f,0/pci@1,1/SUNW,m64B@2
+/pci@1f,0/pci@1,1/network@1,1
+/pci@1f,0/pci@1,1/ebus@1
+/pci@1f,0/pci@1,1/ide@3/cdrom
+/pci@1f,0/pci@1,1/ide@3/disk
+/pci@1f,0/pci@1,1/ebus@1/SUNW,CS4231@14,200000
+/pci@1f,0/pci@1,1/ebus@1/flashprom@10,0
+/pci@1f,0/pci@1,1/ebus@1/eeprom@14,0
+/pci@1f,0/pci@1,1/ebus@1/fdthree@14,3023f0
+/pci@1f,0/pci@1,1/ebus@1/ecpp@14,3043bc
+More [<space>,<cr>,q,n,p,c] ?                               /pci@1f,0/pci@1,1/ebus@1/su@14,3062f8
+More [<space>,<cr>,q,n,p,c] ?                               /pci@1f,0/pci@1,1/ebus@1/su@14,3083f8
+More [<space>,<cr>,q,n,p,c] ?                               /pci@1f,0/pci@1,1/ebus@1/se@14,400000
+More [<space>,<cr>,q,n,p,c] ?                               /pci@1f,0/pci@1,1/ebus@1/SUNW,pll@14,504000
+More [<space>,<cr>,q,n,p,c] ?                               /pci@1f,0/pci@1,1/ebus@1/power@14,724000
+More [<space>,<cr>,q,n,p,c] ?                               /pci@1f,0/pci@1,1/ebus@1/auxio@14,726000
+More [<space>,<cr>,q,n,p,c] ?                               /openprom/client-services
+More [<space>,<cr>,q,n,p,c] ?                               /packages/sun-keyboard
+More [<space>,<cr>,q,n,p,c] ?                               /packages/SUNW,builtin-drivers
+More [<space>,<cr>,q,n,p,c] ?                               /packages/disk-label
+More [<space>,<cr>,q,n,p,c] ?                               /packages/obp-tftp
+More [<space>,<cr>,q,n,p,c] ?                               /packages/deblocker
+More [<space>,<cr>,q,n,p,c] ?                               /packages/terminal-emulator
+ok 
+ok 
+ok 
+ok devalias
+More [<space>,<cr>,q,n,p,c] ?                               screen                   /pci@1f,0/pci@1,1/SUNW,m64B@2
+More [<space>,<cr>,q,n,p,c] ?                               net                      /pci@1f,0/pci@1,1/network@1,1
+More [<space>,<cr>,q,n,p,c] ?                               cdrom                    /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f
+More [<space>,<cr>,q,n,p,c] ?                               disk                     /pci@1f,0/pci@1,1/ide@3/disk@0,0
+More [<space>,<cr>,q,n,p,c] ?                               disk3                    /pci@1f,0/pci@1,1/ide@3/disk@3,0
+More [<space>,<cr>,q,n,p,c] ?                               disk2                    /pci@1f,0/pci@1,1/ide@3/disk@2,0
+More [<space>,<cr>,q,n,p,c] ?                               disk1                    /pci@1f,0/pci@1,1/ide@3/disk@1,0
+More [<space>,<cr>,q,n,p,c] ?                               disk0                    /pci@1f,0/pci@1,1/ide@3/disk@0,0
+More [<space>,<cr>,q,n,p,c] ?                               ide                      /pci@1f,0/pci@1,1/ide@3
+More [<space>,<cr>,q,n,p,c] ?                               floppy                   /pci@1f,0/pci@1,1/ebus@1/fdthree
+More [<space>,<cr>,q,n,p,c] ?                               ttyb                     /pci@1f,0/pci@1,1/ebus@1/se:b
+More [<space>,<cr>,q,n,p,c] ?                               ttya                     /pci@1f,0/pci@1,1/ebus@1/se:a
+More [<space>,<cr>,q,n,p,c] ?                               keyboard!                /pci@1f,0/pci@1,1/ebus@1/su@14,3083f8:forcemode
+More [<space>,<cr>,q,n,p,c] ?                               keyboard                 /pci@1f,0/pci@1,1/ebus@1/su@14,3083f8
+More [<space>,<cr>,q,n,p,c] ?                               mouse                    /pci@1f,0/pci@1,1/ebus@1/su@14,3062f8
+More [<space>,<cr>,q,n,p,c] ?                               name                     aliases
+More [<space>,<cr>,q,n,p,c] ?                               ok 
+ok 
+ok probe-ide
+  Device 0  ( Primary Master ) 
+          ATA Model: ST39120A                                
+
+  Device 1  ( Primary Slave ) 
+          ATA Model: ST39120A                                
+
+  Device 2  ( Secondary Master ) 
+         Removable ATAPI Model: CRD-8322B                               
+
+  Device 3  ( Secondary Slave ) 
+         Not Present
+
+ok boot disk
+Boot device: /pci@1f,0/pci@1,1/ide@3/disk@0,0  File and args: 
+Loading ufs-file-system package 1.4 04 Aug 1995 13:02:54. 
+FCode UFS Reader 1.12 00/07/17 15:48:16. 
+Loading: /platform/SUNW,Ultra-5_10/ufsboot
+Loading: /platform/sun4u/ufsboot
+|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/SunOS Release 5.9 Version Generic 64-bit
+Copyright 1983-2002 Sun Microsystems, Inc.  All rights reserved.
+Use is subject to license terms.
+-\|/-\|/Invalid format code in IDprom.
+-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|WARNING: Time-of-day chip had incorrect date; check and reset.
+configuring IPv4 interfaces: hme0.
+configuring IPv6 interfaces: hme0.
+Hostname: tirith
+The / file system (/dev/rdsk/c0t0d0s0) is being checked.
+/dev/rdsk/c0t0d0s0: UNREF DIR  I=11386  OWNER=root MODE=40751
+/dev/rdsk/c0t0d0s0: SIZE=512 MTIME=Oct  4 10:05 2002  (RECONNECTED)
+/dev/rdsk/c0t0d0s0: DIR I=11386 CONNECTED. PARENT WAS I=721028
+/dev/rdsk/c0t0d0s0: LINK COUNT lost+found I=3  OWNER=root MODE=40700
+/dev/rdsk/c0t0d0s0: SIZE=8192 MTIME=Sep 13 10:41 2002  COUNT 8 SHOULD BE 34
+/dev/rdsk/c0t0d0s0: LINK COUNT INCREASING
+/dev/rdsk/c0t0d0s0: UNEXPECTED INCONSISTENCY; RUN fsck MANUALLY.
+
+WARNING - Unable to repair the / filesystem. Run fsck
+manually (fsck -F ufs /dev/rdsk/c0t0d0s0). Exit the shell when
+done to continue the boot process.
+
+
+Type control-d to proceed with normal startup,
+(or give root password for system maintenance): 
+Login incorrect
+
+Type control-d to proceed with normal startup,
+(or give root password for system maintenance): 
+Login incorrect
+
+Type control-d to proceed with normal startup,
+(or give root password for system maintenance): 

@@ -1,0 +1,1585 @@
+Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), No Keyboard
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+
+ok porbe    robe-ide
+  Device 0  ( Primary Master ) 
+          ATA Model: ST380011A                               
+
+  Device 1  ( Primary Slave ) 
+         Not Present
+
+  Device 2  ( Secondary Master ) 
+         Removable ATAPI Model: TSSTcorpDVD-ROM SH-D162C                
+
+  Device 3  ( Secondary Slave ) 
+         Not Present
+
+ok boot cdrom
+Initializing Memory \                                                                      Initializing Memory /-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\                                                                      Initializing Memory \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-                                                                      Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+GRUB Welcome to GRUB!
+
+GNU GRUB  version 2.06-13
+
++----------------------------------------------------------------------------+||||||||||||||||||||||||+----------------------------------------------------------------------------+     Use the ^ and v keys to select which entry is highlighted.          
+      Press enter to boot the selected OS, `e' to edit the commands       
+      before booting or `c' for a command-line.                             Debian GNU/Linux installer boot menu                                                                                                                   *Default install                                                             Automated install                                                           Expert install                                                              Rescue mode                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Loading ...
+
+[    5.255211] Initramfs unpacking failed: write error
+/l[   15.932622] Kernel panic - not syncing: Attempted to kill init! exitcode=0x00007f00
+[   16.024262] CPU: 0 PID: 1 Comm: init Not tainted 6.1.0-9-sparc64 #1  Debian 6.1.27-1
+[   16.116937] Call Trace:
+[   16.145769] [<0000000000caaf50>] dump_stack+0x8/0x18
+[   16.205297] [<0000000000ca0dd8>] panic+0xec/0x344
+[   16.261523] [<000000000046bcec>] do_exit+0x9ec/0xa00
+[   16.320908] [<000000000046bee4>] do_group_exit+0x24/0xa0
+ib/sy[   16.390138] [<000000000046bf7c>] sys_exit_group+0x1c/0x40
+stemd[   16.459832] [<0000000000406174>] linux_sparc_syscall+0x34/0x44
+/syst[   16.535023] Press Stop-A (L1-A) from sun keyboard or send break
+[   16.535023] twice on console to return to the boot prom
+emd-udevd: [   16.679200] ---[ end Kernel panic - not syncing: Attempted to kill init! exitcode=0x00007f00 ]---
+error while loading shared libraries: libkmod.so.2: cannot open shared object file: No such file or directory
+
+Type  'go' to resume
+ok 
+ok 
+ok 
+ok boot cdrom+ 
+Resetting ... 
+
+Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), No Keyboard
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+Initializing Memory \                                                                      Initializing Memory /-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\                                                                      Initializing Memory \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-                                                                      Rebooting with command: boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Bad magic number in disk label
+Can't open disk label package
+Evaluating: boot cdrom
+
+Can't open boot device
+
+Bad magic number in disk label
+Can't open disk label package
+Bad magic number in disk label
+Can't open disk label package
+Boot device: net  File and args: 
+
+ok 
+ok 
+ok 
+ok 
+ok 
+ok 
+ok 
+ok 
+ok 
+ok 
+ok 
+ok 
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Bad magic number in disk label
+Can't open disk label package
+
+Can't open boot device
+
+ok ~ boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Bad magic number in disk label
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Can't read disk label.
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Can't read disk label.
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+Can't read disk label.
+Can't open disk label package
+
+Can't open boot device
+
+ok boot cdrom
+Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+NetBSD IEEE 1275 Multi-FS Bootblock
+Version $NetBSD: bootblk.fth,v 1.15 2015/08/20 05:40:08 dholland Exp $
+..>> NetBSD/sparc64 OpenFirmware Boot, Revision 1.20 (Thu Aug  4 15:30:37 UTC 2022)
+=0x96f618
+Loading netbsd: 9893336+480784+338872 [717864+472316]=0xdeb4a0
+[   1.0000000] Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+[   1.0000000]     2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017,
+[   1.0000000]     2018, 2019, 2020, 2021, 2022
+[   1.0000000]     The NetBSD Foundation, Inc.  All rights reserved.
+[   1.0000000] Copyright (c) 1982, 1986, 1989, 1991, 1993
+[   1.0000000]     The Regents of the University of California.  All rights reserved.
+
+[   1.0000000] NetBSD 9.3 (GENERIC) #0: Thu Aug  4 15:30:37 UTC 2022
+[   1.0000000] 	mkrepro@mkrepro.NetBSD.org:/usr/src/sys/arch/sparc64/compile/GENERIC
+[   1.0000000] total memory = 256 MB
+[   1.0000000] avail memory = 233 MB
+[   1.0000000] running cgd selftest aes-xts-256 aes-xts-512 done
+[   1.0000000] mainbus0 (root): SUNW,Ultra-5_10 (Sun Ultra 5/10 UPA/PCI): hostid 80a515a0
+[   1.0000000] cpu0 at mainbus0: SUNW,UltraSPARC-IIi @ 333 MHz, CPU id 0
+[   1.0000000] cpu0: manuf 17, impl 12, mask 13
+[   1.0000000] cpu0: 16K instruction (32 b/l), 16K data (32 b/l), 2048K external (64 b/l)
+[   1.0000000] psycho0 at mainbus0 addr 0xfffc4000
+[   1.0000000] psycho0: SUNW,sabre: impl 0, version 0: ign 7c0 bus range 0 to 2; PCI bus 0
+[   1.0000000] pci0 at psycho0
+[   1.0000000] ppb0 at pci0 dev 1 function 1: Sun Microsystems Simba PCI Bridge (rev. 0x13)
+[   1.0000000] pci1 at ppb0 bus 1
+[   1.0000000] ebus0 at pci1 dev 1 function 0: Sun Microsystems PCIO Ebus2, revision 0x01
+[   1.0000000] auxio0 at ebus0 addr 726000-726003, 728000-728003, 72a000-72a003, 72c000-72c003, 72f000-72f003
+[   1.0000000] power at ebus0 addr 724000-724003 ipl 25 not configured
+[   1.0000000] SUNW,pll at ebus0 addr 504000-504002 not configured
+[   1.0000000] sab0 at ebus0 addr 400000-40007f ipl 2b: rev 3.2
+[   1.0000000] sabtty0 at sab0 port 0: console i/o
+[   1.0000000] sabtty1 at sab0 port 1
+[   1.0000000] com0 at ebus0 addr 3083f8-3083ff ipl 29: ns16550a, working fifo
+[   1.0000000] kbd0 at com0
+[   1.0000000] com1 at ebus0 addr 3062f8-3062ff ipl 2a: ns16550a, working fifo
+[   1.0000000] ms0 at com1
+[   1.0000000] wsmouse0 at ms0 mux 0
+[   1.0000000] lpt0 at ebus0 addr 3043bc-3043cb, 30015c-30015d, 700000-70000f ipl 22
+[   1.0000000] fdthree at ebus0 addr 3023f0-3023f7, 706000-70600f, 720000-720003 ipl 27 not configured
+[   1.0000000] clock0 at ebus0 addr 0-1fff: mk48t59
+[   1.0000000] flashprom at ebus0 addr 0-fffff not configured
+[   1.0000000] audiocs0 at ebus0 addr 200000-2000ff, 702000-70200f, 704000-70400f, 722000-722003 ipl 23 ipl 24: CS4231A
+[   1.0000000] audio0 at audiocs0: playback, capture, full duplex
+[   1.0000000] audio0: slinear_be:16 -> slinear_le:16 2ch 48000Hz, blk 1920 bytes (10ms) for playback
+[   1.0000000] audio0: slinear_be:16 <- slinear_le:16 2ch 48000Hz, blk 1920 bytes (10ms) for recording
+[   1.0000000] spkr0 at audio0: PC Speaker (synthesized)
+[   1.0000000] wsbell at spkr0 not configured
+[   1.0000000] hme0 at pci1 dev 1 function 1: Sun Happy Meal Ethernet, rev. 1
+[   1.0000000] hme0: interrupting at ivec 3021
+[   1.0000000] hme0: Ethernet address 08:00:20:a5:15:a0
+[   1.0000000] nsphy0 at hme0 phy 1: DP83840 10/100 media interface, rev. 1
+[   1.0000000] nsphy0: 10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, auto
+[   1.0000000] machfb0 at pci1 dev 2 function 0: ATI Technologies 3D Rage Pro (rev. 0x5c)
+[   1.0000000] machfb0: using MMIO aperture
+[   1.0000000] machfb0: 16 MB aperture at 0xe1000000, 4 KB registers at 0xe2000000
+[   1.0000000] machfb0: 128 KB ROM at 0xe1020000
+[   1.0000000] machfb0: 4096 KB SGRAM 98.924 MHz, maximum RAMDAC clock 230 MHz
+[   1.0000000] machfb0: unable to use preferred mode
+[   1.0000000] machfb0: initializing the DSP
+[   1.0000000] machfb0: initial resolution 1280x720 at 8 bpp
+[   1.0000000] wsdisplay1 at machfb0 kbdmux 1
+[   1.0000000] direct rendering for machfb0 unsupported
+[   1.0000000] cmdide0 at pci1 dev 3 function 0: CMD Technology PCI0646 (rev. 0x03)
+[   1.0000000] cmdide0: primary channel configured to native-PCI mode, channel non-independant
+[   1.0000000] cmdide0: using ivec 1820 for native-PCI interrupt
+[   1.0000000] atabus0 at cmdide0 channel 0
+[   1.0000000] cmdide0: secondary channel configured to native-PCI mode, channel non-independant
+[   1.0000000] atabus1 at cmdide0 channel 1
+[   1.0000000] ppb1 at pci0 dev 1 function 0: Sun Microsystems Simba PCI Bridge (rev. 0x13)
+[   1.0000000] pci2 at ppb1 bus 2
+[   1.0000000] ffb0 at mainbus0: Creator3D, model SUNW,501-4788, dac 10
+[   1.0000000] ffb0: attached to /dev/fb0
+[   1.0000000] wsdisplay2 at ffb0 kbdmux 1
+[   1.0000000] pcons at mainbus0 not configured
+[   1.0000030] No counter-timer -- using %tick at 333MHz as system clock.
+[   1.0899632] wskbd0 at kbd0 mux 1
+[   4.1699615] kbd0: reset failed
+[   4.4299616] wd0 at atabus0 drive 0
+[   4.4702200] wd0: <ST380011A>
+[   4.5076136] wd0: 76319 MB, 155061 cyl, 16 head, 63 sec, 512 bytes/sect x 156301488 sectors
+[   4.6099623] atapibus0 at atabus1: 2 targets
+[   4.6799607] cd0 at atapibus0 drive 0: <TSSTcorpDVD-ROM SH-D162C, , TS04> cdrom removable
+[   4.8199654] WARNING: 1 error while detecting hardware; check system log.
+cmdide0:1:0: lost interrupt
+[  34.9292084] 	type: atapi tc_bcount: 36 tc_skip: 0
+cmdide0:1:0: bus-master DMA error: missing interrupt, status=0x20
+[  35.0552418] cmdide0:1:0: device timeout, c_bcount=36, c_skip=0
+[  35.0552418] cd0: transfer error, downgrading to PIO mode 4
+[  36.2399603] root on cd0a dumps on cd0b
+[  36.4499605] root file system type: cd9660
+[  36.6499601] kern.module.path=/stand/sparc64/9.3/modules
+Created tmpfs /dev (802816 byte, 1536 inodes)
+init: kernel security level changed from 0 to 1
+
+
+You are using a serial console, we do not know your terminal emulation.
+Please select one, typical values are:
+
+        vt100
+        ansi
+        xterm
+
+Terminal type (just hit ENTER for 'vt220'): 
+
+ NetBSD/sparc64 9.3
+
+ This menu-driven tool is designed to help you install NetBSD to a hard disk,
+ or upgrade an existing NetBSD system, with a minimum of work.
+ In the following menus type the reference letter (a, b, c, ...) to select an
+ item, or type CTRL+N/CTRL+P to select the next/previous item.
+ The arrow keys and Page-up/Page-down may also work.
+ Activate the current selection from the menu by typing the enter key.
+ lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqkx>a: Installation messages in Englishxx b: Installation auf Deutschxx c: Mensajes de instalacion en castellano    xx d: Messages d'installation en français      xx e: Komunikaty instalacyjne w jezyku polskim xmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+ Thank you for using NetBSD!
+ lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqkx NetBSD-9.3 Install Systemxxxx>a: Install NetBSD to hard diskxx b: Upgrade NetBSD on a hard diskxx c: Re-install sets or install additional sets xx d: Reboot the computerxx e: Utility menuxx f: Config menuxx x: Exit Install Systemxmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+ You have chosen to install NetBSD on your hard disk.  This will change
+ information on your hard disk.  You should have made a full backup before
+ this procedure!  This procedure will do the following things:
+                 a) Partition your disk
+                 b) Create new BSD file systems
+                 c) Load and install distribution sets
+                 d) Some initial system configuration
+ 
+ (After you enter the partition information but before your disk is changed,
+ you will have the opportunity to quit this procedure.)
+ Shall we continue?lqqqqqqqqqqqqqqqkx Yes or no?    xxxx>a: Noxx b: Yesxmqqqqqqqqqqqqqqqj a: No>b: Yes                                                                                
+
+
+
+
+
+
+                                                                                
+
+                                                                                
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                
+ On which disk do you want to install NetBSD?lqqqqqqqqqqqqqqqqqqqqqqqqqqkx Available disksxxxx>a: wd0 (75G)xx b: Extended partitioning xx x: Exitxmqqqqqqqqqqqqqqqqqqqqqqqqqqj
+ You can use a simple editor to set the sizes of the NetBSD partitions, or
+ apply the default partition sizes and contents.
+
+ You will then be given the opportunity to change any of the partition
+ details.
+
+ The NetBSD (or free) part of your disk (wd0) is 75G.
+
+ A full installation requires at least 1263M without X and at least 1563M if
+ the X sets are included.
+
+       lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqkx What would you like to do?xxxx>a: Set sizes of NetBSD partitionsxx b: Use default partition sizesxx c: Delete everything, use different partitions (not disklabel) xx x: Cancelxmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj a: Set sizes of NetBSD partitions>b: Use default partition sizes
+ We now have your disklabel partitions for wd0 below.  This is your last  
+ chance to change them.
+
+ Flags: (I)nstall, (N)ewfs.  Total size: 75G, free: 664K 
+ 
+
+ 
+
+ 
+ 
+
+     Start (sec)    End (sec)   Size (sec)  FS type Flag Filesystem
+    ------------ ------------ ------------ -------- ---- ----------------
+ a:0    155775871    155775872    FFSv2 IN   /
+ b:    155776320    156300607       524288     swap
+ c:0    156301487    156301488 Whole disk
+    ------------ ------------ ------------ -------- ---- ----------------
+ e: Change input units (sectors/cylinders/MB/GB)
+ f: Edit name of the disk
+ g: Clone external partition(s)
+ h: Cancel
+>x: Partition sizes ok
+ Ok, we are now ready to install NetBSD on your hard disk (wd0).  Nothing has
+ been written yet.  This is your last chance to quit this process before
+ anything gets changed.
+
+ Shall we continue?
+ lqqqqqqqqqqqqqqqkx Yes or no?    xxxx>a: Noxx b: Yesxmqqqqqqqqqqqqqqqj a: No>b: Yes
+ Installing boot blocks on wd0....
+ 
+ 
+
+      Status: RunningCommand: /sbin/disklabel -W wd0
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+Finished     Status: RunningCommand: /usr/sbin/installboot /dev/rwd0c /usr/mdec/bootblk
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+Finished     Status: RunningCommand: /sbin/newfs -V2 -O 2  /dev/rwd0a
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+/dev/rwd0a: 76062.4MB (155775872 sectors) block size 16384, fragment size 2048
+using 412 cylinder groups of 184.62MB, 11816 blks, 22976 inodes.
+...............................................................................Finished
+ Installing boot blocks on wd0....
+
+                                                                              
+
+
+                                                                                   Status: RunningCommand: /sbin/disklabel -W wd0
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+Finished     Status: RunningCommand: /usr/sbin/installboot /dev/rwd0c /usr/mdec/bootblk
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+Finished
+ Installing /ofwboot on /targetroot....
+
+                                                                              
+
+
+                                                                                   Status: RunningCommand: /bin/cp -p /usr/mdec/ofwboot /targetroot
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+Finished
+ The NetBSD distribution is broken into a collection of distribution sets.
+ There are some basic sets that are needed by all installations and there are
+some other sets that are optional.  You may choose to install a core set      (Minimal installation), all of them (Full installation), or a custom group of
+ sets (Custom installation).
+ lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqkx Select your distribution    xxxx>a: Full installationxx b: Installation without X11 xx c: Minimal installation     xx d: Custom installation      xx x: Abandon installation     xmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+                                                                                
+ Your disk is now ready for installing the kernel and the distribution sets.
+ As noted in your INSTALL notes, you have several options.  For ftp or nfs,
+you must be connected to a network with access to the proper machines.        Sets selected 16, processed 0, Next set kern-GENERIC.
+
+ lqqqqqqqqqqqqqqqqqqqqqqqqqkx Install fromxxxx>a: CD-ROM / DVDxx b: HTTPxx c: FTPxx d: NFSxx e: Floppyxx f: Unmounted fsxx g: Local directory      xx h: Skip setxx i: Skip set group       xx j: Abandon installation xmqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+                                                                                   Status: RunningCommand: progress -zf /sparc64/binary/sets/kern-GENERIC.tar.xz tar --chroot -xpf -
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+  0% ||     00.00 KiB/s    --:-- ETA1638415.9313:34 ETA 7.9427:12 ETA5.3040:43 ETA3.9854:14 ETA191:07:45 ETA2.66- stalled -11% |*** 1536 KiB  218.99  00:52 ETA9% |******2545 KiB  317.5732 ETA27***358197.223 ETA36***4792 KiB  478.5217 ETA45***5963 KiB  541.402 ETA5****716596.3909 ETA64***8407 KiB  646.007 ETA78*****10178 KiB  726.273 ETA94*****   | 1226817.100 ETA100***| 1299028.46
+Finished     Status: RunningCommand: progress -zf /sparc64/binary/sets/modules.tar.xz tar --chroot -xpf -
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+  0% ||     00.00 KiB/s    --:-- ETA14% |****1195 KiB    1.16 M00:05 ETA31******2550234 ETA47******389253 ETA6*******5509331 ETA8*******719400 ETA100*****|  81901
+Finished     Status: RunningCommand: progress -zf /sparc64/binary/sets/base.tar.xz tar --chroot -xpf -
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+  0% ||     00.00 KiB/s    --:-- ETA1195 KiB    1.14 M02:43 ETA12582626 ETA380938 ETA2529691 ETA3% |*65497480183017 ETA946015 ETA51099841 ETA6% |**1920296 ETA3088774696303 ETA86399308 ETA9% |***840272 ETA1020716441:55 ETA1303090 ETA3% |****54075444 ETA4749371 ETA5*95896038 ETA63140017 ETA72859045205 ETA8*6102978043 ETA20*972812 ETA1414110 ETA230063*4489029 ETA461508 ETA784617 ETA597655 ETA6*51247730023 ETA847622 ETA9*65871 ETA3080740 ETA1988619 ETA6113312*29467 ETA343644571606 ETA5*73188764595 ETA6703474 ETA720083 ETA8*34622 ETA950211 ETA65680 ETA40*813709 ETA19619281178 ETA257 ETA3*410676 ETA453845681365 ETA6*877873 ETA79034518292 ETA835461 ETA9*51770 ETA50626560:59 ETA76728 ETA1885652*   98 M7 ETA96 ETA31005 ETA424 ETA5*343 ETA6552 ETA7641 ETA88*10549 ETA91460*38 ETA1456 ETA265 ETA3*84 ETA4203 ETA5261 ETA6*470 ETA76838 ETA887 ETA9*3095 ETA7024 ETA133 ETA2*52 ETA61 ETA380 ETA44029 ETA5*18 ETA637 ETA756 ETA8*7605 ETA993 ETA80*512 ETA121 ETA240 ETA3*619 ETA478 ETA5917 ETA6*616 ETA7324 ETA8632 ETA90*940 ETA171509 ETA3*567 ETA4875 ETA7*83712 ETA9*620 ETA71100*
+Finished     Status: RunningCommand: progress -zf /sparc64/binary/sets/etc.tar.xz tar --chroot -xpf -
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+  0% ||     00.00 KiB/s    --:-- ETA45% |***************1885 KiB    1.83 M00:01 ETA96******************  |  4024950 ETA100**|  417088
+Finished     Status: RunningCommand: progress -zf /sparc64/binary/sets/comp.tar.xz tar --chroot -xpf -
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+  0% ||     00.00 KiB/s    --:-- ETA882 KiB  873.4907:48 ETA2885 KiB    1.39 M4:45 ETA142577 ETA63085119 ETA76304824 ETA296755609 ETA112448 ETA3% |*2539213 ETA3788499 ETA5265847109513 ETA9776603:57 ETA5236477732 ETA6% |**7118817 ETA79011309835 ETA829174 ETA466975 ETA631069% |***779447 ETA961636 ETA10413583364 ETA1559651 ETA736942% |****9790608 ETA518376 ETA3375 ETA55816474354 ETA946172 ETA5*616550 ETA396392:58 ETA66222906 ETA852514 ETA7706043 ETA24252 ETA8*492220 ETA7414347 ETA98018354 ETA20*2113 ETA389457552 ETA1830350 ETA291072737 ETA370385 ETA3*56124 ETA73537492393 ETA   99 M81 ETA510190 ETA328 ETA6*57 ETA76 ETA795 ETA114 ETA833 ETA52 ETA9*71 ETA90 ETA30222.0018 ETA1516 ETA725 ETA2*93 ETA3113321 ETA54709 ETA98 ETA5*427 ETA646 ETA65 ETA7834 ETA5023 ETA8*22 ETA431 ETA9620 ETA81:59 ETA98 ETA40*627 ETA1436 ETA64 ETA293 ETA7023*22 ETA41 ETA460 ETA9348 ETA5817 ETA6*445 ETA753 ETA792 ETA90830 ETA539 ETA9*6488 ETA5020157 ETA36 ETA155 ETA644 ETA2*93 ETA1152 ETA3341 ETA40 ETA4629 ETA98 ETA5*217 ETA36 ETA645 ETA6783 ETA308*22 ETA41 ETA9630 ETA819 ETA60*408 ETA27 ETA146 ETA745 ETA293 ETA503*232 ETA41 ETA460 ETA809 ETA5608 ETA27 ETA46*526 ETA75 ETA794 ETA723 ETA8431 ETA9*70 ETA90:59 ETA70818 ETA37 ETA146 ETA6275 ETA2*8199004 ETA323 ETA31.994682 ETA471 ETA90 ETA5*30149 ETA48 ETA6696 ETA795 ETA8*122.003 ETA52 ETA971 ETA90 ETA80*2039 ETA38 ETA1616 ETA285 ETA314 ETA3*323 ETA51 ETA470 ETA54029 ETA338 ETA6*56 ETA85 ETA7504 ETA823 ETA52 ETA9*61 ETA80 ETA906019 ETA28 ETA32147 ETA5716 ETA85 ETA2*901.9970184 ETA273633 ETA544532 ETA62471 ETA98010 ETA5*2209 ETA648 ETA76 ETA78915 ETA9014 ETA208*89383 ETA472 ETA565694731 ETA80 ETA9100*|   400
+Finished     Status: RunningCommand: progress -zf /sparc64/binary/sets/games.tar.xz tar --chroot -xpf -qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+  0% ||     00.00 KiB/s    --:-- ETA13% |****1158 KiB    1.08 M00:06 ETA28*****2482175 ETA40*****356754 ETA54****480563 ETA7*******6629281 ETA93*******   |  8272340 ETA100***|  88605
+Finished     Status: RunningCommand: progress -zf /sparc64/binary/sets/man.tar.xz tar --chroot -xpf -
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+  0% ||     00.00 KiB/s    --:-- ETA21140 KiB    1.10 M00:48 ETA4% |*27313239 ETA7% |**4373415 ETA10% |***590534 ETA3% |****7809521 ETA7*965629 ETA20**11571607 ETA3*342335 ETA7*531154 ETA30*715472 ETA3*900081 ETA6*207250 ETA9*250319 ETA43**425998 ETA6*590687 ETA50*8208715 ETA4*3081664 ETA9**3337802 ETA62*52201 ETA5*70690 ETA9**892609 ETA72*4090518 ETA6*302927 ETA80**514135 ETA3*718944 ETA8*960563 ETA92**   | 5224382 ETA6*  | 54572900 ETA100**| 56300
+Finished     Status: RunningCommand: progress -zf /sparc64/binary/sets/misc.tar.xz tar --chroot -xpf -
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+  0% ||     00.00 KiB/s    --:-- ETA7% |**1145 KiB    1.08 M00:12 ETA15% |*****2412160 ETA23***3617709 ETA30**468037**576728 ETA46****710156 ETA57***8860235 ETA71*****1092433 ETA8****249752 ETA93****   | 1424080 ETA100***| 15299
+Finished     Status: RunningCommand: progress -zf /sparc64/binary/sets/rescue.tar.xz tar --chroot -xpf -qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+  0% ||     00.00 KiB/s    --:-- ETA10% |***859 KiB  85800:08 ETA23% |********1958 KiB  978.446 ETA34***29324.65 ETA47*****4053 KiB    0.98 M4 ETA61*****52201.013 ETA78******664681 ETA99******* |  8422170 ETA100*|  84506
+Finished     Status: RunningCommand: progress -zf /sparc64/binary/sets/tests.tar.xz tar --chroot -xpf -qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+  0% ||     00.00 KiB/s    --:-- ETA21049 KiB    1.02 M00:43 ETA5% |*27463331 ETA9% |***44614528 ETA13% |****620515 ETA5*7094387 ETA78285420**943014*1135284 ETA8*303412 ETA32**51470 ETA6*6743819 ETA9*814878 ETA44**203526 ETA9**271184 ETA54*5306642 ETA9**750570 ETA64**96567009 ETA8*3177828 ETA73**378437 ETA6*518216 ETA80**705625 ETA3*88204 ETA8*4097832 ETA91*223413*   | 43426691 ETA7*  | 4487780 ETA9* | 459216100*| 462304
+Finished     Status: RunningCommand: progress -zf /sparc64/binary/sets/text.tar.xz tar --chroot -xpf -
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+  0% ||     00.00 KiB/s    --:-- ETA13% |****1657 KiB    1.61 M00:06 ETA27*****3229565 ETA39****46814 ETA54*****65183 ETA70******8377632 ETA85*****1026660 ETA100******| 119509
+Finished     Status: RunningCommand: progress -zf /sparc64/binary/sets/xbase.tar.xz tar --chroot -xpf -qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+  0% ||     00.00 KiB/s    --:-- ETA3% |*1043 KiB    1.01 M00:27 ETA8% |**2490201 ETA13% |****3851419 ETA7*517058 ETA22**660487 ETA7**8137325 ETA33**97254 ETA8**111283 ETA42*228232 ETA7**388751 ETA52**5364609 ETA7*693878 ETA63***844387 ETA8*2007296 ETA74**1811415 ETA80***355933 ETA7**553362 ETA93**   | 2745181 ETA100***| 29220500 ETAFinished     Status: RunningCommand: progress -zf /sparc64/binary/sets/xcomp.tar.xz tar --chroot -xpf -qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+  0% ||     00.00 KiB/s    --:-- ETA4% |*2415 KiB    2.33 M00:22 ETA7% |**4210044 ETA12% |****6867221 ETA5*8558072 ETA9*10951130 ETA22*2810075*4601330**7008718 ETA3*856406*203171.987 ETA41**31082.045 ETA4*508934 ETA8*740253 ETA52**95752 ETA6*316611 ETA60**37890 ETA4*6258709 ETA7*794158 ETA70*986847 ETA5**422566 ETA9*44595 ETA83**67774 ETA7*90233 ETA9*    | 5048552 ETA92*   | 5215931 ETA4332008** | 551921.990 ETA100*| 562408
+Finished     Status: RunningCommand: progress -zf /sparc64/binary/sets/xetc.tar.xz tar --chroot -xpf -
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+  0% ||     00.00 KiB/s    --:-- ETA100% |***********************************|   200 KiB  755.4700:00
+Finished     Status: RunningCommand: progress -zf /sparc64/binary/sets/xfont.tar.xz tar --chroot -xpf -qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+  0% ||     00.00 KiB/s    --:-- ETA1982 KiB  968.3101:16 ETA2201789.704 ETA3% |*301197.612 ETA54237 KiB    1.02 M07 ETA7% |**5724111 ETA9% |***700730:58 ETA10821947 ETA2% |****96674 ETA4108723 ETA5*202 ETA732911 ETA9*45240 ETA20*573749 ETA269158 ETA3*81127 ETA593376 ETA7*205395 ETA817174 ETA30*29363 ETA2*41982 ETA3553181 ETA5*67120 ETA6792639 ETA8*902978 ETA9300547 ETA41*13496 ETA2236464*33905 ETA545224 ETA7*57853 ETA9*70262 ETA51860070 ETA2*98929 ETA44113688 ETA6*24977 ETA73686 ETA9*50045 ETA61*61624 ETA273083 ETA4*84742 ETA596421 ETA7*508010 ETA81950719 ETA70*31188 ETA2*43627 ETA356276 ETA5*687085 ETA680664 ETA8*924773 ETA80*6055982 ETA117611 ETA3*28960 ETA4412009 ETA6*53558 ETA7621277 ETA871796 ETA90*81016180955 ETA2*   | 699824 ETA3707294141243 ETA5*  | 7208532 ETA68472738101 ETA9* | 752470 ETA100*| 75490
+Finished     Status: RunningCommand: progress -zf /sparc64/binary/sets/xserver.tar.xz tar --chroot -xpf -
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+  0% ||     00.00 KiB/s    --:-- ETA4% |*981 KiB  975.1400:23 ETA9% |***2273 KiB    1.09 M18 ETA16% |*****3957274 ETA25***5888422 ETA34***81435809 ETA41***98078 ETA7**1113847 ETA52**24019**40236 ETA65**5329495 ETA77****8305623 ETA8****2057971 ETA94**   | 2221860 ETA100***| 235107
+Finished
+ All selected distribution sets unpacked successfully.
+
+                                                                                                                                                            
+
+Making device nodes ...
+
+
+
+                                                                                                                                                                 Status: RunningCommand: /bin/sh MAKEDEV all
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+Finished
+ The extraction of the selected sets for NetBSD-9.3 is complete.  The system
+ is now able to boot from the selected hard disk.  To complete the
+installation, sysinst will give you the opportunity to configure some         essential things first.                                                       lqqqqqqqqqqqqqqqqqqqqqqqkx>Hit enter to continuexmqqqqqqqqqqqqqqqqqqqqqqqj
+ 
+ 
+                                                                     
+                       
+ 
+
+
+      
+
+
+                                                                                                                                                            
+ Configure the additional items as needed.
+
+                                                                                                                                                            
+
+
+ a: Configure networkconfigure
+ b: TimezoneUTC
+ c: Root shell/bin/sh
+ d: Change root password***EMPTY***
+ e: Enable installation of binary packagesinstall
+ f: Fetch and unpack pkgsrcinstall
+ g: Enable sshdNO
+ h: Enable ntpdNO
+ i: Run ntpdate at bootNO
+ j: Enable mdnsdNO
+ k: Enable xdmNO
+ l: Enable cgdYES
+ m: Enable lvmNO
+ n: Enable raidframeYES
+ o: Add a user
+>x: Finished configuring>o: Add a user                                                   
+ x: Finished configuring>n: Enable raidframe                                   YES       
+ o: Add a user>m: Enable lvm                                         NO        
+ n: Enable raidframe                                   YES>l: Enable cgd                                         YES       
+ m: Enable lvm                                         NO>k: Enable xdm                                         NO        
+ l: Enable cgd                                         YES>j: Enable mdnsd                                       NO        
+ k: Enable xdm                                         NO>i: Run ntpdate at boot                                NO        
+ j: Enable mdnsd                                       NO>h: Enable ntpd                                        NO        
+ i: Run ntpdate at boot                                NO>g: Enable sshd                                        NO        
+ h: Enable ntpd                                        NO>f: Fetch and unpack pkgsrc                            install   
+ g: Enable sshd                                        NO>e: Enable installation of binary packages             install   
+ f: Fetch and unpack pkgsrc                            install>d: Change root password                               ***EMPTY***
+ e: Enable installation of binary packages             install>c: Root shell                                         /bin/sh
+ d: Change root password                               ***EMPTY***>b: Timezone                                           UTC       
+ c: Root shell                                         /bin/sh>a: Configure network                                  configure 
+ b: Timezone                                           UTC
+ Which network device would you like to use?
+
+
+                                                                 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ lqqqqqqqqqqqqqqqqqqqqqqqqqkx Available interfaces    xxxx>a: hme0xx x: Cancelxmqqqqqqqqqqqqqqqqqqqqqqqqqj
+ To be able to use the network, we need answers to the following:                           Network media type [autoselect]: lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqkx Perform autoconfiguration?    xxxx>a: Yesxx b: Noxmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+                                                                                                                                                                  Status: RunningCommand: /sbin/dhcpcd -d -n hme0
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+dhcpcd-8.1.9 starting
+hme0: executing `/libexec/dhcpcd-run-hooks' PREINIT
+hme0: executing `/libexec/dhcpcd-run-hooks' CARRIER
+DUID 00:01:00:01:2d:53:f8:ad:08:00:20:a5:15:a0
+hme0: IAID 20:a5:15:a0
+hme0: adding address fe80::740:768c:299e:149d
+hme0: pltime infinity, vltime infinity
+hme0: delaying IPv6 router solicitation for 0.5 seconds
+hme0: delaying IPv4 for 0.5 seconds
+hme0: carrier lost
+hme0: executing `/libexec/dhcpcd-run-hooks' NOCARRIER
+hme0: soliciting an IPv6 router
+hme0: delaying Router Solicitation for LL address
+hme0: executing `/libexec/dhcpcd-run-hooks' NOCARRIER
+hme0: carrier acquired
+hme0: executing `/libexec/dhcpcd-run-hooks' CARRIER
+hme0: IAID 20:a5:15:a0
+hme0: delaying IPv6 router solicitation for 1.0 seconds
+hme0: delaying IPv4 for 0.6 secondshme0: soliciting a DHCP leasehme0: sending DISCOVER (xid 0xc7b8bbc9), next in 3.2 secondshme0: soliciting an IPv6 routerhme0: delaying Router Solicitation for LL addresshme0: sending Router Solicitationhme0: sending DISCOVER (xid 0xc7b8bbc9), next in 8.0 secondshme0: probing for an IPv4LL addresshme0: using IPv4LL address 169.254.157.62hme0: adding IP address 169.254.157.62/16 broadcast 169.254.255.255hme0: sending Router Solicitationhme0: sending Router Solicitationhme0: DAD completed for 169.254.157.62/16hme0: adding route to 169.254.0.0/16hme0: adding default routehme0: ARP announcing 169.254.157.62 (1 of 2), next in 2.0 secondshme0: executing `/libexec/dhcpcd-run-hooks' IPV4LLhme0: Setting hostname: localhost
+forking to backgroundforked to background, child pid 272Finished                                             Your DNS domain:                                                              lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqkx   Select DNS serverxxxx>a: google-public-dns-a.google.com (IPv4)xx b: google-public-dns-b.google.com (IPv4) xx c: google-public-dns-a.google.com (IPv6) xx d: google-public-dns-b.google.com (IPv6) xx e: otherxmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+ The following are the values you entered.
+
+ DNS Domain:  Host Name:localhost Nameserver:8.8.8.8
+ Primary Interface:      hme0
+ Media type:autoselect
+ Host IP:169.254.157.62
+ Netmask:                255.255.0.0 IPv4 Gateway:   link#1IPv6 autoconf:
+ lqqqqqqqqqqqqqqqqqkx Are they OK?    xxxx>a: Yesxx b: Noxmqqqqqqqqqqqqqqqqqjlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk
+    x Is the network information you entered accurate for this machine    x
+    x in regular operation and do you want it installed in /etc?x
+    x         x
+    x>a: Yes        x
+    x b: No                   x
+    mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+
+
+                                                                                                                                                            
+    
+    
+    
+    
+    
+         Status: RunningCommand: /bin/cp /etc/resolv.conf /targetroot/etc/resolv.conf
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+cp: /etc/resolv.conf: No such file or directory
+Command failedHit enter to continue
+ Configure the additional items as needed.
+
+                                                                                                                                       
+
+
+>a: Configure network                                  configure 
+b: TimezoneUTC
+ c: Root shell/bin/sh
+ d: Change root password***EMPTY***
+ e: Enable installation of binary packagesinstall
+ f: Fetch and unpack pkgsrcinstall
+ g: Enable sshdNO
+ h: Enable ntpdNO
+ i: Run ntpdate at bootNO
+ j: Enable mdnsdNO
+ k: Enable xdmNO
+ l: Enable cgdYES
+ m: Enable lvmNO
+ n: Enable raidframeYES
+ o: Add a user
+ x: Finished configuring a: Configure network                                  configure 
+>b: Timezone                                           UTC       
+ Please choose the timezone that fits you best from the list below.
+ Press RETURN to select an entry.
+Press 'x' followed by RETURN to quit the timezone selection.
+                              
+  Default:       UTC
+  Selected:      UTC
+  Local time:    Mon Feb  5 19:51:51 2024 UTC
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqkx>Africa/xx America/xx Antarctica/xx Arctic/xx Asia/xx Atlantic/xx Australia/xx Brazil/xx CETxx CST6CDTxx Canada/xx Chile/xx <: page up, >: page downxmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj Africa/>America/ America/>Antarctica/ Antarctica/>Arctic/ Arctic/>Asia/ Asia/>Atlantic/ Atlantic/>Australia/ Australia/>Brazil/ Brazil/>CET CET>CST6CDT CST6CDT>Canada/ Canada/>Chile/ Chile/x>Cubax Cubax>EETx EETx>ESTx ESTx>EST5EDTx EST5EDTx>Egyptx Egyptx>Eirex Eirex>Etc/x Etc/x>Europe/x Europe/x>Factoryx>Europe/ Factory> Back to main timezone listEurope/AmsterdamEurope/AndorraEurope/Astrakhanurope/Athensurope/Belfasturope/Belgradeurope/Berlinurope/Bratislavaurope/Brussels Europe/BucharestEurope/Budapest  Back to main timezone list>Europe/Amsterdam Europe/Amsterdam>Europe/Andorra Europe/Andorra>Europe/Astrakhan Europe/Astrakhan>Europe/Athens Europe/Athens>Europe/Belfast Europe/Belfast>Europe/Belgrade Europe/Belgrade>Europe/Berlin Europe/Berlin>Europe/Bratislava Europe/Bratislava>Europe/Brussels Europe/Brussels>Europe/Bucharest Europe/Bucharest>Europe/Budapest Europe/Budapestx>Europe/Busingenx Europe/Busingenx>Europe/Chisinaux Europe/Chisinaux>Europe/Copenhagenx Europe/Copenhagenx>Europe/Dublinx Europe/Dublinx>Europe/Gibraltarx Europe/Gibraltarx>Europe/Guernseyx Europe/Guernseyx>Europe/Helsinkix Europe/Helsinkix>Europe/Isle_of_Manx Europe/Isle_of_Manx>Europe/Istanbulx Europe/Istanbulx>Europe/Jerseyx Europe/Jerseyx>Europe/Kaliningradx Europe/Kaliningradx>Europe/Kievx Europe/Kievx>Europe/Kirovx Europe/Kirovx>Europe/Lisbonx Europe/Lisbonx>Europe/Ljubljanax Europe/Ljubljanax>Europe/Londonx Europe/Londonx>Europe/Luxembourgx Europe/Luxembourgx>Europe/Madridx Europe/Madridx>Europe/Maltax Europe/Maltax>Europe/Mariehamnx Europe/Mariehamnx>Europe/Minskx Europe/Minskx>Europe/Monacox>Europe/Minsk Europe/Monaco>Europe/Mariehamn Europe/Minsk>Europe/Malta Europe/Mariehamn>Europe/Madrid Europe/MaltaEurope/Madrid20:52:05 2024 CET                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqkx Europe/Ulyanovskxx Europe/Uzhgorodxx Europe/Vaduzxx Europe/Vaticanxx Europe/Viennaxx Europe/Vilniusxx Europe/Volgogradxx Europe/Warsawxx Europe/Zagrebxx Europe/Zaporozhyexx Europe/Zurichxx>Exitxx <: page up, >: page downxmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj
+ Configure the additional items as needed.
+ 
+                                                            
+
+  
+  
+                                      
+
+
+ a: Configure networkconfigure
+>b: Timezone                                           Europe/Madrid
+c: Root shell/bin/sh
+ d: Change root password***EMPTY***
+ e: Enable installation of binary packagesinstall
+ f: Fetch and unpack pkgsrcinstall
+ g: Enable sshdNO
+ h: Enable ntpdNO
+ i: Run ntpdate at bootNO
+ j: Enable mdnsdNO
+ k: Enable xdmNO
+ l: Enable cgdYES
+ m: Enable lvmNO
+ n: Enable raidframeYES
+ o: Add a user
+ x: Finished configuring b: Timezone                                           Europe/Madrid
+>c: Root shell                                         /bin/sh c: Root shell                                         /bin/sh
+>d: Change root password                               ***EMPTY***
+ The root password of the newly installed system has not yet been initialized,
+ and is thus empty.  Do you want to set a root password for the system now?
+
+                              
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ lqqqqqqqqqqqqqqqkx Yes or no?    xxxx>a: Yesxx b: Noxmqqqqqqqqqqqqqqqj
+
+                                                                                                                             Status: RunningCommand: passwd -l root
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+Changing local password for root.
+New password:
+Retype new password:
+Finished
+ Configure the additional items as needed.
+
+                                                                                                                                                            
+
+
+ a: Configure networkconfigure
+ b: TimezoneEurope/Madrid
+ c: Root shell/bin/sh
+>d: Change root password                               password set
+e: Enable installation of binary packagesinstall
+ f: Fetch and unpack pkgsrcinstall
+ g: Enable sshdNO
+ h: Enable ntpdNO
+ i: Run ntpdate at bootNO
+ j: Enable mdnsdNO
+ k: Enable xdmNO
+ l: Enable cgdYES
+ m: Enable lvmNO
+ n: Enable raidframeYES
+ o: Add a user
+ x: Finished configuring d: Change root password                               password set
+>e: Enable installation of binary packages             install    e: Enable installation of binary packages             install
+>f: Fetch and unpack pkgsrc                            install    f: Fetch and unpack pkgsrc                            install
+>g: Enable sshd                                        NO        >f: Fetch and unpack pkgsrc                            install   
+ g: Enable sshd                                        NO>e: Enable installation of binary packages             install   
+ f: Fetch and unpack pkgsrc                            install
+ Enabling binary packages with pkgin requires setting up the repository.  The
+ following are the host, directory, user, and password that will be used.  If
+"user" is "ftp", then the password is not needed.
+                              
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ >a: Host                                cdn.NetBSD.org
+b: Base directorypub/pkgsrc/packages/NetBSD
+ c: Package directory/sparc64/9.3/All
+ d: Userftp
+ e: Password
+ f: Proxy
+ g: Additional packages
+ h: Configure network
+ i: Download viahttp
+ j: Quit installing binary pkgs
+ x: Install pkgin and update package summary a: Host                                cdn.NetBSD.org
+>b: Base directory                      pub/pkgsrc/packages/NetBSD b: Base directory                      pub/pkgsrc/packages/NetBSD
+>c: Package directory                   /sparc64/9.3/All c: Package directory                   /sparc64/9.3/All
+>d: User                                ftp d: User                                ftp
+>e: Password                             e: Password
+>f: Proxy                                f: Proxy
+>g: Additional packages                  g: Additional packages
+>h: Configure network h: Configure network
+>i: Download via                        http i: Download via                        http
+>j: Quit installing binary pkgs
+ Configure the additional items as needed.
+ 
+                                                 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+ a: Configure networkconfigure
+ b: TimezoneEurope/Madrid
+ c: Root shell/bin/sh
+ d: Change root passwordpassword set
+>e: Enable installation of binary packages             Abandoned 
+f: Fetch and unpack pkgsrcinstall
+ g: Enable sshdNO
+ h: Enable ntpdNO
+ i: Run ntpdate at bootNO
+ j: Enable mdnsdNO
+ k: Enable xdmNO
+ l: Enable cgdYES
+ m: Enable lvmNO
+ n: Enable raidframeYES
+ o: Add a user
+ x: Finished configuring e: Enable installation of binary packages             Abandoned 
+>f: Fetch and unpack pkgsrc                            install    f: Fetch and unpack pkgsrc                            install
+>g: Enable sshd                                        NO         g: Enable sshd                                        NO
+>h: Enable ntpd                                        NO         h: Enable ntpd                                        NO
+>i: Run ntpdate at boot                                NO         i: Run ntpdate at boot                                NO
+>j: Enable mdnsd                                       NO         j: Enable mdnsd                                       NO
+>k: Enable xdm                                         NO         k: Enable xdm                                         NO
+>l: Enable cgd                                         YES        l: Enable cgd                                         YES
+>m: Enable lvm                                         NO         m: Enable lvm                                         NO
+>n: Enable raidframe                                   YES        n: Enable raidframe                                   YES
+>o: Add a user                                                   
+ 8 character username to add
+
+
+                              
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ : arf20lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqkx Do you wish to add this user to group wheel?    xxxx>a: Yesxx b: Noxmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj                                                                                                       lqqqqqqqqqqqqqqqk         x User shell    x        xx                  x>a: /bin/sh    x                 x b: /bin/ksh   xx c: /bin/csh   xmqqqqqqqqqqqqqqqj a: /bin/sh>b: /bin/ksh b: /bin/ksh>c: /bin/csh>b: /bin/ksh c: /bin/csh
+
+
+                                                                                                                                                                  Status: RunningCommand: passwd -l arf20
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+Changing local password for arf20.
+New password:
+Retype new password:
+Finished
+ Configure the additional items as needed.
+
+                                                                                                                                                            
+
+
+ a: Configure networkconfigure
+ b: TimezoneEurope/Madrid
+ c: Root shell/bin/sh
+ d: Change root passwordpassword set
+ e: Enable installation of binary packagesAbandoned
+ f: Fetch and unpack pkgsrcinstall
+ g: Enable sshdNO
+ h: Enable ntpdNO
+ i: Run ntpdate at bootNO
+ j: Enable mdnsdNO
+ k: Enable xdmNO
+ l: Enable cgdYES
+ m: Enable lvmNO
+ n: Enable raidframeYES
+>o: Add a user                                                   
+x: Finished configuring>n: Enable raidframe                                   YES       
+ o: Add a user>m: Enable lvm                                         NO        
+ n: Enable raidframe                                   YES>l: Enable cgd                                         YES       
+ m: Enable lvm                                         NO>k: Enable xdm                                         NO        
+ l: Enable cgd                                         YES k: Enable xdm                                         NO
+>l: Enable cgd                                         YES        l: Enable cgd                                         YES
+>m: Enable lvm                                         NO         m: Enable lvm                                         NO
+>n: Enable raidframe                                   YES        n: Enable raidframe                                   YES
+>o: Add a user                                                   >n: Enable raidframe                                   YES       
+ o: Add a user>m: Enable lvm                                         NO        
+ n: Enable raidframe                                   YES>l: Enable cgd                                         YES       
+ m: Enable lvm                                         NO>k: Enable xdm                                         NO        
+ l: Enable cgd                                         YES>j: Enable mdnsd                                       NO        
+ k: Enable xdm                                         NO>i: Run ntpdate at boot                                NO        
+ j: Enable mdnsd                                       NO>h: Enable ntpd                                        NO        
+ i: Run ntpdate at boot                                NO>g: Enable sshd                                        NO        
+ h: Enable ntpd                                        NO>f: Fetch and unpack pkgsrc                            install   
+ g: Enable sshd                                        NO>e: Enable installation of binary packages             Abandoned 
+ f: Fetch and unpack pkgsrc                            install>d: Change root password                               password set
+ e: Enable installation of binary packages             Abandoned >c: Root shell                                         /bin/sh
+ d: Change root password                               password set>b: Timezone                                           Europe/Madrid
+ c: Root shell                                         /bin/sh>a: Configure network                                  configure 
+ b: Timezone                                           Europe/Madrid a: Configure network                                  configure 
+>b: Timezone                                           Europe/Madrid b: Timezone                                           Europe/Madrid
+>c: Root shell                                         /bin/sh c: Root shell                                         /bin/sh
+>d: Change root password                               password set d: Change root password                               password set
+>e: Enable installation of binary packages             Abandoned  e: Enable installation of binary packages             Abandoned 
+>f: Fetch and unpack pkgsrc                            install    f: Fetch and unpack pkgsrc                            install
+>g: Enable sshd                                        NO         g: Enable sshd                                        NO
+>h: Enable ntpd                                        NO         h: Enable ntpd                                        NO
+>i: Run ntpdate at boot                                NO         i: Run ntpdate at boot                                NO
+>j: Enable mdnsd                                       NO         j: Enable mdnsd                                       NO
+>k: Enable xdm                                         NO         k: Enable xdm                                         NO
+>l: Enable cgd                                         YES        l: Enable cgd                                         YES
+>m: Enable lvm                                         NO         m: Enable lvm                                         NO
+>n: Enable raidframe                                   YES        n: Enable raidframe                                   YES
+>o: Add a user                                                    o: Add a user
+>x: Finished configuring
+ The installation of NetBSD-9.3 is now complete.  The system should boot from
+ hard disk.  Follow the instructions in the INSTALL document about final
+configuration of your system.  We also recommend reading the afterboot(8)
+ manpage; it contains a list of things to be checked after the first complete
+ boot.
+ 
+ At a minimum, you should edit /etc/rc.conf to match your needs.  See
+ /etc/defaults/rc.conf for the default values.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lqqqqqqqqqqqqqqqqqqqqqqqkx>Hit enter to continuexmqqqqqqqqqqqqqqqqqqqqqqqj
+ 
+ 
+                                                                         
+                                                                             
+ 
+
+ 
+ 
+ 
+
+
+                                                                                                                                                                  Status: RunningCommand: /sbin/umount /targetroot/
+
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+Finished
+ NetBSD/sparc64 9.3
+
+This menu-driven tool is designed to help you install NetBSD to a hard disk,  or upgrade an existing NetBSD system, with a minimum of work.                 In the following menus type the reference letter (a, b, c, ...) to select an
+ item, or type CTRL+N/CTRL+P to select the next/previous item.
+ The arrow keys and Page-up/Page-down may also work.
+ Activate the current selection from the menu by typing the enter key.
+ 
+ Thank you for using NetBSD!
+ lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqkx NetBSD-9.3 Install Systemxxxx>a: Install NetBSD to hard diskxx b: Upgrade NetBSD on a hard diskxx c: Re-install sets or install additional sets xx d: Reboot the computerxx e: Utility menuxx f: Config menuxx x: Exit Install Systemxmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj a: Install NetBSD to hard disk>b: Upgrade NetBSD on a hard disk b: Upgrade NetBSD on a hard disk>c: Re-install sets or install additional sets c: Re-install sets or install additional sets>d: Reboot the computer d: Reboot the computer>e: Utility menu>d: Reboot the computer e: Utility menu
+
+
+
+
+
+[ 1046.6999706] syncing disks... done
+[ 1046.7450287] wd0: detached
+[ 1046.7785654] atabus0: detached
+[ 1046.8150209] pci2: detached
+[ 1046.8483519] ppb1: detached
+[ 1046.8899691] cd0: detached
+[ 1046.9283489] atapibus0: detached
+[ 1046.9668874] atabus1: detached
+[ 1047.0033438] cpu0: rebooting
+
+Resetting ... 
+
+Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), No Keyboard
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+Initializing Memory \                                                                      Initializing Memory /-\                                                                      Initializing Memory \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-                                                                      Initializing Memory \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-                                                                      Rebooting with command: boot
+Boot device: disk:a  File and args: 
+NetBSD IEEE 1275 Multi-FS Bootblock
+Version $NetBSD: bootblk.fth,v 1.15 2015/08/20 05:40:08 dholland Exp $
+..>> NetBSD/sparc64 OpenFirmware Boot, Revision 1.20 (Thu Aug  4 15:30:37 UTC 2022)
+=0x96f618
+Loading netbsd: 9893336+480784+338872 [717864+472316]=0xdeb4a0
+[   1.0000000] Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+[   1.0000000]     2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017,
+[   1.0000000]     2018, 2019, 2020, 2021, 2022
+[   1.0000000]     The NetBSD Foundation, Inc.  All rights reserved.
+[   1.0000000] Copyright (c) 1982, 1986, 1989, 1991, 1993
+[   1.0000000]     The Regents of the University of California.  All rights reserved.
+
+[   1.0000000] NetBSD 9.3 (GENERIC) #0: Thu Aug  4 15:30:37 UTC 2022
+[   1.0000000] 	mkrepro@mkrepro.NetBSD.org:/usr/src/sys/arch/sparc64/compile/GENERIC
+[   1.0000000] total memory = 256 MB
+[   1.0000000] avail memory = 233 MB
+[   1.0000000] running cgd selftest aes-xts-256 aes-xts-512 done
+[   1.0000000] mainbus0 (root): SUNW,Ultra-5_10 (Sun Ultra 5/10 UPA/PCI): hostid 80a515a0
+[   1.0000000] cpu0 at mainbus0: SUNW,UltraSPARC-IIi @ 333 MHz, CPU id 0
+[   1.0000000] cpu0: manuf 17, impl 12, mask 13
+[   1.0000000] cpu0: 16K instruction (32 b/l), 16K data (32 b/l), 2048K external (64 b/l)
+[   1.0000000] psycho0 at mainbus0 addr 0xfffc4000
+[   1.0000000] psycho0: SUNW,sabre: impl 0, version 0: ign 7c0 bus range 0 to 2; PCI bus 0
+[   1.0000000] pci0 at psycho0
+[   1.0000000] ppb0 at pci0 dev 1 function 1: Sun Microsystems Simba PCI Bridge (rev. 0x13)
+[   1.0000000] pci1 at ppb0 bus 1
+[   1.0000000] ebus0 at pci1 dev 1 function 0: Sun Microsystems PCIO Ebus2, revision 0x01
+[   1.0000000] auxio0 at ebus0 addr 726000-726003, 728000-728003, 72a000-72a003, 72c000-72c003, 72f000-72f003
+[   1.0000000] power at ebus0 addr 724000-724003 ipl 25 not configured
+[   1.0000000] SUNW,pll at ebus0 addr 504000-504002 not configured
+[   1.0000000] sab0 at ebus0 addr 400000-40007f ipl 2b: rev 3.2
+[   1.0000000] sabtty0 at sab0 port 0: console i/o
+[   1.0000000] sabtty1 at sab0 port 1
+[   1.0000000] com0 at ebus0 addr 3083f8-3083ff ipl 29: ns16550a, working fifo
+[   1.0000000] kbd0 at com0
+[   1.0000000] com1 at ebus0 addr 3062f8-3062ff ipl 2a: ns16550a, working fifo
+[   1.0000000] ms0 at com1
+[   1.0000000] wsmouse0 at ms0 mux 0
+[   1.0000000] lpt0 at ebus0 addr 3043bc-3043cb, 30015c-30015d, 700000-70000f ipl 22
+[   1.0000000] fdthree at ebus0 addr 3023f0-3023f7, 706000-70600f, 720000-720003 ipl 27 not configured
+[   1.0000000] clock0 at ebus0 addr 0-1fff: mk48t59
+[   1.0000000] flashprom at ebus0 addr 0-fffff not configured
+[   1.0000000] audiocs0 at ebus0 addr 200000-2000ff, 702000-70200f, 704000-70400f, 722000-722003 ipl 23 ipl 24: CS4231A
+[   1.0000000] audio0 at audiocs0: playback, capture, full duplex
+[   1.0000000] audio0: slinear_be:16 -> slinear_le:16 2ch 48000Hz, blk 1920 bytes (10ms) for playback
+[   1.0000000] audio0: slinear_be:16 <- slinear_le:16 2ch 48000Hz, blk 1920 bytes (10ms) for recording
+[   1.0000000] spkr0 at audio0: PC Speaker (synthesized)
+[   1.0000000] wsbell at spkr0 not configured
+[   1.0000000] hme0 at pci1 dev 1 function 1: Sun Happy Meal Ethernet, rev. 1
+[   1.0000000] hme0: interrupting at ivec 3021
+[   1.0000000] hme0: Ethernet address 08:00:20:a5:15:a0
+[   1.0000000] nsphy0 at hme0 phy 1: DP83840 10/100 media interface, rev. 1
+[   1.0000000] nsphy0: 10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, auto
+[   1.0000000] machfb0 at pci1 dev 2 function 0: ATI Technologies 3D Rage Pro (rev. 0x5c)
+[   1.0000000] machfb0: using MMIO aperture
+[   1.0000000] machfb0: 16 MB aperture at 0xe1000000, 4 KB registers at 0xe2000000
+[   1.0000000] machfb0: 128 KB ROM at 0xe1020000
+[   1.0000000] machfb0: 4096 KB SGRAM 98.924 MHz, maximum RAMDAC clock 230 MHz
+[   1.0000000] machfb0: unable to use preferred mode
+[   1.0000000] machfb0: initializing the DSP
+[   1.0000000] machfb0: initial resolution 1280x720 at 8 bpp
+[   1.0000000] wsdisplay1 at machfb0 kbdmux 1
+[   1.0000000] direct rendering for machfb0 unsupported
+[   1.0000000] cmdide0 at pci1 dev 3 function 0: CMD Technology PCI0646 (rev. 0x03)
+[   1.0000000] cmdide0: primary channel configured to native-PCI mode, channel non-independant
+[   1.0000000] cmdide0: using ivec 1820 for native-PCI interrupt
+[   1.0000000] atabus0 at cmdide0 channel 0
+[   1.0000000] cmdide0: secondary channel configured to native-PCI mode, channel non-independant
+[   1.0000000] atabus1 at cmdide0 channel 1
+[   1.0000000] ppb1 at pci0 dev 1 function 0: Sun Microsystems Simba PCI Bridge (rev. 0x13)
+[   1.0000000] pci2 at ppb1 bus 2
+[   1.0000000] ffb0 at mainbus0: Creator3D, model SUNW,501-4788, dac 10
+[   1.0000000] ffb0: attached to /dev/fb0
+[   1.0000000] wsdisplay2 at ffb0 kbdmux 1
+[   1.0000000] pcons at mainbus0 not configured
+[   1.0000030] No counter-timer -- using %tick at 333MHz as system clock.
+[   1.0899673] wskbd0 at kbd0 mux 1
+[   4.1699658] kbd0: reset failed
+[   4.4299660] wd0 at atabus0 drive 0
+[   4.4702046] wd0: <ST380011A>
+[   4.5074941] wd0: 76319 MB, 155061 cyl, 16 head, 63 sec, 512 bytes/sect x 156301488 sectors
+[   4.6099661] atapibus0 at atabus1: 2 targets
+[   4.6799651] cd0 at atapibus0 drive 0: <TSSTcorpDVD-ROM SH-D162C, , TS04> cdrom removable
+[   4.8099671] WARNING: 1 error while detecting hardware; check system log.
+[   4.8936212] root on wd0a dumps on wd0b
+[   4.9399673] root file system type: ffs
+[   4.9925718] kern.module.path=/stand/sparc64/9.3/modules
+Mon Feb  5 20:54:16 CET 2024
+Starting root file system check:
+/dev/rwd0a: file system is clean; not checking
+cmdide0:1:0: lost interrupt
+[  37.0692845] 	type: atapi tc_bcount: 36 tc_skip: 0
+cmdide0:1:0: bus-master DMA error: missing interrupt, status=0x20
+[  37.1953212] cmdide0:1:0: device timeout, c_bcount=36, c_skip=0
+[  37.1953212] cd0: transfer error, downgrading to PIO mode 4
+swapctl: setting dump device to /dev/wd0b
+swapctl: adding /dev/wd0b as swap device at priority 0
+Starting file system checks:
+Loaded entropy from /var/db/entropy-file.
+Setting tty flags.
+ttyflags: open /dev/ttyC00: Device busy
+ttyflags: open /dev/ttyC01: Device busy
+Setting sysctl variables:
+ddb.onpanic: 1 -> 0
+Starting network.
+IPv6 mode: host
+Configuring network interfaces: hme0.
+Adding interface aliases:.
+Waiting for DAD to complete for statically configured addresses...
+Starting dhcpcd.
+hme0: Setting hostname: localhost
+Building databases: dev, utmp, utmpx, services.
+Starting syslogd.
+Mounting all file systems...
+Clearing temporary files.
+Updating fontconfig cache: done.
+Checking quotas: done.
+Setting securelevel: kern.securelevel: 0 -> 1
+swapctl: setting dump device to /dev/wd0b
+Starting virecover.
+Checking for core dump...
+savecore: no core dump
+Starting local daemons:.
+Updating motd.
+postfix: rebuilding /etc/mail/aliases (missing /etc/mail/aliases.db)
+Starting postfix.
+Starting inetd.
+Starting cron.
+Mon Feb  5 20:56:25 CET 2024
+
+NetBSD/sparc64 (localhost) (constty)
+
+login: arf20
+Password:
+Feb  5 20:56:34 localhost login: arf20 on tty constty
+Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+    2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017,
+    2018, 2019, 2020, 2021, 2022
+    The NetBSD Foundation, Inc.  All rights reserved.
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+    The Regents of the University of California.  All rights reserved.
+
+NetBSD 9.3 (GENERIC) #0: Thu Aug  4 15:30:37 UTC 2022
+
+Welcome to NetBSD!
+
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ ls
+localhost$ pong   ing 1.1.1.1
+PING 1.1.1.1 (1.1.1.1): 56 data bytes
+^C
+----1.1.1.1 PING Statistics----
+4 packets transmitted, 0 packets received, 100.0% packet loss
+localhost$ cat /etc/resolve .conf
+cat: /etc/resolv.conf: No such file or directory
+localhost$ su  su
+Password:
+Feb  5 20:57:07 localhost su: arf20 to root on /dev/constty
+localhost# echo 'nameserver 1.1.1.1' > /etc/resolv.conf
+localhost# ifip config
+sh: ip: not found
+localhost# ifconfig
+hme0: flags=0x8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+        capabilities=3c00<TCP4CSUM_Rx,TCP4CSUM_Tx,UDP4CSUM_Rx,UDP4CSUM_Tx>
+        enabled=0
+        ec_capabilities=1<VLAN_MTU>
+        ec_enabled=0
+        address: 08:00:20:a5:15:a0
+        media: Ethernet autoselect (100baseTX full-duplex)
+        status: active
+        inet 169.254.157.62/16 broadcast 169.254.255.255 flags 0x0
+        inet6 fe80::a00:20ff:fea5:15a0%hme0/64 flags 0x0 scopeid 0x1
+lo0: flags=0x8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 33112
+        inet 127.0.0.1/8 flags 0x0
+        inet6 ::1/128 flags 0x20<NODAD>
+        inet6 fe80::1%lo0/64 flags 0x0 scopeid 0x2
+localhost# ls /etc/networking
+ls: /etc/networking: No such file or directory
+localhost# ls /etc/networking
+ls: /etc/network: No such file or directory
+localhost# ls /etc/network
+ls: /etc/net: No such file or directory
+localhost# ls /etc/net*
+/etc/netconfig  /etc/networks
+localhost# ls /etc/net*config
+/etc/netconfig
+localhost# ls /etc/netconfigworks
+/etc/networks
+localhost# ls /etc/networks~  c a t 
+#       $NetBSD: networks,v 1.5 1998/07/10 06:22:15 fair Exp $
+#       from: @(#)networks      8.1 (Berkeley) 6/9/93
+#
+# Your Local Networks Database
+# See networks(5) and hostname(7)
+#
+#your-net       127                             # your comment
+#your-netmask   255.255.255                     # subnet mask for your-net
+#
+# Your subnets
+#
+#subnet1        127.0.1         alias1          # comment 1
+#subnet2        127.0.2         alias2          # comment 2
+#
+loopback        127     # UNIX loopback interface network number
+#
+localhost# cat /etc/networksconfig
+# $NetBSD: netconfig,v 1.1 2000/06/02 22:54:10 fvdl Exp $
+#
+# The network configuration file. This file is currently only used in
+# conjunction with the (TI-) RPC code in the C library, unlike its
+# use in SVR4.
+#
+# Entries consist of:
+#
+#       <network_id> <semantics> <flags> <protofamily> <protoname> \
+#               <device> <nametoaddr_libs>
+#
+# The <device> and <nametoaddr_libs> fields are always empty in NetBSD.
+#
+udp6       tpi_clts      v     inet6    udp     -       -
+tcp6       tpi_cots_ord  v     inet6    tcp     -       -
+udp        tpi_clts      v     inet     udp     -       -
+tcp        tpi_cots_ord  v     inet     tcp     -       -
+rawip      tpi_raw       -     inet      -      -       -
+local      tpi_cots_ord  -     loopback  -      -       -
+localhost# service dhcpdcd start
+dhcpcd already running? (pid=116).
+localhost# ifconfig
+hme0: flags=0x8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+        capabilities=3c00<TCP4CSUM_Rx,TCP4CSUM_Tx,UDP4CSUM_Rx,UDP4CSUM_Tx>
+        enabled=0
+        ec_capabilities=1<VLAN_MTU>
+        ec_enabled=0
+        address: 08:00:20:a5:15:a0
+        media: Ethernet autoselect (100baseTX full-duplex)
+        status: active
+        inet 169.254.157.62/16 broadcast 169.254.255.255 flags 0x0
+        inet6 fe80::a00:20ff:fea5:15a0%hme0/64 flags 0x0 scopeid 0x1
+lo0: flags=0x8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 33112
+        inet 127.0.0.1/8 flags 0x0
+        inet6 ::1/128 flags 0x20<NODAD>
+        inet6 fe80::1%lo0/64 flags 0x0 scopeid 0x2
+localhost# ping 1.1.1.1
+
+
+
+
+
+^C
+localhost# ping 1.1.1.1
+PING 1.1.1.1 (1.1.1.1): 56 data bytes
+ping: sendto: Host is down
+ping: sendto: Host is down
+ping: sendto: Host is down
+ping: sendto: Host is down
+ping: sendto: Host is down
+ping: sendto: Host is down
+ping: sendto: Host is down
+ping: sendto: Host is down
+ping: sendto: Host is down
+ping: sendto: Host is down
+^C
+----1.1.1.1 PING Statistics----
+11 packets transmitted, 0 packets received, 100.0% packet loss
+localhost# ping 1.1.1.1arf20.com
+ping: Cannot resolve "arf20.com" (Host name lookup failure)
+localhost# nslookup arf20.com
+
+
+
+^C
+localhost# cat /etc/resolv.cnfonf
+nameserver 1.1.1.1
+localhost# cat /etc/resolv.confnslookup arf20.com
+;; connection timed out; no servers could be reached
+
+localhost# 
+localhost# 
+localhost# 
+localhost# 
+localhost# IP A
+sh: IP: not found
+localhost# ping 1.1.1.1
+
+
+
+
+^C
+localhost# ifcofinfig
+hme0: flags=0x8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+        capabilities=3c00<TCP4CSUM_Rx,TCP4CSUM_Tx,UDP4CSUM_Rx,UDP4CSUM_Tx>
+        enabled=0
+        ec_capabilities=1<VLAN_MTU>
+        ec_enabled=0
+        address: 08:00:20:a5:15:a0
+        media: Ethernet autoselect (100baseTX full-duplex)
+        status: active
+        inet 169.254.157.62/16 broadcast 169.254.255.255 flags 0x0
+        inet6 fe80::a00:20ff:fea5:15a0%hme0/64 flags 0x0 scopeid 0x1
+lo0: flags=0x8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 33112
+        inet 127.0.0.1/8 flags 0x0
+        inet6 ::1/128 flags 0x20<NODAD>
+        inet6 fe80::1%lo0/64 flags 0x0 scopeid 0x2
+localhost# ifconfig
+hme0: flags=0x8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+        capabilities=3c00<TCP4CSUM_Rx,TCP4CSUM_Tx,UDP4CSUM_Rx,UDP4CSUM_Tx>
+        enabled=0
+        ec_capabilities=1<VLAN_MTU>
+        ec_enabled=0
+        address: 08:00:20:a5:15:a0
+        media: Ethernet autoselect (100baseTX full-duplex)
+        status: active
+        inet 169.254.157.62/16 broadcast 169.254.255.255 flags 0x0
+        inet6 fe80::a00:20ff:fea5:15a0%hme0/64 flags 0x0 scopeid 0x1
+lo0: flags=0x8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 33112
+        inet 127.0.0.1/8 flags 0x0
+        inet6 ::1/128 flags 0x20<NODAD>
+        inet6 fe80::1%lo0/64 flags 0x0 scopeid 0x2
+localhost# service dhcpcd restart
+Stopping dhcpcd.
+Starting dhcpcd.
+localhost# ifconfig
+hme0: flags=0x8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+        capabilities=3c00<TCP4CSUM_Rx,TCP4CSUM_Tx,UDP4CSUM_Rx,UDP4CSUM_Tx>
+        enabled=0
+        ec_capabilities=1<VLAN_MTU>
+        ec_enabled=0
+        address: 08:00:20:a5:15:a0
+        media: Ethernet autoselect (100baseTX full-duplex)
+        status: active
+        inet 169.254.157.62/16 broadcast 169.254.255.255 flags 0x0
+        inet6 fe80::a00:20ff:fea5:15a0%hme0/64 flags 0x0 scopeid 0x1
+lo0: flags=0x8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 33112
+        inet 127.0.0.1/8 flags 0x0
+        inet6 ::1/128 flags 0x20<NODAD>
+        inet6 fe80::1%lo0/64 flags 0x0 scopeid 0x2
+localhost# ping 1.1.1.1
+
+PING 1.1.1.1 (1.1.1.1): 56 data bytes
+ping: sendto: Host is down
+ping: sendto: Host is down
+ping: sendto: Host is down
+ping: sendto: Host is down
+ping: sendto: Host is down
+ping: sendto: Host is down
+ping: sendto: Host is down
+ping: sendto: Host is down
+^C
+----1.1.1.1 PING Statistics----
+11 packets transmitted, 0 packets received, 100.0% packet loss
+localhost# ping 1.1.1.1ifconfig
+hme0: flags=0x8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+        capabilities=3c00<TCP4CSUM_Rx,TCP4CSUM_Tx,UDP4CSUM_Rx,UDP4CSUM_Tx>
+        enabled=0
+        ec_capabilities=1<VLAN_MTU>
+        ec_enabled=0
+        address: 08:00:20:a5:15:a0
+        media: Ethernet autoselect (100baseTX full-duplex)
+        status: active
+        inet 169.254.157.62/16 broadcast 169.254.255.255 flags 0x0
+        inet6 fe80::a00:20ff:fea5:15a0%hme0/64 flags 0x0 scopeid 0x1
+lo0: flags=0x8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 33112
+        inet 127.0.0.1/8 flags 0x0
+        inet6 ::1/128 flags 0x20<NODAD>
+        inet6 fe80::1%lo0/64 flags 0x0 scopeid 0x2
+localhost# 
+localhost# 
+localhost# 
+localhost# 
+localhost# 
+localhost# 
+localhost# startx
+xauth:  file /root/.serverauth.932 does not exist
+xauth:  file /root/.Xauthority does not exist
+xauth:  file /root/.Xauthority does not exist
+
+
+X.Org X Server 1.20.5
+X Protocol Version 11, Revision 0
+Build Operating System: NetBSD/sparc64 9.3 - The NetBSD Foundation, Inc.
+Current Operating System: NetBSD localhost 9.3 NetBSD 9.3 (GENERIC) #0: Thu Aug  4 15:30:37 UTC 2022  mkrepro@mkrepro.NetBSD.org:/usr/src/sys/arch/sparc64/compile/GENERIC sparc64
+Build Date: 03 March 2019  07:11:23AM
+ 
+Current version of pixman: 0.38.4
+        Before reporting problems, check http://wiki.x.org
+        to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+        (++) from command line, (!!) notice, (II) informational,
+        (WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Mon Feb  5 21:08:49 2024
+failed to open /dev/ttyE0: Device not configured
+(==) Using default built-in configuration (30 lines)
+(EE) 
+Fatal server error:
+(EE) xf86OpenConsole: No console driver found
+        Supported drivers: pccons (with X support), pcvt, wscons
+        Check your kernel's console driver configuration and /dev entries(EE) 
+(EE) 
+Please consult the The X.Org Foundation support 
+         at http://wiki.x.org
+ for help. 
+(EE) Please also check the log file at "/var/log/Xorg.0.log" for additional information.
+(EE) 
+(EE) Server terminated with error (1). Closing log file.
+^Cxinit: giving up
+xinit: unable to connect to X server: Connection refused
+xinit: unexpected signal 2
+localhost# 
+localhost# 
+localhost# 
+localhost# 
+localhost# 
+localhost# 
+localhost# 
+localhost# 
+localhost# lspci
+sh: lspci: not found
+localhost# lsusb
+sh: lsusb: not found
+localhost# lsmeme
+sh: lsmeme: not found
+localhost# lsmeme
+sh: lsmem: not found
+localhost# asdsasds^D
+localhost$ ^D^D
+
+
+
+
+NetBSD/sparc64 (localhost) (constty)
+
+login: arf20
+Password:
+Login incorrect or refused on this terminal.
+login: 
+login: 
+login: arf20
+Password:
+Feb  5 21:10:04 localhost login: arf20 on tty constty
+Last login: Mon Feb  5 20:56:34 2024 on constty
+Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+    2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017,
+    2018, 2019, 2020, 2021, 2022
+    The NetBSD Foundation, Inc.  All rights reserved.
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+    The Regents of the University of California.  All rights reserved.
+
+NetBSD 9.3 (GENERIC) #0: Thu Aug  4 15:30:37 UTC 2022
+
+Welcome to NetBSD!
+
+localhost$ ping 1.1.1.1
+^C
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ s dmesg
+[     1.000000] Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+[     1.000000]     2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017,
+[     1.000000]     2018, 2019, 2020, 2021, 2022
+[     1.000000]     The NetBSD Foundation, Inc.  All rights reserved.
+[     1.000000] Copyright (c) 1982, 1986, 1989, 1991, 1993
+[     1.000000]     The Regents of the University of California.  All rights reserved.
+
+[     1.000000] NetBSD 9.3 (GENERIC) #0: Thu Aug  4 15:30:37 UTC 2022
+[     1.000000]         mkrepro@mkrepro.NetBSD.org:/usr/src/sys/arch/sparc64/compile/GENERIC
+[     1.000000] total memory = 256 MB
+[     1.000000] avail memory = 233 MB
+[     1.000000] timecounter: Timecounters tick every 10.000 msec
+[     1.000000] Kernelized RAIDframe activated
+[     1.000000] running cgd selftest aes-xts-256 aes-xts-512 done
+[     1.000000] mainbus0 (root): SUNW,Ultra-5_10 (Sun Ultra 5/10 UPA/PCI): hostid 80a515a0
+[     1.000000] cpu0 at mainbus0: SUNW,UltraSPARC-IIi @ 333 MHz, CPU id 0
+[     1.000000] cpu0: manuf 17, impl 12, mask 13
+[     1.000000] cpu0: 16K instruction (32 b/l), 16K data (32 b/l), 2048K external (64 b/l)
+[     1.000000] psycho0 at mainbus0 addr 0xfffc4000
+[     1.000000] psycho0: SUNW,sabre: impl 0, version 0: ign 7c0 bus range 0 to 2; PCI bus 0
+[     1.000000] pci0 at psycho0
+[     1.000000] pci0: i/o space, memory space enabled
+[     1.000000] ppb0 at pci0 dev 1 function 1: Sun Microsystems Simba PCI Bridge (rev. 0x13)
+[     1.000000] pci1 at ppb0
+localhost$ localhost$ dmesg  | tail
+[    37.339967] cmdide0:1: bogus intr
+[    37.339967] cmdide0:1: bogus intr
+[    37.339967] cmdide0:1: bogus intr
+[    37.339967] cmdide0:1: bogus intr
+[    37.339967] cmdide0:1: bogus intr
+[    37.339967] cmdide0:1: bogus intr
+[    37.339967] cmdide0:1: bogus intr
+[    37.339967] cmdide0:1: bogus intr
+[    37.349967] cmdide0:1: bogus intr
+[    37.349967] cmdide0:1: bogus intr
+localhost$ localhost$ dmesg | tail  -n100
+[     1.000000] pci1: i/o space, memory space enabled
+[     1.000000] ebus0 at pci1 dev 1 function 0: Sun Microsystems PCIO Ebus2, revision 0x01
+[     1.000000] auxio0 at ebus0 addr 726000-726003, 728000-728003, 72a000-72a003, 72c000-72c003, 72f000-72f003
+[     1.000000] power at ebus0 addr 724000-724003 ipl 25 not configured
+[     1.000000] SUNW,pll at ebus0 addr 504000-504002 not configured
+[     1.000000] sab0 at ebus0 addr 400000-40007f ipl 2b: rev 3.2
+[     1.000000] sabtty0 at sab0 port 0: console i/o
+[     1.000000] sabtty1 at sab0 port 1
+[     1.000000] com0 at ebus0 addr 3083f8-3083ff ipl 29: ns16550a, working fifo
+[     1.000000] kbd0 at com0
+[     1.000000] com1 at ebus0 addr 3062f8-3062ff ipl 2a: ns16550a, working fifo
+[     1.000000] ms0 at com1
+[     1.000000] wsmouse0 at ms0 mux 0
+[     1.000000] lpt0 at ebus0 addr 3043bc-3043cb, 30015c-30015d, 700000-70000f ipl 22
+[     1.000000] fdthree at ebus0 addr 3023f0-3023f7, 706000-70600f, 720000-720003 ipl 27 not configured
+[     1.000000] clock0 at ebus0 addr 0-1fff: mk48t59
+[     1.000000] flashprom at ebus0 addr 0-fffff not configured
+[     1.000000] audiocs0 at ebus0 addr 200000-2000ff, 702000-70200f, 704000-70400f, 722000-722003 ipl 23 ipl 24: CS4231A
+[     1.000000] audio0 at audiocs0: playback, capture, full duplex
+[     1.000000] audio0: slinear_be:16 -> slinear_le:16 2ch 48000Hz, blk 1920 bytes (10ms) for playback
+[     1.000000] audio0: slinear_be:16 <- slinear_le:16 2ch 48000Hz, blk 1920 bytes (10ms) for recording
+[     1.000000] spkr0 at audio0: PC Speaker (synthesized)
+[     1.000000] wsbell at spkr0 not configured
+[     1.000000] hme0 at pci1 dev 1 function 1: Sun Happy Meal Ethernet, rev. 1
+[     1.000000] hme0: interrupting at ivec 3021
+[     1.000000] hme0: Ethernet address 08:00:20:a5:15:a0
+[     1.000000] nsphy0 at hme0 phy 1: DP83840 10/100 media interface, rev. 1
+[     1.000000] nsphy0: 10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, auto
+[     1.000000] machfb0 at pci1 dev 2 function 0: ATI Technologies 3D Rage Pro (rev. 0x5c)
+[     1.000000] machfb0: using MMIO aperture
+[     1.000000] machfb0: 16 MB aperture at 0xe1000000, 4 KB registers at 0xe2000000
+[     1.000000] machfb0: 128 KB ROM at 0xe1020000
+[     1.000000] machfb0: 4096 KB SGRAM 98.924 MHz, maximum RAMDAC clock 230 MHz
+[     1.000000] machfb0: autoconfiguration error: unable to use preferred mode
+[     1.000000] machfb0: initializing the DSP
+[     1.000000] machfb0: initial resolution 1280x720 at 8 bpp
+[     1.000000] wsdisplay1 at machfb0 kbdmux 1
+[     1.000000] wsmux1: connecting to wsdisplay1
+[     1.000000] wsdisplay1: screen 0-3 added (default)
+[     1.000000] direct rendering for machfb0 unsupported
+[     1.000000] cmdide0 at pci1 dev 3 function 0: CMD Technology PCI0646 (rev. 0x03)
+[     1.000000] cmdide0: bus-master DMA support present
+[     1.000000] cmdide0: primary channel configured to native-PCI mode, channel non-independant
+[     1.000000] cmdide0: using ivec 1820 for native-PCI interrupt
+[     1.000000] atabus0 at cmdide0 channel 0
+[     1.000000] cmdide0: secondary channel configured to native-PCI mode, channel non-independant
+[     1.000000] atabus1 at cmdide0 channel 1
+[     1.000000] ppb1 at pci0 dev 1 function 0: Sun Microsystems Simba PCI Bridge (rev. 0x13)
+[     1.000000] pci2 at ppb1 bus 2
+[     1.000000] pci2: i/o space, memory space enabled
+[     1.000000] ffb0 at mainbus0: Creator3D, model SUNW,501-4788, dac 10
+[     1.000000] ffb0: attached to /dev/fb0
+[     1.000000] wsdisplay2 at ffb0 kbdmux 1
+[     1.000000] wsmux1: connecting to wsdisplay2
+[     1.000000] wsdisplay2: screen 0-3 added (sunffb, vt100 emulation)
+[     1.000000] pcons at mainbus0 not configured
+[     1.000000] timecounter: Timecounter "clockinterrupt" frequency 100 Hz quality 0
+[     1.000003] timecounter: Timecounter "tick-counter" frequency 333000000 Hz quality 100
+[     1.000003] No counter-timer -- using %tick at 333MHz as system clock.
+[     1.089967] wskbd0 at kbd0 mux 1
+[     4.169966] kbd0: reset failed
+[     4.205531] wskbd0: connecting to wsdisplay2
+[     4.429966] wd0 at atabus0 drive 0
+[     4.470205] wd0: <ST380011A>
+[     4.507494] wd0: drive supports 16-sector PIO transfers, LBA48 addressing
+[     4.507494] wd0: 76319 MB, 155061 cyl, 16 head, 63 sec, 512 bytes/sect x 156301488 sectors
+[     4.609966] wd0: drive supports PIO mode 4, DMA mode 2, Ultra-DMA mode 5 (Ultra/100)
+[     4.609966] wd0(cmdide0:0:0): using PIO mode 4, DMA mode 2 (using DMA)
+[     4.609966] atapibus0 at atabus1: 2 targets
+[     4.679965] cd0 at atapibus0 drive 0: <TSSTcorpDVD-ROM SH-D162C, , TS04> cdrom removable
+[     4.799966] cd0: drive supports PIO mode 4, DMA mode 2, Ultra-DMA mode 2 (Ultra/33)
+[     4.799966] cd0(cmdide0:1:0): using PIO mode 4, DMA mode 2 (using DMA)
+[     4.809967] WARNING: 1 error while detecting hardware; check system log.
+[     4.893621] root on wd0a dumps on wd0b
+[     4.939967] root file system type: ffs
+[     4.992572] kern.module.path=/stand/sparc64/9.3/modules
+[    37.039965] autoconfiguration error: cmdide0:1:0: lost interrupt
+[    37.069284]         type: atapi tc_bcount: 36 tc_skip: 0
+[    37.125532] autoconfiguration error: cmdide0:1:0: bus-master DMA error: missing interrupt, status=0x20
+[    37.195321] cmdide0:1:0: device timeout, c_bcount=36, c_skip=0
+[    37.195321] cd0: autoconfiguration error: transfer error, downgrading to PIO mode 4
+[    37.195321] cd0(cmdide0:1:0): using PIO mode 4
+[    37.330785] cmdide0:1: bogus intr
+[    37.330785] cmdide0:1: bogus intr
+[    37.330785] cmdide0:1: bogus intr
+[    37.330785] cmdide0:1: bogus intr
+[    37.330785] cmdide0:1: bogus intr
+[    37.330785] cmdide0:1: bogus intr
+[    37.330785] cmdide0:1: bogus intr
+[    37.339967] cmdide0:1: bogus intr
+[    37.339967] cmdide0:1: bogus intr
+[    37.339967] cmdide0:1: bogus intr
+[    37.339967] cmdide0:1: bogus intr
+[    37.339967] cmdide0:1: bogus intr
+[    37.339967] cmdide0:1: bogus intr
+[    37.339967] cmdide0:1: bogus intr
+[    37.339967] cmdide0:1: bogus intr
+[    37.339967] cmdide0:1: bogus intr
+[    37.349967] cmdide0:1: bogus intr
+[    37.349967] cmdide0:1: bogus intr
+localhost$ ifconfig
+hme0: flags=0x8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+        capabilities=3c00<TCP4CSUM_Rx,TCP4CSUM_Tx,UDP4CSUM_Rx,UDP4CSUM_Tx>
+        enabled=0
+        ec_capabilities=1<VLAN_MTU>
+        ec_enabled=0
+        address: 08:00:20:a5:15:a0
+        media: Ethernet autoselect (100baseTX full-duplex)
+        status: active
+        inet 169.254.157.62/16 broadcast 169.254.255.255 flags 0x0
+        inet6 fe80::a00:20ff:fea5:15a0%hme0/64 flags 0x0 scopeid 0x1
+lo0: flags=0x8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 33112
+        inet 127.0.0.1/8 flags 0x0
+        inet6 ::1/128 flags 0x20<NODAD>
+        inet6 fe80::1%lo0/64 flags 0x0 scopeid 0x2
+localhost$ localhost$ ifconfig  | gre              dmesg | grep hme0
+[     1.000000] hme0 at pci1 dev 1 function 1: Sun Happy Meal Ethernet, rev. 1
+[     1.000000] hme0: interrupting at ivec 3021
+[     1.000000] hme0: Ethernet address 08:00:20:a5:15:a0
+[     1.000000] nsphy0 at hme0 phy 1: DP83840 10/100 media interface, rev. 1
+[     1.000000] hme0 at pci1 dev 1 function 1: Sun Happy Meal Ethernet, rev. 1
+[     1.000000] hme0: interrupting at ivec 3021
+[     1.000000] hme0: Ethernet address 08:00:20:a5:15:a0
+[     1.000000] nsphy0 at hme0 phy 1: DP83840 10/100 media interface, rev. 1
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ ip c  c  fconfig
+hme0: flags=0x8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+        capabilities=3c00<TCP4CSUM_Rx,TCP4CSUM_Tx,UDP4CSUM_Rx,UDP4CSUM_Tx>
+        enabled=0
+        ec_capabilities=1<VLAN_MTU>
+        ec_enabled=0
+        address: 08:00:20:a5:15:a0
+        media: Ethernet autoselect (100baseTX full-duplex)
+        status: active
+        inet 169.254.157.62/16 broadcast 169.254.255.255 flags 0x0
+        inet6 fe80::a00:20ff:fea5:15a0%hme0/64 flags 0x0 scopeid 0x1
+lo0: flags=0x8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 33112
+        inet 127.0.0.1/8 flags 0x0
+        inet6 ::1/128 flags 0x20<NODAD>
+        inet6 fe80::1%lo0/64 flags 0x0 scopeid 0x2
+localhost$ ping 1.1.1.1
+PING 1.1.1.1 (1.1.1.1): 56 data bytes
+ping: sendto: Host is down
+ping: sendto: Host is down
+ping: sendto: Host is down
+ping: sendto: Host is down
+ping: sendto: Host is down
+ping: sendto: Host is down
+ping: sendto: Host is down
+^C
+----1.1.1.1 PING Statistics----
+10 packets transmitted, 0 packets received, 100.0% packet loss
+localhost$ 
+localhost$ localhost$ ping 1.1.1.1 
+
+
+^C
+localhost$ 
+localhost$ 
+localhost$ poweroff
+poweroff: Operation not permitted
+localhost$ poweroff
+poweroff: Operation not permitted
+localhost$ localhost$ poweroff 
+localhost$ su
+Password:
+Feb  5 21:36:14 localhost su: arf20 to root on /dev/constty
+localhost# poweroff
+Feb  5 21:36:15 localhost poweroff: powered off by arf20
+Feb  5 21:36:15 localhost syslogd[182]: Exiting on signal 15
+[ 2531.6799648] syncing disks... done
+[ 2532.1999721] cd0: detached
+[ 2532.2382521] atapibus0: detached
+[ 2532.2767893] atabus1: detached
+[ 2532.3132485] pci2: detached
+[ 2532.3465774] ppb1: detached
+[ 2532.3999647] cpu0: powered down
+
+

@@ -1,0 +1,3 @@
+setenv srvaddr 192.168.8.1
+boot -f bootp():/t2/boot/vmlinux-6.10.2-ip32 root=/dev/nfs nfsroot=192.168.8.1:/home/sgi/t2initrd init=/init
+

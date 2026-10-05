@@ -1,0 +1,222 @@
+
+Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), No Keyboard
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+Initializing Memory \                                                                      Initializing Memory \                                                                      Initializing Memory /-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\                                                                      Initializing Memory \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-                                                                      Boot device: disk:a  File and args: 
+SILO\ 
+Read error on block 6 (tried 1024, got -1)
+
+Cannot find /silo.conf (Unknown ext2 error)
+
+Couldn't load /silo.conf
+No config file loaded, you can boot just from this command line
+Type [prompath;]part/path_to_image [parameters] on the prompt
+E.g. /iommu/sbus/espdma/esp/sd@3,0;4/vmlinux root=/dev/sda4
+or 2/vmlinux.live (to load vmlinux.live from 2nd partition of boot disk)
+boot: 
+Your imagename `' and arguments `' have either wrong syntax,
+or describe a label which is not present in silo.conf
+Type `help' at the boot: prompt if you need it and then try again.
+boot: help
+You have to type image name as [prom_path;]partno/path, where partno is a
+number from 1 to 8. If partno is not specified, either default from silo.conf
+(partition=X) or 1 will be used. Instead of /path you can type [mm-nn] to
+specify a range of phys. blocks (512B)
+If you use silo.conf and have some image= sections there, you can type
+its label or alias name instead of the above described image names.
+Pressing just enter will load default image with default arguments. Special
+image names `halt' and `help' can be used to fall back to PROM or display
+help. All three types of image names can be followed by additional arguments.
+Examples:
+  /iommu/sbus/espdma/esp/sd@3,0;4/boot/vmlinux.gz root=/dev/sda4
+  1/boot/old.b
+  /sbus/espdma/esp/sd@0,0;3[1-16] root=/dev/sda4
+  linux root=/dev/sda4
+  live
+boot: live
+Your imagename `live' and arguments `' have either wrong syntax,
+or describe a label which is not present in silo.conf
+Type `help' at the boot: prompt if you need it and then try again.
+boot: linux root=/dev/sda4
+Your imagename `linux' and arguments `root=/dev/sda4' have either wrong syntax,
+or describe a label which is not present in silo.conf
+Type `help' at the boot: prompt if you need it and then try again.
+boot: [A  linux root=/deva /sda0
+Your imagename `linux' and arguments `root=/dev/sda0' have either wrong syntax,
+or describe a label which is not present in silo.conf
+Type `help' at the boot: prompt if you need it and then try again.
+boot: 1 0/boot/old.b
+Your imagename `0/boot/old.b' and arguments `' have either wrong syntax,
+or describe a label which is not present in silo.conf
+Type `help' at the boot: prompt if you need it and then try again.
+boot: ø
+Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), No Keyboard
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+
+ok 
+ok 
+ok 
+ok 
+ok 
+ok 
+ok probe-ide
+  Device 0  ( Primary Master ) 
+          ATA Model: ST320420A                               
+
+  Device 1  ( Primary Slave ) 
+         Not Present
+
+  Device 2  ( Secondary Master ) 
+         Removable ATAPI Model: CRD-8322B                               
+
+  Device 3  ( Secondary Slave ) 
+         Not Present
+
+ok probe-scsi
+ok probe-scsi-all
+ok ls
+Not at a device tree node. Use 'dev <device-pathname>'.
+ok debal lias
+debalias ?
+ok devalias
+screen                   /SUNW,ffb@1e,0
+net                      /pci@1f,0/pci@1,1/network@1,1
+cdrom                    /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f
+disk                     /pci@1f,0/pci@1,1/ide@3/disk@0,0
+disk3                    /pci@1f,0/pci@1,1/ide@3/disk@3,0
+disk2                    /pci@1f,0/pci@1,1/ide@3/disk@2,0
+disk1                    /pci@1f,0/pci@1,1/ide@3/disk@1,0
+disk0                    /pci@1f,0/pci@1,1/ide@3/disk@0,0
+ide                      /pci@1f,0/pci@1,1/ide@3
+floppy                   /pci@1f,0/pci@1,1/ebus@1/fdthree
+ttyb                     /pci@1f,0/pci@1,1/ebus@1/se:b
+ttya                     /pci@1f,0/pci@1,1/ebus@1/se:a
+keyboard!                /pci@1f,0/pci@1,1/ebus@1/su@14,3083f8:forcemode
+keyboard                 /pci@1f,0/pci@1,1/ebus@1/su@14,3083f8
+mouse                    /pci@1f,0/pci@1,1/ebus@1/su@14,3062f8
+name                     aliases
+ok dev disk
+ok ls
+ok ls
+ok ls -l
+-l ?
+ok dev disk:a
+ok ls
+ok dev disk:c
+ok ls
+ok dev di  /pci@1f,0/pci@1,1/ide@3/disk@0,0
+ok ls
+ok ls  /pci@1f,0/pci@1,1/ide@3/disk@0,0~                                 
+ok dev /pci@1f,0/pci@1,1/ide@3/disk@0,0 1
+ok ls
+ok dev /pci@1f,0/pci@1,1/ide@3/disk@0,0 2
+ok ls
+ok help
+Enter 'help command-name' or 'help category-name' for more help
+(Use ONLY the first word of a category description) 
+Examples:  help select   -or-   help line
+    Main categories are: 
+Repeated loops
+Defining new commands
+Numeric output
+Radix (number base conversions)
+Arithmetic
+Memory access
+Line editor
+System and boot configuration parameters
+Select I/O devices
+Floppy eject
+Power on reset
+Diag (diagnostic routines)
+Resume execution
+File download and boot 
+nvramrc (making new commands permanent)
+ok help Select I/O devices
+No help available for Select
+ok help Select
+No help available for Select
+ok help select
+input   Select input source ( ttya or ttyb or keyboard )
+   Examples:
+     ttya input      - use ttya for subsequent input
+     keyboard input  - use Sun keyboard for subsequent input
+output  Select output source ( ttya or ttyb or screen )
+   Examples:
+     screen output   - use Sun screen for subsequent output
+io      Select input and output ( ttya or ttyb)
+   Examples:
+     ttya io         - use ttya for subsequent input and output
+ok gelp fl       help floppy
+eject-floppy   Eject floppy from drive
+ok eject-floppy
+ok help  p  system
+devalias                 - Display all device aliases
+devalias <name> <value>  - Create or change a device alias
+printenv      Show all configuration parameters
+                numbers are shown in decimal
+setenv <name> <value>   Change a configuration parameter
+         changes are permanent but only take effect after a reset
+   Examples:
+     setenv input-device ttya         - use ttya input next time
+     setenv screen-#rows 0x1e         - use 30 rows of display ( hex 1e )
+     setenv boot-device net           - specify network as boot device
+     setenv auto-boot? false          - disable automatic boot
+set-defaults    Revert to factory configuration
+See also: nvramrc
+ok help diag
+test  <device-specifier>   Run selftest method for specified device
+  Examples:
+    test floppy       - test floppy disk drive
+    test net          - test net
+    test scsi         - test scsi
+test-all        Execute test for all devices with selftest method
+watch-clock     Show ticks of real-time clock
+watch-net       Monitor network broadcast packets 
+watch-net-all   Monitor broadcast packets on all net interfaces
+probe-scsi      Show attached SCSI devices
+probe-scsi-all  Show attached SCSI devices for all host adapters
+ok test floppy
+Testing floppy disk system.  A formatted disk should be in the drive.
+No diskette, or incorrect format.
+
+floppy selftest failed. Return code = -1 
+ok 
+ok watch-clock
+Watching the 'seconds' register of the real time clock chip.
+It should be 'ticking' once a second.
+Type any key to stop.
+5 6 7 8 9 10 11 12 13 
+ok help file
+boot <specifier>  ( -- )    boot kernel ( default ) or other file
+  Examples:
+    boot                    - boot kernel from default device.
+                               Factory default is to boot
+                               from DISK if present, otherwise from NET.
+    boot net                - boot kernel from network
+    boot cdrom              - boot kernel from CD-ROM
+    boot disk1:h            - boot from disk1 partition h
+    boot tape               - boot default file from tape
+    boot disk myunix -as    - boot myunix from disk with flags "-as" 
+dload <filename>  ( addr -- )     debug load of file over network at address
+  Examples:
+     4000 dload /export/root/foo/test
+     ?go        - if executable program, execute it
+                  or if Forth program, compile it
+ok e dev disk:a
+ok ls
+ok dev disk:b
+ok disk    d ls
+ok dev disk:c
+ok ls
+ok dev   cd
+ok cd /
+ok dev disk:d
+ok ls
+ok 

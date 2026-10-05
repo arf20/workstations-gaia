@@ -1,0 +1,94 @@
+
+Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), No Keyboard
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok Memory Address not Aligned
+ok 
+ok 
+ok þHardware Power ON
+
+@(#) Sun Ultra 5/10 UPA/PCI 3.25 Version 1 created 2000/01/14 13:40
+Probing keyboard Done
+%o0 = 0000.0000.0055.4001
+
+Executing Power On SelfTest
+
+@(#) Sun Ultra 5/10 (Darwin) POST 3.0.8 (Build No. 623) 16:05 on 01/14/00
+
+CPU: UltraSPARC-LC (Clock Frequency: 440MHz, Ecache Size: 2048KB)
+
+Init POST BSS
+	Init System BSS
+NVRAM
+	NVRAM Battery Detect Test
+
+***********************
+STATUS =FAILED
+TEST   =NVRAM Battery Detect
+SUSPECT=NVRAM U13
+MESSAGE=NVRAM Low Battery
+	addr 000001ff.f1001ff0
+	exp  00
+	obs  10
+
+
+
+Status of this POST run:	FAIL
+manfacturing mode=CHAMBER
+Time Stamp [hour:min:sec] e4:c2:a0  [month/date year] fd/28 1970
+
+             
+
+
+Power On Selftest Completed
+    Status  = 0000.0000.0000.0001 ffff.ffff.f00b.31a8 0000.3333.0200.001bSoftware Power ON
+
+@(#) Sun Ultra 5/10 UPA/PCI 3.25 Version 1 created 2000/01/14 13:40
+Clearing E$ Tags  Done
+Clearing I/D TLBs Done
+Probing Memory Done
+MEM BASE = 0000.0000.1000.0000
+MEM SIZE = 0000.0000.0800.0000
+11-Column Mode Enabled 
+MMUs ON
+Copy Done
+PC = 0000.01ff.f000.201c
+PC = 0000.0000.0000.2060
+Decompressing into Memory Done
+Size = 0000.0000.0006.e320
+ttya initialized
+Starting real time clock...
+Incorrect configuration checksum; 
+Setting NVRAM parameters to default values.
+Setting diag-switch? NVRAM parameter to true
+Reset Control: BXIR:0 BPOR:0 SXIR:0 SPOR:1 POR:0 
+UltraSPARC-IIi 2-2 module
+Probing Memory Bank #0  64 +  64 : 128 Megabytes
+Probing Memory Bank #2  64 +  64 : 128 Megabytes
+Probing UPA Slot at 1e,0 Nothing There
+Probing /pci@1f,0/pci@1,1 at Device 1  pci108e,1000 network 
+Probing /pci@1f,0/pci@1,1 at Device 2  SUNW,m64B 
+Probing /pci@1f,0/pci@1,1 at Device 3  ide disk cdrom 
+Probing /pci@1f,0/pci@1 at Device 1  Nothing there
+Probing /pci@1f,0/pci@1 at Device 2  Nothing there
+Probing /pci@1f,0/pci@1 at Device 3  Nothing there
+Probing /pci@1f,0/pci@1 at Device 4  Nothing there
++

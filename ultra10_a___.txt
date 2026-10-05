@@ -1,0 +1,458 @@
+
+# 
+# startx
+xauth:  file /root/.serverauth.203 does not exist
+xauth: (stdin):1:  bad display name ":0" in "add" command
+xauth: (argv):1:  bad display name ":0" in "list" command
+xauth: (stdin):1:  bad display name ":0" in "add" command
+xauth: (argv):1:  bad display name ":0" in "list" command
+xauth: (stdin):1:  bad display name ":0" in "add" command
+
+
+X.Org X Server 1.20.5
+X Protocol Version 11, Revision 0
+Build Operating System: NetBSD/sparc64 9.3 - The NetBSD Foundation, Inc.
+Current Operating System: NetBSD  9.3 NetBSD 9.3 (GENERIC) #0: Thu Aug  4 15:30:37 UTC 2022  mkrepro@mkrepro.NetBSD.org:/usr/src/sys/arch/sparc64/compile/GENERIC sparc64
+Build Date: 03 March 2019  07:11:23AM
+ 
+Current version of pixman: 0.38.4
+        Before reporting problems, check http://wiki.x.org
+        to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+        (++) from command line, (!!) notice, (II) informational,
+        (WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Tue Feb  6 16:00:02 2024
+failed to open /dev/ttyE0: Device not configured
+(==) Using default built-in configuration (30 lines)
+(EE) 
+Fatal server error:
+(EE) xf86OpenConsole: No console driver found
+        Supported drivers: pccons (with X support), pcvt, wscons
+        Check your kernel's console driver configuration and /dev entries(EE) 
+(EE) 
+Please consult the The X.Org Foundation support 
+         at http://wiki.x.org
+ for help. 
+(EE) Please also check the log file at "/var/log/Xorg.0.log" for additional information.
+(EE) 
+(EE) Server terminated with error (1). Closing log file.
+^Cxinit: giving up
+xinit: unable to connect to X server: Connection refused
+xinit: unexpected signal 2
+xauth: (argv):1:  bad display name ":0" in "remove" command
+xauth: (argv):1:  bad display name ":0" in "remove" command
+# ls /dev
+MAKEDEV         fss3            raltmem0        rraid7a         ttyHS0.01
+MAKEDEV.local   full            raltmem0a       rraid7b         ttyHS0.02
+altmem0         fw0.0           raltmem0b       rraid7c         ttyHS0.03
+altmem0a        fw0.1           raltmem0c       rraid7d         ttyHS0.04
+altmem0b        fw0.2           raltmem0d       rraid7e         ttyHS0.05
+altmem0c        fw0.3           raltmem0e       rraid7f         ttyHS0.06
+altmem0d        fw1.0           raltmem0f       rraid7g         ttyHS0.07
+altmem0e        fw1.1           raltmem0g       rraid7h         ttyHS0.08
+altmem0f        fw1.2           raltmem0h       rsd0            ttyHS0.09
+altmem0g        fw1.3           raltmem1        rsd0a           ttyHS0.10
+altmem0h        fw2.0           raltmem1a       rsd0b           ttyHcfg
+altmem1         fw2.1           raltmem1b       rsd0c           ttyHstat
+altmem1a        fw2.2           raltmem1c       rsd0d           ttyU0
+altmem1b        fw2.3           raltmem1d       rsd0e           ttyU1
+altmem1c        fw3.0           raltmem1e       rsd0f           ttyU2
+altmem1d        fw3.1           raltmem1f       rsd0g           ttyU3
+altmem1e        fw3.2           raltmem1g       rsd0h           ttyU4
+altmem1f        fw3.3           raltmem1h       rsd1            ttyU5
+altmem1g        fwmem0.0        random          rsd1a           ttyU6
+altmem1h        fwmem0.1        rccd0           rsd1b           ttyU7
+altq            fwmem0.2        rccd0a          rsd1c           ttyY0
+atabus0         fwmem0.3        rccd0b          rsd1d           ttyY1
+atabus1         fwmem1.0        rccd0c          rsd1e           ttya
+atabus2         fwmem1.1        rccd0d          rsd1f           ttyb
+atabus3         fwmem1.2        rccd0e          rsd1g           ttyc
+atabus4         fwmem1.3        rccd0f          rsd1h           ttyd
+atabus5         fwmem2.0        rccd0g          rsd2            ttyh0
+atabus6         fwmem2.1        rccd0h          rsd2a           ttyh1
+atabus7         fwmem2.2        rccd1           rsd2b           ttyh2
+audio           fwmem2.3        rccd1a          rsd2c           ttyh3
+audio0          fwmem3.0        rccd1b          rsd2d           tun0
+audio1          fwmem3.1        rccd1c          rsd2e           tun1
+audio2          fwmem3.2        rccd1d          rsd2f           tun2
+audio3          fwmem3.3        rccd1e          rsd2g           tun3
+audioctl        gpio            rccd1f          rsd2h           ugen0.00
+audioctl0       gpio0           rccd1g          rsd3            ugen0.01
+audioctl1       gpio1           rccd1h          rsd3a           ugen0.02
+audioctl2       gpio2           rccd2           rsd3b           ugen0.03
+audioctl3       gpio3           rccd2a          rsd3c           ugen0.04
+autofs          gpio4           rccd2b          rsd3d           ugen0.05
+bpf             gpio5           rccd2c          rsd3e           ugen0.06
+bpf0            gpio6           rccd2d          rsd3f           ugen0.07
+bpp             gpio7           rccd2e          rsd3g           ugen0.08
+bthub           gpiopps0        rccd2f          rsd3h           ugen0.09
+bwtwo0          hdaudio0        rccd2g          rsd4            ugen0.10
+ccd0            hdaudio1        rccd2h          rsd4a           ugen0.11
+ccd0a           hdaudio2        rccd3           rsd4b           ugen0.12
+ccd0b           hdaudio3        rccd3a          rsd4c           ugen0.13
+ccd0c           hdmicec0        rccd3b          rsd4d           ugen0.14
+ccd0d           ipauth          rccd3c          rsd4e           ugen0.15
+ccd0e           ipl             rccd3d          rsd4f           ugen1.00
+ccd0f           iplookup        rccd3e          rsd4g           ugen1.01
+ccd0g           ipmi0           rccd3f          rsd4h           ugen1.02
+ccd0h           ipnat           rccd3g          rst0            ugen1.03
+ccd1            ipscan          rccd3h          rst1            ugen1.04
+ccd1a           ipstate         rcd0            rvnd0           ugen1.05
+ccd1b           ipsync          rcd0a           rvnd0a          ugen1.06
+ccd1c           iscsi0          rcd0c           rvnd0b          ugen1.07
+ccd1d           kbd             rcgd0           rvnd0c          ugen1.08
+ccd1e           klog            rcgd0a          rvnd0d          ugen1.09
+ccd1f           kmem            rcgd0b          rvnd0e          ugen1.10
+ccd1g           ksyms           rcgd0c          rvnd0f          ugen1.11
+ccd1h           kttcp           rcgd0d          rvnd0g          ugen1.12
+ccd2            ld0             rcgd0e          rvnd0h          ugen1.13
+ccd2a           ld0a            rcgd0f          rvnd1           ugen1.14
+ccd2b           ld0b            rcgd0g          rvnd1a          ugen1.15
+ccd2c           ld0c            rcgd0h          rvnd1b          ugen2.00
+ccd2d           ld0d            rcgd1           rvnd1c          ugen2.01
+ccd2e           ld0e            rcgd1a          rvnd1d          ugen2.02
+ccd2f           ld0f            rcgd1b          rvnd1e          ugen2.03
+ccd2g           ld0g            rcgd1c          rvnd1f          ugen2.04
+ccd2h           ld0h            rcgd1d          rvnd1g          ugen2.05
+ccd3            ld1             rcgd1e          rvnd1h          ugen2.06
+ccd3a           ld1a            rcgd1f          rvnd2           ugen2.07
+ccd3b           ld1b            rcgd1g          rvnd2a          ugen2.08
+ccd3c           ld1c            rcgd1h          rvnd2b          ugen2.09
+ccd3d           ld1d            rcgd2           rvnd2c          ugen2.10
+ccd3e           ld1e            rcgd2a          rvnd2d          ugen2.11
+ccd3f           ld1f            rcgd2b          rvnd2e          ugen2.12
+ccd3g           ld1g            rcgd2c          rvnd2f          ugen2.13
+ccd3h           ld1h            rcgd2d          rvnd2g          ugen2.14
+cd0             ld2             rcgd2e          rvnd2h          ugen2.15
+cd0a            ld2a            rcgd2f          rvnd3           ugen3.00
+cd0c            ld2b            rcgd2g          rvnd3a          ugen3.01
+cfs0            ld2c            rcgd2h          rvnd3b          ugen3.02
+cgd0            ld2d            rcgd3           rvnd3c          ugen3.03
+cgd0a           ld2e            rcgd3a          rvnd3d          ugen3.04
+cgd0b           ld2f            rcgd3b          rvnd3e          ugen3.05
+cgd0c           ld2g            rcgd3c          rvnd3f          ugen3.06
+cgd0d           ld2h            rcgd3d          rvnd3g          ugen3.07
+cgd0e           ld3             rcgd3e          rvnd3h          ugen3.08
+cgd0f           ld3a            rcgd3f          rwd0            ugen3.09
+cgd0g           ld3b            rcgd3g          rwd0a           ugen3.10
+cgd0h           ld3c            rcgd3h          rwd0b           ugen3.11
+cgd1            ld3d            rdk0            rwd0c           ugen3.12
+cgd1a           ld3e            rdk1            rwd0d           ugen3.13
+cgd1b           ld3f            rdk10           rwd0e           ugen3.14
+cgd1c           ld3g            rdk11           rwd0f           ugen3.15
+cgd1d           ld3h            rdk12           rwd0g           uhid0
+cgd1e           lockstat        rdk13           rwd0h           uhid1
+cgd1f           log             rdk14           rwd1            uhid10
+cgd1g           lpa0            rdk15           rwd1a           uhid11
+cgd1h           lpa1            rdk16           rwd1b           uhid12
+cgd2            lpa2            rdk17           rwd1c           uhid13
+cgd2a           lpt0            rdk18           rwd1d           uhid14
+cgd2b           lpt0ctl         rdk19           rwd1e           uhid15
+cgd2c           lpt1            rdk2            rwd1f           uhid2
+cgd2d           lpt1ctl         rdk20           rwd1g           uhid3
+cgd2e           lpt2            rdk21           rwd1h           uhid4
+cgd2f           lpt2ctl         rdk22           rwd2            uhid5
+cgd2g           lua             rdk23           rwd2a           uhid6
+cgd2h           lua0            rdk24           rwd2b           uhid7
+cgd3            md0             rdk25           rwd2c           uhid8
+cgd3a           md0a            rdk26           rwd2d           uhid9
+cgd3b           md0c            rdk27           rwd2e           uk0
+cgd3c           md1             rdk28           rwd2f           uk1
+cgd3d           md1a            rdk29           rwd2g           ulpn0
+cgd3e           md1c            rdk3            rwd2h           ulpn1
+cgd3f           mem             rdk30           rwd3            ulpt0
+cgd3g           mixer           rdk31           rwd3a           ulpt1
+cgd3h           mixer0          rdk4            rwd3b           urandom
+cgsix0          mixer1          rdk5            rwd3c           urio0
+cgthree0        mixer2          rdk6            rwd3d           usb
+ch0             mixer3          rdk7            rwd3e           usb0
+clockctl        mouse           rdk8            rwd3f           usb1
+console         npf             rdk9            rwd3g           usb10
+constty         nrst0           rfd0            rwd3h           usb11
+cpuctl          nrst1           rfd0a           scsibus0        usb12
+crypto          nsmb0           rfd0b           scsibus1        usb13
+ctyHS0.00       nsmb1           rfd0c           scsibus2        usb14
+ctyHS0.01       nsmb2           rfd0d           scsibus3        usb15
+ctyHS0.02       nsmb3           rfd0e           sd0             usb2
+ctyHS0.03       nss0            rfd0f           sd0a            usb3
+ctyHS0.04       nst0            rfd0g           sd0b            usb4
+ctyHS0.05       nst1            rfd0h           sd0c            usb5
+ctyHS0.06       null            rfss0           sd0d            usb6
+ctyHS0.07       openprom        rfss1           sd0e            usb7
+ctyHS0.08       pad             rfss2           sd0f            usb8
+ctyHS0.09       pad0            rfss3           sd0g            usb9
+ctyHS0.10       pad1            rld0            sd0h            uscanner0
+ctyU0           pad2            rld0a           sd1             uscanner1
+ctyU1           pad3            rld0b           sd1a            utoppy0
+ctyU2           pci0            rld0c           sd1b            utoppy1
+ctyU3           pci1            rld0d           sd1c            veriexec
+ctyU4           pci10           rld0e           sd1d            video0
+ctyU5           pci11           rld0f           sd1e            video1
+ctyU6           pci12           rld0g           sd1f            video2
+ctyU7           pci13           rld0h           sd1g            video3
+ctyY0           pci14           rld1            sd1h            vnd0
+ctyY1           pci15           rld1a           sd2             vnd0a
+dk0             pci16           rld1b           sd2a            vnd0b
+dk1             pci17           rld1c           sd2b            vnd0c
+dk10            pci18           rld1d           sd2c            vnd0d
+dk11            pci19           rld1e           sd2d            vnd0e
+dk12            pci2            rld1f           sd2e            vnd0f
+dk13            pci3            rld1g           sd2f            vnd0g
+dk14            pci4            rld1h           sd2g            vnd0h
+dk15            pci5            rld2            sd2h            vnd1
+dk16            pci6            rld2a           sd3             vnd1a
+dk17            pci7            rld2b           sd3a            vnd1b
+dk18            pci8            rld2c           sd3b            vnd1c
+dk19            pci9            rld2d           sd3c            vnd1d
+dk2             pf              rld2e           sd3d            vnd1e
+dk20            power           rld2f           sd3e            vnd1f
+dk21            ptm             rld2g           sd3f            vnd1g
+dk22            ptmx            rld2h           sd3g            vnd1h
+dk23            pts             rld3            sd3h            vnd2
+dk24            pud             rld3a           sd4             vnd2a
+dk25            puffs           rld3b           sd4a            vnd2b
+dk26            putter          rld3c           sd4b            vnd2c
+dk27            radio           rld3d           sd4c            vnd2d
+dk28            radio0          rld3e           sd4d            vnd2e
+dk29            radio1          rld3f           sd4e            vnd2f
+dk3             raid0           rld3g           sd4f            vnd2g
+dk30            raid0a          rld3h           sd4g            vnd2h
+dk31            raid0b          rmd0            sd4h            vnd3
+dk4             raid0c          rmd0a           ses0            vnd3a
+dk5             raid0d          rmd0c           ses1            vnd3b
+dk6             raid0e          rmd1            ses2            vnd3c
+dk7             raid0f          rmd1a           ses3            vnd3d
+dk8             raid0g          rmd1c           sound           vnd3e
+dk9             raid0h          rraid0          sound0          vnd3f
+dri             raid1           rraid0a         sound1          vnd3g
+drum            raid1a          rraid0b         sound2          vnd3h
+drvctl          raid1b          rraid0c         sound3          watchdog
+dtrace          raid1c          rraid0d         speaker         wd0
+dtyC00          raid1d          rraid0e         srt0            wd0a
+dtyC01          raid1e          rraid0f         srt1            wd0b
+dtyHS0.00       raid1f          rraid0g         srt2            wd0c
+dtyHS0.01       raid1g          rraid0h         srt3            wd0d
+dtyHS0.02       raid1h          rraid1          ss0             wd0e
+dtyHS0.03       raid2           rraid1a         st0             wd0f
+dtyHS0.04       raid2a          rraid1b         st1             wd0g
+dtyHS0.05       raid2b          rraid1c         stderr          wd0h
+dtyHS0.06       raid2c          rraid1d         stdin           wd1
+dtyHS0.07       raid2d          rraid1e         stdout          wd1a
+dtyHS0.08       raid2e          rraid1f         sysmon          wd1b
+dtyHS0.09       raid2f          rraid1g         tap             wd1c
+dtyHS0.10       raid2g          rraid1h         tap0            wd1d
+dtyU0           raid2h          rraid2          tap1            wd1e
+dtyU1           raid3           rraid2a         tap2            wd1f
+dtyU2           raid3a          rraid2b         tap3            wd1g
+dtyU3           raid3b          rraid2c         tcx0            wd1h
+dtyU4           raid3c          rraid2d         tty             wd2
+dtyU5           raid3d          rraid2e         ttyC00          wd2a
+dtyU6           raid3e          rraid2f         ttyC01          wd2b
+dtyU7           raid3f          rraid2g         ttyE0           wd2c
+dtyY0           raid3g          rraid2h         ttyE1           wd2d
+dtyY1           raid3h          rraid3          ttyE2           wd2e
+dtya            raid4           rraid3a         ttyE3           wd2f
+dtyb            raid4a          rraid3b         ttyE4           wd2g
+dtyc            raid4b          rraid3c         ttyE5           wd2h
+dtyd            raid4c          rraid3d         ttyE6           wd3
+dtyh0           raid4d          rraid3e         ttyE7           wd3a
+dtyh1           raid4e          rraid3f         ttyEcfg         wd3b
+dtyh2           raid4f          rraid3g         ttyEstat        wd3c
+dtyh3           raid4g          rraid3h         ttyF0           wd3d
+dvb             raid4h          rraid4          ttyF1           wd3e
+eeprom          raid5           rraid4a         ttyF2           wd3f
+enrst0          raid5a          rraid4b         ttyF3           wd3g
+enrst1          raid5b          rraid4c         ttyF4           wd3h
+enss0           raid5c          rraid4d         ttyF5           wsfont
+enst0           raid5d          rraid4e         ttyF6           wskbd
+enst1           raid5e          rraid4f         ttyF7           wskbd0
+erst0           raid5f          rraid4g         ttyFcfg         wskbd1
+erst1           raid5g          rraid4h         ttyFstat        wskbd2
+est0            raid5h          rraid5          ttyG0           wskbd3
+est1            raid6           rraid5a         ttyG1           wsmouse
+fb              raid6a          rraid5b         ttyG2           wsmouse0
+fb0             raid6b          rraid5c         ttyG3           wsmouse1
+fb1             raid6c          rraid5d         ttyG4           wsmouse2
+fd              raid6d          rraid5e         ttyG5           wsmouse3
+fd0             raid6e          rraid5f         ttyG6           wsmux0
+fd0a            raid6f          rraid5g         ttyG7           wsmux1
+fd0b            raid6g          rraid5h         ttyGcfg         wsmux2
+fd0c            raid6h          rraid6          ttyGstat        wsmux3
+fd0d            raid7           rraid6a         ttyH0           wsmuxctl0
+fd0e            raid7a          rraid6b         ttyH1           wsmuxctl1
+fd0f            raid7b          rraid6c         ttyH2           wsmuxctl2
+fd0g            raid7c          rraid6d         ttyH3           wsmuxctl3
+fd0h            raid7d          rraid6e         ttyH4           zero
+filemon         raid7e          rraid6f         ttyH5           zfs
+fss0            raid7f          rraid6g         ttyH6           zpool
+fss1            raid7g          rraid6h         ttyH7
+fss2            raid7h          rraid7          ttyHS0.00
+# ls # ls# l# cat /etvar/log/Xorg.0.log
+[  3365.888] 
+X.Org X Server 1.20.5
+X Protocol Version 11, Revision 0
+[  3365.889] Build Operating System: NetBSD/sparc64 9.3 - The NetBSD Foundation, Inc.
+[  3365.890] Current Operating System: NetBSD  9.3 NetBSD 9.3 (GENERIC) #0: Thu Aug  4 15:30:37 UTC 2022  mkrepro@mkrepro.NetBSD.org:/usr/src/sys/arch/sparc64/compile/GENERIC sparc64
+[  3365.895] Build Date: 03 March 2019  07:11:23AM
+[  3365.895]  
+[  3365.895] Current version of pixman: 0.38.4
+[  3365.895]    Before reporting problems, check http://wiki.x.org
+        to make sure that you have the latest version.
+[  3365.895] Markers: (--) probed, (**) from config file, (==) default setting,
+        (++) from command line, (!!) notice, (II) informational,
+        (WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[  3365.896] (==) Log file: "/var/log/Xorg.0.log", Time: Tue Feb  6 16:00:02 2024
+[  3365.898] (II) Loader magic: 0x4e43a8
+[  3365.898] (II) Module ABI versions:
+[  3365.898]    X.Org ANSI C Emulation: 0.4
+[  3365.898]    X.Org Video Driver: 24.0
+[  3365.898]    X.Org XInput driver : 24.1
+[  3365.898]    X.Org Server Extension : 10.0
+[  3366.788] (WW) xf86EnableIO -1
+[  3366.788] (II) xf86EnableIO: 0xffffffffffffffff
+[  3366.789] (WW) Can't map IO space! (9)
+[  3366.807] (--) PCI:*(1@1:2:0) 1002:4750:0000:0000 rev 92, Mem @ 0xe1000000/16777216, 0xe2000000/4096, I/O @ 0x00000000/256, BIOS @ 0x????????/131072
+[  3366.863] (--) SBUS:(0xf006d910) Sun FFB2+ Vertical Creator 3D at /SUNW,ffb
+[  3366.909] (EE) listPossibleVideoDrivers: trying /dev/fb0
+[  3366.912] (EE) listPossibleVideoDrivers: found sunffb
+[  3366.912] (EE) listPossibleVideoDrivers: trying /dev/fb1
+[  3366.912] (EE) listPossibleVideoDrivers: trying /dev/fb2
+[  3366.912] (EE) listPossibleVideoDrivers: trying /dev/fb3
+[  3366.912] (EE) listPossibleVideoDrivers: trying /dev/fb4
+[  3366.913] (EE) listPossibleVideoDrivers: trying /dev/fb5
+[  3366.913] (EE) listPossibleVideoDrivers: trying /dev/fb6
+[  3366.913] (EE) listPossibleVideoDrivers: trying /dev/fb7
+[  3366.913] (EE) listPossibleVideoDrivers: trying /dev/fb8
+[  3366.913] (EE) listPossibleVideoDrivers: trying /dev/fb9
+[  3366.914] (==) Using default built-in configuration (30 lines)
+[  3366.914] (==) --- Start of built-in configuration ---
+[  3366.914]    Section "Device"
+[  3366.914]            Identifier      "Builtin Default sunffb Device 0"
+[  3366.914]            Driver  "sunffb"
+[  3366.915]    EndSection
+[  3366.915]    Section "Screen"
+[  3366.915]            Identifier      "Builtin Default sunffb Screen 0"
+[  3366.915]            Device  "Builtin Default sunffb Device 0"
+[  3366.915]    EndSection
+[  3366.915]    Section "Device"
+[  3366.915]            Identifier      "Builtin Default ati Device 0"
+[  3366.915]            Driver  "ati"
+[  3366.915]    EndSection
+[  3366.916]    Section "Screen"
+[  3366.916]            Identifier      "Builtin Default ati Screen 0"
+[  3366.916]            Device  "Builtin Default ati Device 0"
+[  3366.916]    EndSection
+[  3366.916]    Section "Device"
+[  3366.916]            Identifier      "Builtin Default wsfb Device 0"
+[  3366.916]            Driver  "wsfb"
+[  3366.916]    EndSection
+[  3366.917]    Section "Screen"
+[  3366.917]            Identifier      "Builtin Default wsfb Screen 0"
+[  3366.917]            Device  "Builtin Default wsfb Device 0"
+[  3366.917]    EndSection
+[  3366.917]    Section "ServerLayout"
+[  3366.917]            Identifier      "Builtin Default Layout"
+[  3366.917]            Screen  "Builtin Default sunffb Screen 0"
+[  3366.917]            Screen  "Builtin Default ati Screen 0"
+[  3366.917]            Screen  "Builtin Default wsfb Screen 0"
+[  3366.918]    EndSection
+[  3366.918] (==) --- End of built-in configuration ---
+[  3366.918] (==) ServerLayout "Builtin Default Layout"
+[  3366.918] (**) |-->Screen "Builtin Default sunffb Screen 0" (0)
+[  3366.919] (**) |   |-->Monitor "<default monitor>"
+[  3366.923] (**) |   |-->Device "Builtin Default sunffb Device 0"
+[  3366.924] (==) No monitor specified for screen "Builtin Default sunffb Screen 0".
+        Using a default monitor configuration.
+[  3366.924] (**) |-->Screen "Builtin Default ati Screen 0" (1)
+[  3366.924] (**) |   |-->Monitor "<default monitor>"
+[  3366.928] (**) |   |-->Device "Builtin Default ati Device 0"
+[  3366.928] (==) No monitor specified for screen "Builtin Default ati Screen 0".
+        Using a default monitor configuration.
+[  3366.929] (**) |-->Screen "Builtin Default wsfb Screen 0" (2)
+[  3366.929] (**) |   |-->Monitor "<default monitor>"
+[  3366.933] (**) |   |-->Device "Builtin Default wsfb Device 0"
+[  3366.933] (==) No monitor specified for screen "Builtin Default wsfb Screen 0".
+        Using a default monitor configuration.
+[  3366.934] (==) Not automatically adding devices
+[  3366.934] (==) Not automatically enabling devices
+[  3366.934] (==) Not automatically adding GPU devices
+[  3366.934] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[  3366.935] (==) FontPath set to:
+        /usr/X11R7/lib/X11/fonts/misc/,
+        /usr/X11R7/lib/X11/fonts/TTF/,
+        /usr/X11R7/lib/X11/fonts/Type1/,
+        /usr/X11R7/lib/X11/fonts/75dpi/,
+        /usr/X11R7/lib/X11/fonts/100dpi/
+[  3366.935] (==) ModulePath set to "/usr/X11R7/lib/modules"
+[  3366.936] (==) |-->Input Device "<default pointer>"
+[  3366.936] (==) |-->Input Device "<default keyboard>"
+[  3366.936] (==) The core pointer device wasn't specified explicitly in the layout.
+        Using the default mouse configuration.
+[  3366.936] (==) The core keyboard device wasn't specified explicitly in the layout.
+        Using the default keyboard configuration.
+[  3366.936] (II) LoadModule: "glx"
+[  3366.942] (II) Loading /usr/X11R7/lib/modules/extensions/libglx.so
+[  3366.944] (II) Module glx: vendor="X.Org Foundation"
+[  3366.944]    compiled for 1.20.5, module version = 1.0.0
+[  3366.945]    ABI class: X.Org Server Extension, version 10.0
+[  3366.945] (II) LoadModule: "sunffb"
+[  3366.948] (II) Loading /usr/X11R7/lib/modules/drivers/sunffb_drv.so
+[  3366.949] (II) Module sunffb: vendor="X.Org Foundation"
+[  3366.949]    compiled for 1.20.5, module version = 1.2.2
+[  3366.950]    Module class: X.Org Video Driver
+[  3366.950]    ABI class: X.Org Video Driver, version 24.0
+[  3366.950] (II) LoadModule: "ati"
+[  3366.951] (II) Loading /usr/X11R7/lib/modules/drivers/ati_drv.so
+[  3366.953] (II) Module ati: vendor="X.Org Foundation"
+[  3366.953]    compiled for 1.20.5, module version = 6.14.6
+[  3366.954]    Module class: X.Org Video Driver
+[  3366.954]    ABI class: X.Org Video Driver, version 24.0
+[  3366.954] (II) LoadModule: "mach64"
+[  3366.956] (II) Loading /usr/X11R7/lib/modules/drivers/mach64_drv.so
+[  3366.960] (II) Module mach64: vendor="X.Org Foundation"
+[  3366.960]    compiled for 1.20.5, module version = 6.9.5
+[  3366.960]    Module class: X.Org Video Driver
+[  3366.961]    ABI class: X.Org Video Driver, version 24.0
+[  3366.961] (II) LoadModule: "wsfb"
+[  3366.964] (II) Loading /usr/X11R7/lib/modules/drivers/wsfb_drv.so
+[  3366.965] (II) Module wsfb: vendor="X.Org Foundation"
+[  3366.966]    compiled for 1.20.5, module version = 0.4.0
+[  3366.966]    ABI class: X.Org Video Driver, version 24.0
+[  3366.966] (II) LoadModule: "mouse"
+[  3366.968] (II) Loading /usr/X11R7/lib/modules/drivers/mouse_drv.so
+[  3366.969] (II) Module mouse: vendor="X.Org Foundation"
+[  3366.970]    compiled for 1.20.5, module version = 1.9.2
+[  3366.970]    Module class: X.Org XInput Driver
+[  3366.970]    ABI class: X.Org XInput driver, version 24.1
+[  3366.970] (II) LoadModule: "kbd"
+[  3366.972] (II) Loading /usr/X11R7/lib/modules/drivers/kbd_drv.so
+[  3366.974] (II) Module kbd: vendor="X.Org Foundation"
+[  3366.974]    compiled for 1.20.5, module version = 1.9.0
+[  3366.974]    Module class: X.Org XInput Driver
+[  3366.974]    ABI class: X.Org XInput driver, version 24.1
+[  3366.974] (II) SUNFFB: driver for Creator, Creator 3D and Elite 3D
+[  3366.974] (II) MACH64: Driver for ATI Mach64 chipsets
+[  3366.974] (II) wsfb: driver for wsdisplay framebuffer: wsfb
+[  3366.976] (EE) 
+Fatal server error:
+[  3366.976] (EE) xf86OpenConsole: No console driver found
+        Supported drivers: pccons (with X support), pcvt, wscons
+        Check your kernel's console driver configuration and /dev entries(EE) 
+[  3366.976] (EE) 
+Please consult the The X.Org Foundation support 
+         at http://wiki.x.org
+ for help. 
+[  3366.977] (EE) Please also check the log file at "/var/log/Xorg.0.log" for additional information.
+[  3366.977] (EE) 
+[  3366.979] (EE) Server terminated with error (1). Closing log file.
+# poweroff
+Feb  6 16:00:51  poweroff: powered off by arf20
+Feb  6 16:00:51  syslogd[210]: Exiting on signal 15
+[ 3421.9199656] syncing disks... done
+[ 3422.2399710] cd0: detached
+[ 3422.2813401] atapibus0: detached
+[ 3422.3199707] atabus1: detached
+[ 3422.3563319] pci2: detached
+[ 3422.3899760] ppb1: detached
+[ 3422.4399701] cpu0: powered down
+

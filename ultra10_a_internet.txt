@@ -1,0 +1,1482 @@
+Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), Keyboard Present
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+
+ok 
+ok 
+ok boot
+Initializing Memory \                                                                      Initializing Memory /-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\                                                                      Initializing Memory \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-                                                                      Boot device: disk:a  File and args: 
+NetBSD IEEE 1275 Multi-FS Bootblock
+Version $NetBSD: bootblk.fth,v 1.15 2015/08/20 05:40:08 dholland Exp $
+..>> NetBSD/sparc64 OpenFirmware Boot, Revision 1.20 (Thu Aug  4 15:30:37 UTC 2022)
+=0x96f618
+Loading netbsd: 9893336+480784+338872 [717864+472316]=0xdeb4a0
+[   1.0000000] Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+[   1.0000000]     2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017,
+[   1.0000000]     2018, 2019, 2020, 2021, 2022
+[   1.0000000]     The NetBSD Foundation, Inc.  All rights reserved.
+[   1.0000000] Copyright (c) 1982, 1986, 1989, 1991, 1993
+[   1.0000000]     The Regents of the University of California.  All rights reserved.
+
+[   1.0000000] NetBSD 9.3 (GENERIC) #0: Thu Aug  4 15:30:37 UTC 2022
+[   1.0000000] 	mkrepro@mkrepro.NetBSD.org:/usr/src/sys/arch/sparc64/compile/GENERIC
+[   1.0000000] total memory = 256 MB
+[   1.0000000] avail memory = 233 MB
+[   1.0000000] running cgd selftest aes-xts-256 aes-xts-512 done
+[   1.0000000] mainbus0 (root): SUNW,Ultra-5_10 (Sun Ultra 5/10 UPA/PCI): hostid 80a515a0
+[   1.0000000] cpu0 at mainbus0: SUNW,UltraSPARC-IIi @ 333 MHz, CPU id 0
+[   1.0000000] cpu0: manuf 17, impl 12, mask 13
+[   1.0000000] cpu0: 16K instruction (32 b/l), 16K data (32 b/l), 2048K external (64 b/l)
+[   1.0000000] psycho0 at mainbus0 addr 0xfffc4000
+[   1.0000000] psycho0: SUNW,sabre: impl 0, version 0: ign 7c0 bus range 0 to 2; PCI bus 0
+[   1.0000000] pci0 at psycho0
+[   1.0000000] ppb0 at pci0 dev 1 function 1: Sun Microsystems Simba PCI Bridge (rev. 0x13)
+[   1.0000000] pci1 at ppb0 bus 1
+[   1.0000000] ebus0 at pci1 dev 1 function 0: Sun Microsystems PCIO Ebus2, revision 0x01
+[   1.0000000] auxio0 at ebus0 addr 726000-726003, 728000-728003, 72a000-72a003, 72c000-72c003, 72f000-72f003
+[   1.0000000] power at ebus0 addr 724000-724003 ipl 25 not configured
+[   1.0000000] SUNW,pll at ebus0 addr 504000-504002 not configured
+[   1.0000000] sab0 at ebus0 addr 400000-40007f ipl 2b: rev 3.2
+[   1.0000000] sabtty0 at sab0 port 0: console i/o
+[   1.0000000] sabtty1 at sab0 port 1
+[   1.0000000] com0 at ebus0 addr 3083f8-3083ff ipl 29: ns16550a, working fifo
+[   1.0000000] kbd0 at com0
+[   1.0000000] com1 at ebus0 addr 3062f8-3062ff ipl 2a: ns16550a, working fifo
+[   1.0000000] ms0 at com1
+[   1.0000000] wsmouse0 at ms0 mux 0
+[   1.0000000] lpt0 at ebus0 addr 3043bc-3043cb, 30015c-30015d, 700000-70000f ipl 22
+[   1.0000000] fdthree at ebus0 addr 3023f0-3023f7, 706000-70600f, 720000-720003 ipl 27 not configured
+[   1.0000000] clock0 at ebus0 addr 0-1fff: mk48t59
+[   1.0000000] flashprom at ebus0 addr 0-fffff not configured
+[   1.0000000] audiocs0 at ebus0 addr 200000-2000ff, 702000-70200f, 704000-70400f, 722000-722003 ipl 23 ipl 24: CS4231A
+[   1.0000000] audio0 at audiocs0: playback, capture, full duplex
+[   1.0000000] audio0: slinear_be:16 -> slinear_le:16 2ch 48000Hz, blk 1920 bytes (10ms) for playback
+[   1.0000000] audio0: slinear_be:16 <- slinear_le:16 2ch 48000Hz, blk 1920 bytes (10ms) for recording
+[   1.0000000] spkr0 at audio0: PC Speaker (synthesized)
+[   1.0000000] wsbell at spkr0 not configured
+[   1.0000000] hme0 at pci1 dev 1 function 1: Sun Happy Meal Ethernet, rev. 1
+[   1.0000000] hme0: interrupting at ivec 3021
+[   1.0000000] hme0: Ethernet address 08:00:20:a5:15:a0
+[   1.0000000] nsphy0 at hme0 phy 1: DP83840 10/100 media interface, rev. 1
+[   1.0000000] nsphy0: 10baseT, 10baseT-FDX, 100baseTX, 100baseTX-FDX, auto
+[   1.0000000] machfb0 at pci1 dev 2 function 0: ATI Technologies 3D Rage Pro (rev. 0x5c)
+[   1.0000000] machfb0: using MMIO aperture
+[   1.0000000] machfb0: 16 MB aperture at 0xe1000000, 4 KB registers at 0xe2000000
+[   1.0000000] machfb0: 128 KB ROM at 0xe1020000
+[   1.0000000] machfb0: 4096 KB SGRAM 98.924 MHz, maximum RAMDAC clock 230 MHz
+[   1.0000000] machfb0: unable to use preferred mode
+[   1.0000000] machfb0: initializing the DSP
+[   1.0000000] machfb0: initial resolution 1280x720 at 8 bpp
+[   1.0000000] wsdisplay1 at machfb0 kbdmux 1
+[   1.0000000] direct rendering for machfb0 unsupported
+[   1.0000000] cmdide0 at pci1 dev 3 function 0: CMD Technology PCI0646 (rev. 0x03)
+[   1.0000000] cmdide0: primary channel configured to native-PCI mode, channel non-independant
+[   1.0000000] cmdide0: using ivec 1820 for native-PCI interrupt
+[   1.0000000] atabus0 at cmdide0 channel 0
+[   1.0000000] cmdide0: secondary channel configured to native-PCI mode, channel non-independant
+[   1.0000000] atabus1 at cmdide0 channel 1
+[   1.0000000] ppb1 at pci0 dev 1 function 0: Sun Microsystems Simba PCI Bridge (rev. 0x13)
+[   1.0000000] pci2 at ppb1 bus 2
+[   1.0000000] ffb0 at mainbus0: Creator3D, model SUNW,501-4788, dac 10
+[   1.0000000] ffb0: attached to /dev/fb0
+[   1.0000000] wsdisplay2 at ffb0 kbdmux 1
+[   1.0000000] pcons at mainbus0 not configured
+[   1.0000030] No counter-timer -- using %tick at 333MHz as system clock.
+[   1.0899668] wskbd0 at kbd0 mux 1
+[   4.3999660] wd0 at atabus0 drive 0
+[   4.4402268] wd0: <ST380011A>
+[   4.4778281] wd0: 76319 MB, 155061 cyl, 16 head, 63 sec, 512 bytes/sect x 156301488 sectors
+[   4.5799661] atapibus0 at atabus1: 2 targets
+[   4.6499658] cd0 at atapibus0 drive 0: <TSSTcorpDVD-ROM SH-D162C, , TS04> cdrom removable
+[   4.7899673] WARNING: 1 error while detecting hardware; check system log.
+[   4.8699687] root on wd0a dumps on wd0b
+[   4.9199664] root file system type: ffs
+[   4.9699664] kern.module.path=/stand/sparc64/9.3/modules
+Wed Feb  7 15:09:02 CET 2024
+Starting root file system check:
+/dev/rwd0a: file system is clean; not checking
+cmdide0:1:0: lost interrupt
+[  36.9992170] 	type: atapi tc_bcount: 36 tc_skip: 0
+cmdide0:1:0: bus-master DMA error: missing interrupt, status=0x20
+[  37.1252534] cmdide0:1:0: device timeout, c_bcount=36, c_skip=0
+[  37.1252534] cd0: transfer error, downgrading to PIO mode 4
+swapctl: setting dump device to /dev/wd0b
+swapctl: adding /dev/wd0b as swap device at priority 0
+Starting file system checks:
+Loaded entropy from /var/db/entropy-file.
+Setting tty flags.
+ttyflags: open /dev/ttyC00: Device busy
+ttyflags: open /dev/ttyC01: Device busy
+Setting sysctl variables:
+ddb.onpanic: 1 -> 0
+Starting network.
+IPv6 mode: host
+Configuring network interfaces: hme0.
+Adding interface aliases:.
+Waiting for DAD to complete for statically configured addresses...
+Starting dhcpcd.
+hme0: Setting hostname: localhost
+Building databases: dev, utmp, utmpx.
+Starting syslogd.
+Mounting all file systems...
+Clearing temporary files.
+Updating fontconfig cache: done.
+Checking quotas: done.
+Setting securelevel: kern.securelevel: 0 -> 1
+swapctl: setting dump device to /dev/wd0b
+Starting virecover.
+Checking for core dump...
+savecore: no core dump
+Starting local daemons:.
+Updating motd.
+Starting postfix.
+Starting inetd.
+Starting cron.
+Wed Feb  7 15:10:13 CET 2024
+
+NetBSD/sparc64 (localhost) (constty)
+
+login: arf20
+Password:
+Feb  7 15:10:20 localhost login: arf20 on tty constty
+Last login: Tue Feb  6 15:06:07 2024 on constty
+Copyright (c) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005,
+    2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017,
+    2018, 2019, 2020, 2021, 2022
+    The NetBSD Foundation, Inc.  All rights reserved.
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+    The Regents of the University of California.  All rights reserved.
+
+NetBSD 9.3 (GENERIC) #0: Thu Aug  4 15:30:37 UTC 2022
+
+Welcome to NetBSD!
+
+localhost$ 
+localhost$ ping 1.1.1.1
+PING one.one.one.one (1.1.1.1): 56 data bytes
+64 bytes from 1.1.1.1: icmp_seq=0 ttl=59 time=25.989288 ms
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=59 time=20.663925 ms
+64 bytes from 1.1.1.1: icmp_seq=2 ttl=59 time=24.978130 ms
+64 bytes from 1.1.1.1: icmp_seq=3 ttl=59 time=25.571553 ms
+^C
+----one.one.one.one PING Statistics----
+4 packets transmitted, 4 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 20.663925/24.300724/25.989288/2.459772 ms
+localhost$ uname -a
+NetBSD localhost 9.3 NetBSD 9.3 (GENERIC) #0: Thu Aug  4 15:30:37 UTC 2022  mkrepro@mkrepro.NetBSD.org:/usr/src/sys/arch/sparc64/compile/GENERIC sparc64
+localhost$ 
+localhost$ 
+localhost$ ssh tty.sdf.org
+The authenticity of host 'tty.sdf.org (205.166.94.4)' can't be established.
+ED25519 key fingerprint is SHA256:ZjwbO7AU8rHJExYrmZS2LqGZ7WfdoELfMrF54W92PYA.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'tty.sdf.org,205.166.94.4' (ED25519) to the list of known hosts.
+arf20@tty.sdf.org's password: 
+[27-Jan-24 17:01:57   beckett             beckett                             ]
+% Eeby deeby
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[28-Jan-24 00:01:29      nm03                nm03                        Tokyo]
+% Ugh, another earthquake here .. just rattled Tokyo
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[29-Jan-24 14:06:27     dokem               dokem                Southeast, US]
+% Hey gang! New here. Seems nice!
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[30-Jan-24 09:09:01 lycanthropene          weretomato                US west coast]
+% Do weretomatoes contain the antioxidant lycanthropene? (credit to Bob Rost)
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[30-Jan-24 15:49:14 caketheidiot                cake                        India]
+% Neuralink is actually a plot by Elon Musk to get us to use Twitter
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[06-Feb-24 15:19:31     dokem               dokem                             ]
+% Found a penny.
+ -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+[06-Feb-24 18:41:10    ayaron              Frosty                  Angband, ME]
+% "If the rain comes, they run and hide their heads..." [The Beatles, Rain]
+7702 guestbook entries.
+
+Welcome to the SDF Public Access UNIX system. (est. 1987)
+
+For quick help, type 'help'
+For detailed questions and answers, type 'faq'
+For user discussion boards and software requests, type 'bboard'
+For interactive discussions, type 'com'
+To setup your homepage, type 'mkhomepg'
+to create your URL http://arf20.freeshell.org, type 'mkhomepg -a'
+
+Explore and Enjoy!
+
+$ 
+$ 
+$ exit
+Connection to tty.sdf.org closed.
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ 
+localhost$ reboot
+reboot: Operation not permitted
+localhost$ su
+Password:
+Feb  7 15:14:36 localhost su: arf20 to root on /dev/constty
+localhost# reboot
+Feb  7 15:14:37 localhost reboot: rebooted by arf20
+Feb  7 15:14:37 localhost syslogd[271]: Exiting on signal 15
+[ 347.8799644] syncing disks... done
+[ 348.1999737] cd0: detached
+[ 348.2345081] atapibus0: detached
+[ 348.2720044] atabus1: detached
+[ 348.3074195] pci2: detached
+[ 348.3399879] ppb1: detached
+[ 348.3799700] cpu0: rebooting
+
+Resetting ... 
+
+Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), Keyboard Present
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+Initializing
+ok 
+ok 
+ok 
+ok 
+ok 
+ok boot cdrom
+Initializing Memory \                                                                      Initializing Memory /-\                                                                      Initializing Memory \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-                                                                      Initializing Memory \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-                                                                      Boot device: /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f  File and args: 
+OpenBSD IEEE 1275 Bootblock 2.1
+..>> OpenBSD BOOT 1.25
+|/-Trying bsd...
+\|/-\|/-Booting /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f/bsd
+4183400@0x1000000\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-+2712@0x13fd568\+3227492@0x1c00000|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/+966812@0x1f13f64- 
+\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\symbols @ 0xfff563c0 155|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-+312+28 start=0x1000000
+console is /pci@1f,0/pci@1,1/ebus@1/se@14,400000:a
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+	The Regents of the University of California.  All rights reserved.
+Copyright (c) 1995-2023 OpenBSD. All rights reserved.  https://www.OpenBSD.org
+
+OpenBSD 7.4 (RAMDISK) #1800: Tue Oct 10 09:38:46 MDT 2023
+    deraadt@sparc64.openbsd.org:/usr/src/sys/arch/sparc64/compile/RAMDISK
+real mem = 268435456 (256MB)
+avail mem = 253943808 (242MB)
+random: boothowto does not indicate good seed
+mainbus0 at root: Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz)
+cpu0 at mainbus0: SUNW,UltraSPARC-IIi (rev 1.3) @ 333 MHz
+cpu0: physical 16K instruction (32 b/l), 16K data (32 b/l), 2048K external (64 b/l)
+psycho0 at mainbus0 addr 0xfffc4000: SUNW,sabre, impl 0, version 0, ign 7c0
+psycho0: bus range 0-2, PCI bus 0
+psycho0: dvma map c0000000-dfffffff
+pci0 at psycho0
+ppb0 at pci0 dev 1 function 1 "Sun Simba" rev 0x13
+pci1 at ppb0 bus 1
+ebus0 at pci1 dev 1 function 0 "Sun PCIO EBus2" rev 0x01
+auxio0 at ebus0 addr 726000-726003, 728000-728003, 72a000-72a003, 72c000-72c003, 72f000-72f003
+"power" at ebus0 addr 724000-724003 ivec 0x25 not configured
+"SUNW,pll" at ebus0 addr 504000-504002 not configured
+sab0 at ebus0 addr 400000-40007f ivec 0x2b: rev 3.2
+sabtty0 at sab0 port 0: console
+sabtty1 at sab0 port 1
+comkbd0 at ebus0 addr 3083f8-3083ff ivec 0x29: layout 42
+wskbd0 at comkbd0
+com0 at ebus0 addr 3062f8-3062ff ivec 0x2a: mouse: ns16550a, 16 byte fifo
+"ecpp" at ebus0 addr 3043bc-3043cb, 30015c-30015d, 700000-70000f ivec 0x22 not configured
+"fdthree" at ebus0 addr 3023f0-3023f7, 706000-70600f, 720000-720003 ivec 0x27 not configured
+clock1 at ebus0 addr 0-1fff: mk48t59
+"flashprom" at ebus0 addr 0-fffff not configured
+"SUNW,CS4231" at ebus0 addr 200000-2000ff, 702000-70200f, 704000-70400f, 722000-722003 ivec 0x23 ivec 0x24 not configured
+hme0 at pci1 dev 1 function 1 "Sun HME" rev 0x01: ivec 0x7e1, address 08:00:20:a5:15:a0
+nsphy0 at hme0 phy 1: DP83840 10/100 PHY, rev. 1
+machfb0 at pci1 dev 2 function 0 "ATI Mach64" rev 0x5c
+machfb0: ATY,GT-C, 1280x1024
+machfb0: aperture needed
+wsdisplay0 at machfb0
+wsdisplay0: screen 0 added (std, sun emulation)
+wskbd0: connecting to wsdisplay0
+pciide0 at pci1 dev 3 function 0 "CMD Technology PCI0646" rev 0x03: DMA, channel 0 configured to native-PCI, channel 1 configured to native-PCI
+pciide0: using ivec 0x7e0 for native-PCI interrupt
+wd0 at pciide0 channel 0 drive 0: <ST380011A>
+wd0: 16-sector PIO, LBA48, 76319MB, 156301488 sectors
+wd0(pciide0:0:0): using PIO mode 4, DMA mode 2
+atapiscsi0 at pciide0 channel 1 drive 0
+scsibus0 at atapiscsi0: 2 targets
+cd0 at scsibus0 targ 0 lun 0: <TSSTcorp, DVD-ROM SH-D162C, TS04> removable
+cd0(pciide0:1:0): using PIO mode 4, DMA mode 2
+ppb1 at pci0 dev 1 function 0 "Sun Simba" rev 0x13
+pci2 at ppb1 bus 2
+creator0 at mainbus0: Creator3D, model SUNW,501-4788, dac 10, 1152x900
+wsdisplay1 at creator0
+wsdisplay1: screen 0 added (std, sun emulation)
+softraid0 at root
+scsibus1 at softraid0: 256 targets
+bootpath: /pci@1f,0/pci@1,1/ide@3,0/cdrom@2,0:f
+root on rd0a swap on rd0b dump on rd0b
+WARNING: CHECK AND RESET THE DATE!
+erase ^?, werase ^W, kill ^U, intr ^C, status ^T
+
+Welcome to the OpenBSD/sparc64 7.4 installation program.
+(I)nstall, (U)pgrade, (A)utoinstall or (S)hell? i
+At any prompt except password prompts you can escape to a shell by
+typing '!'. Default answers are shown in []'s and are selected by
+pressing RETURN.  You can exit this program at any time by pressing
+Control-C, but this can leave your system in an inconsistent state.
+
+Terminal type? [sun] linux
+System hostname? (short form, e.g. 'foo') ultra10-openbsd
+
+Available network interfaces are: hme0 vlan0.
+Network interface to configure? (name, lladdr, '?', or 'done') [hme0] 
+IPv4 address for hme0? (or 'autoconf' or 'none') [autoconf] 
+IPv6 address for hme0? (or 'autoconf' or 'none') [none] 
+Available network interfaces are: hme0 vlan0.
+Network interface to configure? (name, lladdr, '?', or 'done') [done] 
+Using DNS domainname my.domain
+Using DNS nameservers at 192.168.8.1
+
+Password for root account? (will not echo) 
+Password for root account? (again) 
+Start sshd(8) by default? [yes] 
+Do you expect to run the X Window System? [yes] 
+Do you want the X Window System to be started by xenodm(1)? [no] 
+Setup a user? (enter a lower-case loginname, or 'no') [no] yes
+No really, what is the lower-case loginname, or 'no'? [no] arf20
+Full name for user arf20? [arf20] 
+Password for user arf20? (will not echo) 
+Password for user arf20? (again) 
+WARNING: root is targeted by password guessing attacks, pubkeys are safer.
+Allow root ssh login? (yes, no, prohibit-password) [no] 
+What timezone are you in? ('?' for list) [Europe/Madrid] 
+
+Available disks are: wd0.
+Which disk is the root disk? ('?' for details) [wd0] 
+Encrypt the root disk with a passphrase? [no] 
+The auto-allocated layout for wd0 is:
+#                size           offset  fstype [fsize bsize   cpg]
+  a:          1024.2M                0  4.2BSD   2048 16384     1 # /
+  b:           512.4M          2097648    swap                    
+  c:         76319.1M                0  unused                    
+  d:          4096.5M          3146976  4.2BSD   2048 16384     1 # /tmp
+  e:          4608.4M         11536560  4.2BSD   2048 16384     1 # /var
+  f:          8034.0M         20974464  4.2BSD   2048 16384     1 # /usr
+  g:          1024.2M         37428048  4.2BSD   2048 16384     1 # /usr/X11R6
+  h:         10824.7M         39525696  4.2BSD   2048 16384     1 # /usr/local
+  i:          2806.9M         61694640  4.2BSD   2048 16384     1 # /usr/src
+  j:          6144.5M         67443264  4.2BSD   2048 16384     1 # /usr/obj
+  k:         37243.3M         80027136  4.2BSD   2048 16384     1 # /home
+Use (A)uto layout, (E)dit auto layout, or create (C)ustom layout? [a] a
+/dev/rwd0a: 1024.2MB in 2097648 sectors of 512 bytes
+6 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/rwd0k: 37243.3MB in 76274352 sectors of 512 bytes
+184 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/rwd0d: 4096.5MB in 8389584 sectors of 512 bytes
+21 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/rwd0f: 8034.0MB in 16453584 sectors of 512 bytes
+40 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/rwd0g: 1024.2MB in 2097648 sectors of 512 bytes
+6 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/rwd0h: 10824.7MB in 22168944 sectors of 512 bytes
+54 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/rwd0j: 6144.5MB in 12583872 sectors of 512 bytes
+31 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/rwd0i: 2806.9MB in 5748624 sectors of 512 bytes
+14 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/rwd0e: 4608.4MB in 9437904 sectors of 512 bytes
+23 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/wd0a (4e9abac37f36079f.a) on /mnt type ffs (rw, asynchronous, local)
+/dev/wd0k (4e9abac37f36079f.k) on /mnt/home type ffs (rw, asynchronous, local, nodev, nosuid)
+/dev/wd0d (4e9abac37f36079f.d) on /mnt/tmp type ffs (rw, asynchronous, local, nodev, nosuid)
+/dev/wd0f (4e9abac37f36079f.f) on /mnt/usr type ffs (rw, asynchronous, local, nodev)
+/dev/wd0g (4e9abac37f36079f.g) on /mnt/usr/X11R6 type ffs (rw, asynchronous, local, nodev)
+/dev/wd0h (4e9abac37f36079f.h) on /mnt/usr/local type ffs (rw, asynchronous, local, nodev)
+/dev/wd0j (4e9abac37f36079f.j) on /mnt/usr/obj type ffs (rw, asynchronous, local, nodev, nosuid)
+/dev/wd0i (4e9abac37f36079f.i) on /mnt/usr/src type ffs (rw, asynchronous, local, nodev, nosuid)
+/dev/wd0e (4e9abac37f36079f.e) on /mnt/var type ffs (rw, asynchronous, local, nodev, nosuid)
+
+Let's install the sets!
+Location of sets? (cd0 disk http nfs or 'done') [cd0] 
+cd0(atapiscsi0:0:0): Check Condition (error 0x70) on opcode 0x28
+    SENSE KEY: Media Error
+     ASC/ASCQ: Unrecovered Read Error
+cd0(atapiscsi0:0:0): Check Condition (error 0x70) on opcode 0x28
+    SENSE KEY: Media Error
+     ASC/ASCQ: Unrecovered Read Error
+cd0(atapiscsi0:0:0): Check Condition (error 0x70) on opcode 0x28
+    SENSE KEY: Media Error
+     ASC/ASCQ: Unrecovered Read Error
+cd0(atapiscsi0:0:0): Check Condition (error 0x70) on opcode 0x28
+    SENSE KEY: Media Error
+     ASC/ASCQ: Unrecovered Read Error
+cd0(atapiscsi0:0:0): Check Condition (error 0x70) on opcode 0x28
+    SENSE KEY: Media Error
+     ASC/ASCQ: Unrecovered Read Error
+No filesystems found on cd0.
+Location of sets? (cd0 disk http nfs or 'done') [cd0] 
+cd0(atapiscsi0:0:0): Check Condition (error 0x70) on opcode 0x28
+    SENSE KEY: Media Error
+     ASC/ASCQ: Unrecovered Read Error
+cd0(atapiscsi0:0:0): Check Condition (error 0x70) on opcode 0x28
+    SENSE KEY: Media Error
+     ASC/ASCQ: Unrecovered Read Error
+cd0(atapiscsi0:0:0): Check Condition (error 0x70) on opcode 0x28
+    SENSE KEY: Media Error
+     ASC/ASCQ: Unrecovered Read Error
+cd0(atapiscsi0:0:0): Check Condition (error 0x70) on opcode 0x28
+    SENSE KEY: Media Error
+     ASC/ASCQ: Unrecovered Read Error
+cd0(atapiscsi0:0:0): Check Condition (error 0x70) on opcode 0x28
+    SENSE KEY: Media Error
+     ASC/ASCQ: Unrecovered Read Error
+No filesystems found on cd0.
+Location of sets? (cd0 disk http nfs or 'done') [cd0] http
+HTTP proxy URL? (e.g. 'http://proxy:8080', or 'none') [none] 
+HTTP Server? (hostname, list#, 'done' or '?') ¿^H?^H^H?
+'¿??' is not a valid hostname.
+HTTP Server? (hostname, list#, 'done' or '?') ?
+     1	ftp.fr.openbsd.org/pub/OpenBSD                           Paris, France
+     2	ftp.hostserver.de/pub/OpenBSD                       Frankfurt, Germany
+     3	ftp.eu.openbsd.org/pub/OpenBSD                            Oslo, Norway
+     4	cdn.openbsd.org/pub/OpenBSD                               Fastly (CDN)
+     5	cloudflare.cdn.openbsd.org/pub/OpenBSD                Cloudflare (CDN)
+     6	mirror.edgecast.com/pub/OpenBSD                         Edgecast (CDN)
+     7	mirror.leaseweb.com/pub/OpenBSD                         LeaseWeb (CDN)
+     8	mirror.planetunix.net/pub/OpenBSD                     PlanetUnix (CDN)
+     9	openbsd.as250.net/pub/OpenBSD                          AS250.net (CDN)
+    10	mirror.aarnet.edu.au/pub/OpenBSD                   Canberra, Australia
+    11	ftp2.eu.openbsd.org/pub/OpenBSD                        Vienna, Austria
+    12	openbsd.c3sl.ufpr.br/pub/OpenBSD                      Curitiba, Brazil
+    13	openbsd.ipacct.com/pub/OpenBSD                         Sofia, Bulgaria
+    14	mirror.telepoint.bg/pub/OpenBSD                        Sofia, Bulgaria
+    15	ftp.OpenBSD.org/pub/OpenBSD                            Alberta, Canada
+    16	openbsd.cs.toronto.edu/pub/OpenBSD                 Toronto, ON, Canada
+    17	mirrors.aliyun.com/pub/OpenBSD                                   China
+    18	mirrors.ucr.ac.cr/pub/OpenBSD                               Costa Rica
+    19	mirrors.dotsrc.org/pub/OpenBSD                        Aalborg, Denmark
+    20	mirror.one.com/pub/OpenBSD                         Copenhagen, Denmark
+    21	ftp.fr.openbsd.org/pub/OpenBSD                           Paris, France
+    22	ftp2.fr.openbsd.org/pub/OpenBSD                          Paris, France
+    23	mirrors.ircam.fr/pub/OpenBSD                             Paris, France
+--More--        
+...skipping 23 lines
+
+    47	ftp.rnl.tecnico.ulisboa.pt/pub/OpenBSD                Lisbon, Portugal
+    48	mirror.yandex.ru/pub/OpenBSD                            Moscow, Russia
+    49	ftp.lysator.liu.se/pub/OpenBSD                       Linkoping, Sweden
+    50	mirror.ungleich.ch/pub/OpenBSD                Linthal, GL, Switzerland
+    51	openbsd.paket.ua/pub/OpenBSD                            Odesa, Ukraine
+    52	openbsd.eu.paket.ua/pub/OpenBSD                                Ukraine
+    53	www.mirrorservice.org/pub/OpenBSD                 Kent, United Kingdom
+    54	mirror.bytemark.co.uk/OpenBSD               Manchester, United Kingdom
+    55	mirror.ox.ac.uk/pub/OpenBSD                     Oxford, United Kingdom
+    56	mirror.exonetric.net/pub/OpenBSD                London, United Kingdom
+    57	mirrors.gethosted.online/pub/OpenBSD          Rothwell, United Kingdom
+    58	mirrors.sonic.net/pub/OpenBSD                   San Francisco, CA, USA
+    59	mirrors.ocf.berkeley.edu/pub/OpenBSD                 Berkeley, CA, USA
+    60	mirrors.syringanetworks.net/pub/OpenBSD                 Boise, ID, USA
+    61	mirrors.gigenet.com/pub/OpenBSD             Arlington Heights, IL, USA
+    62	plug-mirror.rcac.purdue.edu/pub/OpenBSD        West Lafayette, IN, USA
+    63	mirrors.mit.edu/pub/OpenBSD                         Cambridge, MA, USA
+    64	openbsd.mirror.constant.com/pub/OpenBSD            Piscataway, NJ, USA
+    65	ftp.usa.openbsd.org/pub/OpenBSD                      New York, NY, USA
+HTTP Server? (hostname, list#, 'done' or '?') tp^H^H^H
+'tp' is not a valid hostname.
+HTTP Server? (hostname, list#, 'done' or '?') ftp.rnl.tecnico.uls^Hisboa.pt/pub/OpenBSD
+'ftp.rnl.tecnico.ulsisboa.pt/pub/OpenBSD' is not a valid hostname.
+HTTP Server? (hostname, list#, 'done' or '?') frp
+Server directory? [pub/OpenBSD/7.4/sparc64] ^C
+
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# install
+At any prompt except password prompts you can escape to a shell by
+typing '!'. Default answers are shown in []'s and are selected by
+pressing RETURN.  You can exit this program at any time by pressing
+Control-C, but this can leave your system in an inconsistent state.
+
+Terminal type? [sun] ^C
+
+ultra10-openbsd# ks  ls
+.profile     dev          install.md   mnt2         upgrade
+autoinstall  etc          install.sub  sbin         usr
+bin          install      mnt          tmp          var
+ultra10-openbsd# mount
+/dev/rd0a on / type ffs (local)
+ultra10-openbsd# ls
+.profile     dev          install.md   mnt2         upgrade
+autoinstall  etc          install.sub  sbin         usr
+bin          install      mnt          tmp          var
+ultra10-openbsd# tree
+sh: tree: not found
+ultra10-openbsd# cat in  ultra10-openbsd# cat install                                                   ultra10-openbsd# cat install .
+install.md   install.sub  
+ultra10-openbsd# cat install. 
+cat: install.: No such file or directory
+ultra10-openbsd# ultra10-openbsd# cat install. md
+
+MDBOOTSR=y
+MDHALT=y
+MDTERM=sun
+MDXAPERTURE=1
+MDXDM=y
+NCPU=$(sysctl -n hw.ncpufound)
+
+md_installboot() {
+	if ! installboot -r /mnt ${1}; then
+		echo "\nFailed to install bootblocks."
+		echo "You will not be able to boot OpenBSD from ${1}."
+		exit
+	fi
+}
+
+md_prep_fdisk() {
+}
+
+md_prep_disklabel() {
+	local _disk=$1 _f=/tmp/i/fstab.$1
+
+	disklabel_autolayout $_disk $_f || return
+	[[ -s $_f ]] && return
+
+	disklabel -F $_f -E $_disk
+}
+
+md_congrats() {
+}
+
+md_consoleinfo() {
+}
+ultra10-openbsd# ls
+.profile     dev          install.md   mnt2         upgrade
+autoinstall  etc          install.sub  sbin         usr
+bin          install      mnt          tmp          var
+ultra10-openbsd# ls usr   ultra10-openbsd# ls usr/                                                       ultra10-openbsd# ls usr/ 
+bin/    mdec/   sbin/   share/  
+ultra10-openbsd# ls usr/ 
+bin/    mdec/   sbin/   share/  
+ultra10-openbsd# ls usr/ 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# cat au  ultra10-openbsd# cat autoinstall                                                ultra10-openbsd# cat autoinstall  
+#!/bin/ksh
+
+
+
+err_exit() {
+	print -u2 -- "$*"
+	exit 1
+}
+
+usage() {
+	err_exit "usage: ${0##*/} [-ax] [-f filename] [-m install | upgrade]"
+}
+
+wait_cgiinfo() {
+	local _l _s _key _val
+
+	if [ -f /tmp/cgipid ]; then
+		wait "$(</tmp/cgipid)" 2>/dev/null
+		rm -f /tmp/cgipid
+	fi
+
+	[[ -s $CGI_INFO ]] || return
+
+	sed -En 's,^https?://([[A-Za-z0-9:_][]A-Za-z0-9:._-]*),\1,p' \
+		$CGI_INFO >$HTTP_LIST 2>/dev/null
+
+	read -r -- _s _l <$HTTP_LIST
+	[[ -z $_l ]] && : ${HTTP_SERVER:=${_s%%/*}}
+
+	while IFS='=' read -r -- _key _val; do
+		case $_key=$_val in
+		method=+([a-z])*([0-9]))	CGI_METHOD=$_val;;
+		TIME=+([0-9]))			CGI_TIME=$_val;;
+		TZ=+([-_/+[:alnum:]]))		CGI_TZ=$_val;;
+		esac
+	done <$CGI_INFO
+}
+
+
+
+isin() {
+	local _a=$1 _b
+
+	shift
+	for _b; do
+		[[ $_a == "$_b" ]] && return 0
+	done
+	return 1
+}
+
+addel() {
+	local _a=$1
+
+	shift
+	isin "$_a" $* && echo "$*" || echo "${*:+$* }$_a"
+}
+
+rmel() {
+	local _a=$1 _b _c
+
+	shift
+	for _b; do
+		[[ $_a != "$_b" ]] && _c="${_c:+$_c }$_b"
+	done
+	echo "$_c"
+}
+
+bsort() {
+	local _a _l
+
+	set -s -- $@
+	for _a; do
+		_l=$(addel $_a $_l)
+	done
+	echo $_l
+}
+
+http_time() {
+	local _sec=$(cat $HTTP_SEC 2>/dev/null)
+
+	[[ -n $_sec && -n $CGI_TIME ]] &&
+		echo $((CGI_TIME + SECONDS - _sec))
+}
+
+quote() (
+	for _a; do
+		alias Q=$_a; _a=$(alias Q); print -rn -- " ${_a#Q=}"
+	done | sed '1s/ //'
+	echo
+)
+
+show_cols() {
+	local _l _cdir=/tmp/i/cdir _clist
+
+	mkdir -p $_cdir
+	rm -rf -- $_cdir/*
+	while read _l; do
+		[[ -n $_l ]] || continue
+		mkdir -p /tmp/i/cdir/"$_l"
+		_clist[${#_clist[*]}]="$_l"
+	done
+	(cd $_cdir; ls -Cdf "${_clist[@]}")
+	rm -rf -- $_cdir
+}
+
+stripcom() {
+	local
+ultra10-openbsd# install
+At any prompt except password prompts you can escape to a shell by
+typing '!'. Default answers are shown in []'s and are selected by
+pressing RETURN.  You can exit this program at any time by pressing
+Control-C, but this can leave your system in an inconsistent state.
+
+Terminal type? [sun] xterm
+System hostname? (short form, e.g. 'foo') [ultra10-openbsd] 
+
+Available network interfaces are: hme0 vlan0.
+Network interface to configure? (name, lladdr, '?', or 'done') [hme0] 
+IPv4 address for hme0? (or 'autoconf' or 'none') [autoconf] 
+IPv6 address for hme0? (or 'autoconf' or 'none') [none] 
+Available network interfaces are: hme0 vlan0.
+Network interface to configure? (name, lladdr, '?', or 'done') [done] 
+Using DNS domainname my.domain
+Using DNS nameservers at 192.168.8.1
+
+Password for root account? (will not echo) 
+Password for root account? (again) 
+Start sshd(8) by default? [yes] 
+Do you expect to run the X Window System? [yes] 
+Do you want the X Window System to be started by xenodm(1)? [no] 
+Setup a user? (enter a lower-case loginname, or 'no') [no] arf20
+Full name for user arf20? [arf20] 
+Password for user arf20? (will not echo) 
+Password for user arf20? (again) 
+WARNING: root is targeted by password guessing attacks, pubkeys are safer.
+Allow root ssh login? (yes, no, prohibit-password) [no] 
+What timezone are you in? ('?' for list) [Europe/Madrid] 
+
+Available disks are: wd0.
+Which disk is the root disk? ('?' for details) [wd0] 
+Encrypt the root disk with a passphrase? [no] 
+The auto-allocated layout for wd0 is:
+#                size           offset  fstype [fsize bsize   cpg]
+  a:          1024.2M                0  4.2BSD   2048 16384     1 # /
+  b:           512.4M          2097648    swap                    
+  c:         76319.1M                0  unused                    
+  d:          4096.5M          3146976  4.2BSD   2048 16384     1 # /tmp
+  e:          4608.4M         11536560  4.2BSD   2048 16384     1 # /var
+  f:          8034.0M         20974464  4.2BSD   2048 16384     1 # /usr
+  g:          1024.2M         37428048  4.2BSD   2048 16384     1 # /usr/X11R6
+  h:         10824.7M         39525696  4.2BSD   2048 16384     1 # /usr/local
+  i:          2806.9M         61694640  4.2BSD   2048 16384     1 # /usr/src
+  j:          6144.5M         67443264  4.2BSD   2048 16384     1 # /usr/obj
+  k:         37243.3M         80027136  4.2BSD   2048 16384     1 # /home
+Use (A)uto layout, (E)dit auto layout, or create (C)ustom layout? [a] 
+/dev/rwd0a: 1024.2MB in 2097648 sectors of 512 bytes
+6 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/rwd0k: 37243.3MB in 76274352 sectors of 512 bytes
+184 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/rwd0d: 4096.5MB in 8389584 sectors of 512 bytes
+21 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/rwd0f: 8034.0MB in 16453584 sectors of 512 bytes
+40 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/rwd0g: 1024.2MB in 2097648 sectors of 512 bytes
+6 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/rwd0h: 10824.7MB in 22168944 sectors of 512 bytes
+54 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/rwd0j: 6144.5MB in 12583872 sectors of 512 bytes
+31 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/rwd0i: 2806.9MB in 5748624 sectors of 512 bytes
+14 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/rwd0e: 4608.4MB in 9437904 sectors of 512 bytes
+23 cylinder groups of 202.50MB, 12960 blocks, 25920 inodes each
+/dev/wd0a (54fe9a9bc5539a01.a) on /mnt type ffs (rw, asynchronous, local)
+/dev/wd0k (54fe9a9bc5539a01.k) on /mnt/home type ffs (rw, asynchronous, local, nodev, nosuid)
+/dev/wd0d (54fe9a9bc5539a01.d) on /mnt/tmp type ffs (rw, asynchronous, local, nodev, nosuid)
+/dev/wd0f (54fe9a9bc5539a01.f) on /mnt/usr type ffs (rw, asynchronous, local, nodev)
+/dev/wd0g (54fe9a9bc5539a01.g) on /mnt/usr/X11R6 type ffs (rw, asynchronous, local, nodev)
+/dev/wd0h (54fe9a9bc5539a01.h) on /mnt/usr/local type ffs (rw, asynchronous, local, nodev)
+/dev/wd0j (54fe9a9bc5539a01.j) on /mnt/usr/obj type ffs (rw, asynchronous, local, nodev, nosuid)
+/dev/wd0i (54fe9a9bc5539a01.i) on /mnt/usr/src type ffs (rw, asynchronous, local, nodev, nosuid)
+/dev/wd0e (54fe9a9bc5539a01.e) on /mnt/var type ffs (rw, asynchronous, local, nodev, nosuid)
+
+Let's install the sets!
+Location of sets? (cd0 disk http nfs or 'done') [cd0] 
+cd0(atapiscsi0:0:0): Check Condition (error 0x70) on opcode 0x28
+    SENSE KEY: Media Error
+     ASC/ASCQ: Unrecovered Read Error
+cd0(atapiscsi0:0:0): Check Condition (error 0x70) on opcode 0x28
+    SENSE KEY: Media Error
+     ASC/ASCQ: Unrecovered Read Error
+cd0(atapiscsi0:0:0): Check Condition (error 0x70) on opcode 0x28
+    SENSE KEY: Media Error
+     ASC/ASCQ: Unrecovered Read Error
+cd0(atapiscsi0:0:0): Check Condition (error 0x70) on opcode 0x28
+    SENSE KEY: Media Error
+     ASC/ASCQ: Unrecovered Read Error
+cd0(atapiscsi0:0:0): Check Condition (error 0x70) on opcode 0x28
+    SENSE KEY: Media Error
+     ASC/ASCQ: Unrecovered Read Error
+No filesystems found on cd0.
+Location of sets? (cd0 disk http nfs or 'done') [cd0] http
+HTTP proxy URL? (e.g. 'http://proxy:8080', or 'none') [none] 
+HTTP Server? (hostname, list#, 'done' or '?') ?
+     1	ftp.fr.openbsd.org/pub/OpenBSD                           Paris, France
+     2	ftp.hostserver.de/pub/OpenBSD                       Frankfurt, Germany
+     3	ftp.eu.openbsd.org/pub/OpenBSD                            Oslo, Norway
+     4	cdn.openbsd.org/pub/OpenBSD                               Fastly (CDN)
+     5	cloudflare.cdn.openbsd.org/pub/OpenBSD                Cloudflare (CDN)
+     6	mirror.edgecast.com/pub/OpenBSD                         Edgecast (CDN)
+     7	mirror.leaseweb.com/pub/OpenBSD                         LeaseWeb (CDN)
+     8	mirror.planetunix.net/pub/OpenBSD                     PlanetUnix (CDN)
+     9	openbsd.as250.net/pub/OpenBSD                          AS250.net (CDN)
+    10	mirror.aarnet.edu.au/pub/OpenBSD                   Canberra, Australia
+    11	ftp2.eu.openbsd.org/pub/OpenBSD                        Vienna, Austria
+    12	openbsd.c3sl.ufpr.br/pub/OpenBSD                      Curitiba, Brazil
+    13	openbsd.ipacct.com/pub/OpenBSD                         Sofia, Bulgaria
+    14	mirror.telepoint.bg/pub/OpenBSD                        Sofia, Bulgaria
+    15	ftp.OpenBSD.org/pub/OpenBSD                            Alberta, Canada
+    16	openbsd.cs.toronto.edu/pub/OpenBSD                 Toronto, ON, Canada
+    17	mirrors.aliyun.com/pub/OpenBSD                                   China
+    18	mirrors.ucr.ac.cr/pub/OpenBSD                               Costa Rica
+    19	mirrors.dotsrc.org/pub/OpenBSD                        Aalborg, Denmark
+    20	mirror.one.com/pub/OpenBSD                         Copenhagen, Denmark
+    21	ftp.fr.openbsd.org/pub/OpenBSD                           Paris, France
+    22	ftp2.fr.openbsd.org/pub/OpenBSD                          Paris, France
+    23	mirrors.ircam.fr/pub/OpenBSD                             Paris, France
+--More--    24  ftp.spline.de/pub/OpenBSD                              Berlin, Germany
+--More--    25  mirror.hs-esslingen.de/pub/OpenBSD                  Esslingen, Germany
+--More--    26  ftp.halifax.rwth-aachen.de/pub/OpenBSD                 Aachen, Germany
+--More--    27  artfiles.org/openbsd                                  Hamburg, Germany
+--More--    28  ftp.hostserver.de/pub/OpenBSD                       Frankfurt, Germany
+--More--    29  ftp.fau.de/pub/OpenBSD                               Erlangen, Germany
+--More--    30  mirror.junda.nl/pub/OpenBSD                       Falkenstein, Germany
+--More--    31  ftp.cc.uoc.gr/pub/OpenBSD                            Heraklion, Greece
+--More--        HTTP Server? (hostname, list#, 'done' or '?') ftp.hostserver.de/pub/OpenBSD
+'ftp.hostserver.de/pub/OpenBSD' is not a valid hostname.
+HTTP Server? (hostname, list#, 'done' or '?') ftp.hostserver.de
+Server directory? [pub/OpenBSD/7.4/sparc64] 
+
+Select sets by entering a set name, a file name pattern or 'all'. De-select
+sets by prepending a '-', e.g.: '-game*'. Selected sets are labelled '[X]'.
+    [X] bsd           [X] comp74.tgz    [X] xbase74.tgz   [X] xserv74.tgz
+    [X] bsd.rd        [X] man74.tgz     [X] xshare74.tgz
+    [X] base74.tgz    [X] game74.tgz    [X] xfont74.tgz
+Set name(s)? (or 'abort' or 'done') [done] 
+Get/Verify SHA256.sig     0% |                          |     0       --:-- ETAGet/Verify SHA256.sig   100% |**************************|  2067       00:00    
+Signature Verified
+Get/Verify bsd            0% |                          |     0       --:-- ETAGet/Verify bsd            3% |                          |   384 KB    00:29 ETAGet/Verify bsd            4% |*                         |   512 KB    00:43 ETAGet/Verify bsd            7% |*                         |   896 KB    00:35 ETAGet/Verify bsd           13% |***                       |  1536 KB    00:26 ETAGet/Verify bsd           18% |****                      |  2176 KB    00:21 ETAGet/Verify bsd           25% |******                    |  2944 KB    00:17 ETAGet/Verify bsd           34% |********                  |  3968 KB    00:13 ETAGet/Verify bsd           45% |***********               |  5248 KB    00:09 ETAGet/Verify bsd           53% |*************             |  6144 KB    00:07 ETAGet/Verify bsd           60% |***************           |  7040 KB    00:06 ETAGet/Verify bsd           69% |*****************         |  8064 KB    00:04 ETAGet/Verify bsd           78% |********************      |  9088 KB    00:03 ETAGet/Verify bsd           89% |***********************   | 10368 KB    00:01 ETAGet/Verify bsd           97% |************************* | 11264 KB    00:00 ETAGet/Verify bsd          100% |**************************| 11591 KB    00:14    
+Get/Verify bsd.rd         0% |                          |     0       --:-- ETAGet/Verify bsd.rd        11% |**                        |   896 KB    00:08 ETAGet/Verify bsd.rd        44% |***********               |  3584 KB    00:02 ETAGet/Verify bsd.rd        80% |********************      |  6528 KB    00:00 ETAGet/Verify bsd.rd        98% |************************* |  7936 KB    00:00 ETAGet/Verify bsd.rd       100% |**************************|  8078 KB    00:04    
+Get/Verify base74.tgz     0% |                          |     0       --:-- ETAGet/Verify base74.tgz     0% |                          |   384 KB    08:30 ETAGet/Verify base74.tgz     0% |                          |  1024 KB    06:20 ETAGet/Verify base74.tgz     0% |                          |  1664 KB    05:48 ETAGet/Verify base74.tgz     1% |                          |  2560 KB    05:00 ETAGet/Verify base74.tgz     1% |                          |  3584 KB    04:26 ETAGet/Verify base74.tgz     2% |                          |  4736 KB    04:00 ETAGet/Verify base74.tgz     3% |                          |  5888 KB    03:44 ETAGet/Verify base74.tgz     3% |                          |  7168 KB    03:29 ETAGet/Verify base74.tgz     4% |*                         |  8704 KB    03:12 ETAGet/Verify base74.tgz     5% |*                         | 10368 KB    02:57 ETAGet/Verify base74.tgz     6% |*                         | 12160 KB    02:45 ETAGet/Verify base74.tgz     7% |*                         | 13952 KB    02:35 ETAGet/Verify base74.tgz     8% |**                        | 15744 KB    02:27 ETAGet/Verify base74.tgz     9% |**                        | 17920 KB    02:17 ETAGet/Verify base74.tgz    10% |**                        | 19968 KB    02:11 ETAGet/Verify base74.tgz    11% |**                        | 21888 KB    02:06 ETAGet/Verify base74.tgz    12% |***                       | 23808 KB    02:01 ETAGet/Verify base74.tgz    13% |***                       | 25728 KB    01:58 ETAGet/Verify base74.tgz    13% |***                       | 26880 KB    01:58 ETAGet/Verify base74.tgz    13% |***                       | 26880 KB    02:04 ETAGet/Verify base74.tgz    13% |***                       | 27008 KB    02:10 ETAGet/Verify base74.tgz    14% |***                       | 27392 KB    02:14 ETAGet/Verify base74.tgz    14% |***                       | 27904 KB    02:17 ETAGet/Verify base74.tgz    14% |***                       | 28544 KB    02:19 ETAGet/Verify base74.tgz    14% |***                       | 28928 KB    02:22 ETAGet/Verify base74.tgz    15% |***                       | 29440 KB    02:25 ETAGet/Verify base74.tgz    15% |***                       | 30080 KB    02:27 ETAGet/Verify base74.tgz    15% |***                       | 30848 KB    02:28 ETAGet/Verify base74.tgz    16% |****                      | 31616 KB    02:29 ETAGet/Verify base74.tgz    16% |****                      | 32256 KB    02:30 ETAGet/Verify base74.tgz    16% |****                      | 32512 KB    02:34 ETAGet/Verify base74.tgz    16% |****                      | 32768 KB    02:37 ETAGet/Verify base74.tgz    16% |****                      | 33024 KB    02:41 ETAGet/Verify base74.tgz    17% |****                      | 33664 KB    02:42 ETAGet/Verify base74.tgz    17% |****                      | 34304 KB    02:43 ETAGet/Verify base74.tgz    17% |****                      | 34560 KB    02:46 ETAGet/Verify base74.tgz    18% |****                      | 35200 KB    02:47 ETAGet/Verify base74.tgz    18% |****                      | 36224 KB    02:45 ETAGet/Verify base74.tgz    19% |****                      | 37120 KB    02:45 ETAGet/Verify base74.tgz    19% |****                      | 37504 KB    02:47 ETAGet/Verify base74.tgz    19% |****                      | 38016 KB    02:48 ETAGet/Verify base74.tgz    19% |****                      | 38272 KB    02:51 ETAGet/Verify base74.tgz    19% |****                      | 38656 KB    02:53 ETAGet/Verify base74.tgz    20% |*****                     | 39296 KB    02:53 ETAGet/Verify base74.tgz    20% |*****                     | 39936 KB    02:53 ETAGet/Verify base74.tgz    20% |*****                     | 40704 KB    02:53 ETAGet/Verify base74.tgz    21% |*****                     | 41600 KB    02:52 ETAGet/Verify base74.tgz    21% |*****                     | 41728 KB    02:55 ETAGet/Verify base74.tgz    21% |*****                     | 42112 KB    02:57 ETAGet/Verify base74.tgz    21% |*****                     | 42240 KB    03:00 ETAGet/Verify base74.tgz    21% |*****                     | 42624 KB    03:01 ETAGet/Verify base74.tgz    22% |*****                     | 42880 KB    03:03 ETAGet/Verify base74.tgz    22% |*****                     | 43264 KB    03:05 ETAGet/Verify base74.tgz    22% |*****                     | 43904 KB    03:05 ETAGet/Verify base74.tgz    22% |*****                     | 44416 KB    03:05 ETAGet/Verify base74.tgz    23% |*****                     | 44800 KB    03:06 ETAGet/Verify base74.tgz    23% |*****                     | 45440 KB    03:06 ETAGet/Verify base74.tgz    23% |*****                     | 45824 KB    03:07 ETAGet/Verify base74.tgz    23% |*****                     | 46208 KB    03:09 ETAGet/Verify base74.tgz    23% |*****                     | 46592 KB    03:10 ETAGet/Verify base74.tgz    24% |******                    | 47104 KB    03:10 ETAGet/Verify base74.tgz    24% |******                    | 47616 KB    03:11 ETAGet/Verify base74.tgz    24% |******                    | 48000 KB    03:12 ETAGet/Verify base74.tgz    24% |******                    | 48128 KB    03:14 ETAGet/Verify base74.tgz    24% |******                    | 48384 KB    03:16 ETAGet/Verify base74.tgz    25% |******                    | 48640 KB    03:17 ETAGet/Verify base74.tgz    25% |******                    | 49152 KB    03:17 ETAGet/Verify base74.tgz    25% |******                    | 49792 KB    03:17 ETAGet/Verify base74.tgz    25% |******                    | 49920 KB    03:19 ETAGet/Verify base74.tgz    25% |******                    | 50176 KB    03:21 ETAGet/Verify base74.tgz    26% |******                    | 50688 KB    03:21 ETAGet/Verify base74.tgz    26% |******                    | 51328 KB    03:20 ETAGet/Verify base74.tgz    26% |******                    | 52096 KB    03:19 ETAGet/Verify base74.tgz    27% |*******                   | 53120 KB    03:16 ETAGet/Verify base74.tgz    27% |*******                   | 54144 KB    03:14 ETAGet/Verify base74.tgz    28% |*******                   | 55296 KB    03:11 ETAGet/Verify base74.tgz    29% |*******                   | 56576 KB    03:07 ETAGet/Verify base74.tgz    29% |*******                   | 57984 KB    03:03 ETAGet/Verify base74.tgz    30% |*******                   | 59520 KB    02:58 ETAGet/Verify base74.tgz    31% |********                  | 61056 KB    02:54 ETAGet/Verify base74.tgz    32% |********                  | 62848 KB    02:49 ETAGet/Verify base74.tgz    33% |********                  | 64640 KB    02:44 ETAGet/Verify base74.tgz    34% |********                  | 66304 KB    02:40 ETAGet/Verify base74.tgz    35% |*********                 | 68224 KB    02:35 ETAGet/Verify base74.tgz    36% |*********                 | 70400 KB    02:29 ETAGet/Verify base74.tgz    37% |*********                 | 72448 KB    02:24 ETAGet/Verify base74.tgz    38% |*********                 | 74752 KB    02:19 ETAGet/Verify base74.tgz    39% |**********                | 76544 KB    02:15 ETAGet/Verify base74.tgz    40% |**********                | 78848 KB    02:10 ETAGet/Verify base74.tgz    41% |**********                | 80640 KB    02:06 ETAGet/Verify base74.tgz    42% |**********                | 82688 KB    02:02 ETAGet/Verify base74.tgz    43% |***********               | 85376 KB    01:57 ETAGet/Verify base74.tgz    45% |***********               | 87936 KB    01:52 ETAGet/Verify base74.tgz    46% |***********               | 90624 KB    01:47 ETAGet/Verify base74.tgz    47% |************              | 93056 KB    01:43 ETAGet/Verify base74.tgz    48% |************              | 94976 KB    01:40 ETAGet/Verify base74.tgz    49% |************              | 96640 KB    01:38 ETAGet/Verify base74.tgz    50% |*************             | 98560 KB    01:35 ETAGet/Verify base74.tgz    51% |*************             |    98 MB    01:32 ETAGet/Verify base74.tgz    52% |*************             |   100 MB    01:29 ETAGet/Verify base74.tgz    54% |**************            |   102 MB    01:25 ETAGet/Verify base74.tgz    55% |**************            |   105 MB    01:22 ETAGet/Verify base74.tgz    56% |**************            |   107 MB    01:18 ETAGet/Verify base74.tgz    58% |***************           |   110 MB    01:15 ETAGet/Verify base74.tgz    58% |***************           |   111 MB    01:13 ETAGet/Verify base74.tgz    59% |***************           |   113 MB    01:11 ETAGet/Verify base74.tgz    60% |***************           |   115 MB    01:09 ETAGet/Verify base74.tgz    61% |***************           |   117 MB    01:06 ETAGet/Verify base74.tgz    62% |****************          |   118 MB    01:05 ETAGet/Verify base74.tgz    63% |****************          |   120 MB    01:03 ETAGet/Verify base74.tgz    64% |****************          |   122 MB    01:00 ETAGet/Verify base74.tgz    65% |****************          |   125 MB    00:58 ETAGet/Verify base74.tgz    67% |*****************         |   127 MB    00:55 ETAGet/Verify base74.tgz    68% |*****************         |   129 MB    00:53 ETAGet/Verify base74.tgz    68% |*****************         |   130 MB    00:51 ETAGet/Verify base74.tgz    69% |*****************         |   132 MB    00:50 ETAGet/Verify base74.tgz    70% |******************        |   134 MB    00:48 ETAGet/Verify base74.tgz    71% |******************        |   136 MB    00:46 ETAGet/Verify base74.tgz    72% |******************        |   138 MB    00:44 ETAGet/Verify base74.tgz    73% |******************        |   139 MB    00:42 ETAGet/Verify base74.tgz    74% |*******************       |   141 MB    00:40 ETAGet/Verify base74.tgz    75% |*******************       |   144 MB    00:38 ETAGet/Verify base74.tgz    77% |********************      |   146 MB    00:36 ETAGet/Verify base74.tgz    78% |********************      |   148 MB    00:34 ETAGet/Verify base74.tgz    79% |********************      |   151 MB    00:31 ETAGet/Verify base74.tgz    80% |********************      |   153 MB    00:30 ETAGet/Verify base74.tgz    81% |*********************     |   154 MB    00:28 ETAGet/Verify base74.tgz    82% |*********************     |   156 MB    00:27 ETAGet/Verify base74.tgz    83% |*********************     |   158 MB    00:25 ETAGet/Verify base74.tgz    84% |*********************     |   160 MB    00:24 ETAGet/Verify base74.tgz    85% |**********************    |   161 MB    00:22 ETAGet/Verify base74.tgz    86% |**********************    |   164 MB    00:20 ETAGet/Verify base74.tgz    87% |**********************    |   165 MB    00:19 ETAGet/Verify base74.tgz    88% |**********************    |   167 MB    00:18 ETAGet/Verify base74.tgz    88% |**********************    |   168 MB    00:16 ETAGet/Verify base74.tgz    89% |***********************   |   169 MB    00:16 ETAGet/Verify base74.tgz    89% |***********************   |   170 MB    00:15 ETAGet/Verify base74.tgz    90% |***********************   |   171 MB    00:14 ETAGet/Verify base74.tgz    91% |***********************   |   172 MB    00:13 ETAGet/Verify base74.tgz    91% |***********************   |   173 MB    00:13 ETAGet/Verify base74.tgz    92% |***********************   |   174 MB    00:12 ETAGet/Verify base74.tgz    92% |***********************   |   175 MB    00:11 ETAGet/Verify base74.tgz    93% |************************  |   177 MB    00:10 ETAGet/Verify base74.tgz    94% |************************  |   178 MB    00:08 ETAGet/Verify base74.tgz    95% |************************  |   180 MB    00:07 ETAGet/Verify base74.tgz    96% |************************  |   182 MB    00:05 ETAGet/Verify base74.tgz    97% |************************* |   184 MB    00:04 ETAGet/Verify base74.tgz    98% |************************* |   186 MB    00:02 ETAGet/Verify base74.tgz    99% |************************* |   188 MB    00:00 ETAGet/Verify base74.tgz   100% |**************************|   189 MB    02:29    
+Get/Verify comp74.tgz     0% |                          |     0       --:-- ETAGet/Verify comp74.tgz     0% |                          |   384 KB    03:21 ETAGet/Verify comp74.tgz     1% |                          |  1408 KB    01:48 ETAGet/Verify comp74.tgz     3% |                          |  2816 KB    01:19 ETAGet/Verify comp74.tgz     5% |*                         |  4224 KB    01:09 ETAGet/Verify comp74.tgz     8% |**                        |  6528 KB    00:54 ETAGet/Verify comp74.tgz    10% |**                        |  8064 KB    00:51 ETAGet/Verify comp74.tgz    12% |***                       |  9600 KB    00:49 ETAGet/Verify comp74.tgz    14% |***                       | 11520 KB    00:46 ETAGet/Verify comp74.tgz    17% |****                      | 13440 KB    00:43 ETAGet/Verify comp74.tgz    19% |****                      | 15488 KB    00:40 ETAGet/Verify comp74.tgz    22% |*****                     | 17664 KB    00:37 ETAGet/Verify comp74.tgz    25% |******                    | 19840 KB    00:35 ETAGet/Verify comp74.tgz    28% |*******                   | 21888 KB    00:33 ETAGet/Verify comp74.tgz    31% |********                  | 24320 KB    00:30 ETAGet/Verify comp74.tgz    34% |********                  | 26496 KB    00:29 ETAGet/Verify comp74.tgz    35% |*********                 | 27520 KB    00:29 ETAGet/Verify comp74.tgz    36% |*********                 | 28160 KB    00:29 ETAGet/Verify comp74.tgz    37% |*********                 | 28928 KB    00:30 ETAGet/Verify comp74.tgz    38% |*********                 | 29952 KB    00:30 ETAGet/Verify comp74.tgz    39% |**********                | 31104 KB    00:30 ETAGet/Verify comp74.tgz    41% |**********                | 32384 KB    00:29 ETAGet/Verify comp74.tgz    43% |***********               | 33920 KB    00:28 ETAGet/Verify comp74.tgz    45% |***********               | 35584 KB    00:27 ETAGet/Verify comp74.tgz    48% |************              | 37376 KB    00:25 ETAGet/Verify comp74.tgz    50% |*************             | 39168 KB    00:24 ETAGet/Verify comp74.tgz    52% |*************             | 41088 KB    00:23 ETAGet/Verify comp74.tgz    55% |**************            | 43136 KB    00:21 ETAGet/Verify comp74.tgz    58% |***************           | 45312 KB    00:20 ETAGet/Verify comp74.tgz    61% |***************           | 47488 KB    00:18 ETAGet/Verify comp74.tgz    64% |****************          | 49920 KB    00:16 ETAGet/Verify comp74.tgz    67% |*****************         | 52352 KB    00:15 ETAGet/Verify comp74.tgz    70% |******************        | 54912 KB    00:13 ETAGet/Verify comp74.tgz    72% |******************        | 56448 KB    00:12 ETAGet/Verify comp74.tgz    74% |*******************       | 57984 KB    00:11 ETAGet/Verify comp74.tgz    76% |*******************       | 59776 KB    00:10 ETAGet/Verify comp74.tgz    79% |********************      | 61696 KB    00:09 ETAGet/Verify comp74.tgz    81% |*********************     | 63488 KB    00:08 ETAGet/Verify comp74.tgz    83% |*********************     | 65280 KB    00:07 ETAGet/Verify comp74.tgz    86% |**********************    | 67584 KB    00:05 ETAGet/Verify comp74.tgz    89% |***********************   | 69632 KB    00:04 ETAGet/Verify comp74.tgz    91% |***********************   | 71040 KB    00:03 ETAGet/Verify comp74.tgz    93% |************************  | 72576 KB    00:03 ETAGet/Verify comp74.tgz    95% |************************  | 73984 KB    00:02 ETAGet/Verify comp74.tgz    96% |************************  | 74752 KB    00:01 ETAGet/Verify comp74.tgz    96% |************************  | 75264 KB    00:01 ETAGet/Verify comp74.tgz    97% |************************* | 75648 KB    00:01 ETAGet/Verify comp74.tgz    97% |************************* | 76032 KB    00:01 ETAGet/Verify comp74.tgz    98% |************************* | 76672 KB    00:00 ETAGet/Verify comp74.tgz    99% |************************* | 77056 KB    00:00 ETAGet/Verify comp74.tgz    99% |************************* | 77696 KB    00:00 ETAGet/Verify comp74.tgz   100% |**************************| 77810 KB    00:50    
+Get/Verify man74.tgz      0% |                          |     0       --:-- ETAGet/Verify man74.tgz     11% |**                        |   896 KB    00:07 ETAGet/Verify man74.tgz     37% |*********                 |  2944 KB    00:03 ETAGet/Verify man74.tgz     65% |****************          |  5120 KB    00:01 ETAGet/Verify man74.tgz     86% |**********************    |  6784 KB    00:00 ETAGet/Verify man74.tgz    100% |**************************|  7837 KB    00:04    
+Get/Verify game74.tgz     0% |                          |     0       --:-- ETAGet/Verify game74.tgz    27% |*******                   |   768 KB    00:02 ETAGet/Verify game74.tgz    45% |***********               |  1280 KB    00:02 ETAGet/Verify game74.tgz    72% |******************        |  2048 KB    00:01 ETAGet/Verify game74.tgz   100% |**************************|  2842 KB    00:03    
+Get/Verify xbase74.tgz    0% |                          |     0       --:-- ETAGet/Verify xbase74.tgz    1% |                          |   768 KB    00:55 ETAGet/Verify xbase74.tgz    4% |*                         |  1920 KB    00:43 ETAGet/Verify xbase74.tgz    9% |**                        |  4096 KB    00:28 ETAGet/Verify xbase74.tgz   14% |***                       |  6144 KB    00:24 ETAGet/Verify xbase74.tgz   20% |*****                     |  8960 KB    00:19 ETAGet/Verify xbase74.tgz   27% |*******                   | 11904 KB    00:15 ETAGet/Verify xbase74.tgz   33% |********                  | 14336 KB    00:14 ETAGet/Verify xbase74.tgz   38% |*********                 | 16640 KB    00:12 ETAGet/Verify xbase74.tgz   43% |***********               | 18944 KB    00:11 ETAGet/Verify xbase74.tgz   49% |************              | 21248 KB    00:10 ETAGet/Verify xbase74.tgz   55% |**************            | 24192 KB    00:08 ETAGet/Verify xbase74.tgz   60% |***************           | 26368 KB    00:07 ETAGet/Verify xbase74.tgz   63% |****************          | 27648 KB    00:07 ETAGet/Verify xbase74.tgz   67% |*****************         | 29056 KB    00:06 ETAGet/Verify xbase74.tgz   70% |******************        | 30720 KB    00:06 ETAGet/Verify xbase74.tgz   75% |*******************       | 32512 KB    00:05 ETAGet/Verify xbase74.tgz   79% |********************      | 34560 KB    00:04 ETAGet/Verify xbase74.tgz   84% |*********************     | 36352 KB    00:03 ETAGet/Verify xbase74.tgz   86% |**********************    | 37248 KB    00:03 ETAGet/Verify xbase74.tgz   88% |**********************    | 38272 KB    00:02 ETAGet/Verify xbase74.tgz   92% |***********************   | 40192 KB    00:01 ETAGet/Verify xbase74.tgz   97% |************************* | 42240 KB    00:00 ETAGet/Verify xbase74.tgz  100% |**************************| 43269 KB    00:22    
+Get/Verify xshare74.tgz   0% |                          |     0       --:-- ETAGet/Verify xshare74.tgz  13% |***                       |   640 KB    00:06 ETAGet/Verify xshare74.tgz  41% |**********                |  1920 KB    00:02 ETAGet/Verify xshare74.tgz  95% |************************  |  4352 KB    00:00 ETAGet/Verify xshare74.tgz 100% |**************************|  4579 KB    00:03    
+Get/Verify xfont74.tgz    0% |                          |     0       --:-- ETAGet/Verify xfont74.tgz    5% |*                         |  1280 KB    00:17 ETAGet/Verify xfont74.tgz   15% |***                       |  3584 KB    00:10 ETAGet/Verify xfont74.tgz   27% |*******                   |  6272 KB    00:08 ETAGet/Verify xfont74.tgz   39% |**********                |  8960 KB    00:06 ETAGet/Verify xfont74.tgz   51% |*************             | 11904 KB    00:04 ETAGet/Verify xfont74.tgz   63% |****************          | 14592 KB    00:03 ETAGet/Verify xfont74.tgz   75% |*******************       | 17408 KB    00:02 ETAGet/Verify xfont74.tgz   89% |***********************   | 20608 KB    00:00 ETAGet/Verify xfont74.tgz  100% |**************************| 22968 KB    00:08    
+Get/Verify xserv74.tgz    0% |                          |     0       --:-- ETAGet/Verify xserv74.tgz    3% |                          |   384 KB    00:27 ETAGet/Verify xserv74.tgz   21% |*****                     |  2304 KB    00:07 ETAGet/Verify xserv74.tgz   33% |********                  |  3584 KB    00:05 ETAGet/Verify xserv74.tgz   35% |*********                 |  3840 KB    00:07 ETAGet/Verify xserv74.tgz   40% |**********                |  4352 KB    00:07 ETAGet/Verify xserv74.tgz   40% |**********                |  4352 KB    00:08 ETAGet/Verify xserv74.tgz   47% |************              |  5120 KB    00:07 ETAGet/Verify xserv74.tgz   55% |**************            |  5888 KB    00:06 ETAGet/Verify xserv74.tgz   64% |****************          |  6912 KB    00:04 ETAGet/Verify xserv74.tgz   75% |*******************       |  8064 KB    00:03 ETAGet/Verify xserv74.tgz   85% |**********************    |  9088 KB    00:01 ETAGet/Verify xserv74.tgz   95% |************************  | 10240 KB    00:00 ETAGet/Verify xserv74.tgz  100% |**************************| 10673 KB    00:12    
+Installing bsd            0% |                          |     0       --:-- ETAInstalling bsd           46% |***********               |  5376 KB    00:01 ETAInstalling bsd           93% |************************  | 10880 KB    00:00 ETAInstalling bsd          100% |**************************| 11591 KB    00:02    
+Installing bsd.rd         0% |                          |     0       --:-- ETAInstalling bsd.rd        66% |*****************         |  5376 KB    00:00 ETAInstalling bsd.rd       100% |**************************|  8078 KB    00:01    
+Installing base74.tgz     0% |                          |     0       --:-- ETAInstalling base74.tgz     0% |                          |  1920 KB    01:41 ETAInstalling base74.tgz     1% |                          |  3712 KB    01:43 ETAInstalling base74.tgz     2% |                          |  5376 KB    01:45 ETAInstalling base74.tgz     3% |                          |  7424 KB    01:40 ETAInstalling base74.tgz     4% |*                         |  9088 KB    01:42 ETAInstalling base74.tgz     5% |*                         | 11136 KB    01:38 ETAInstalling base74.tgz     6% |*                         | 12800 KB    01:39 ETAInstalling base74.tgz     7% |*                         | 14592 KB    01:38 ETAInstalling base74.tgz     8% |**                        | 16512 KB    01:37 ETAInstalling base74.tgz     9% |**                        | 18432 KB    01:35 ETAInstalling base74.tgz    10% |**                        | 19968 KB    01:36 ETAInstalling base74.tgz    10% |**                        | 21120 KB    01:38 ETAInstalling base74.tgz    11% |**                        | 22528 KB    01:39 ETAInstalling base74.tgz    12% |***                       | 23808 KB    01:40 ETAInstalling base74.tgz    13% |***                       | 25472 KB    01:39 ETAInstalling base74.tgz    13% |***                       | 26880 KB    01:39 ETAInstalling base74.tgz    14% |***                       | 28544 KB    01:38 ETAInstalling base74.tgz    15% |***                       | 30464 KB    01:36 ETAInstalling base74.tgz    16% |****                      | 31872 KB    01:36 ETAInstalling base74.tgz    17% |****                      | 33664 KB    01:35 ETAInstalling base74.tgz    18% |****                      | 35328 KB    01:34 ETAInstalling base74.tgz    19% |****                      | 36992 KB    01:33 ETAInstalling base74.tgz    19% |****                      | 38528 KB    01:33 ETAInstalling base74.tgz    20% |*****                     | 40320 KB    01:31 ETAInstalling base74.tgz    21% |*****                     | 41728 KB    01:31 ETAInstalling base74.tgz    22% |*****                     | 43392 KB    01:30 ETAInstalling base74.tgz    23% |*****                     | 45184 KB    01:29 ETAInstalling base74.tgz    24% |******                    | 46848 KB    01:28 ETAInstalling base74.tgz    24% |******                    | 48512 KB    01:27 ETAInstalling base74.tgz    25% |******                    | 49920 KB    01:26 ETAInstalling base74.tgz    26% |******                    | 50944 KB    01:27 ETAInstalling base74.tgz    27% |*******                   | 52608 KB    01:26 ETAInstalling base74.tgz    28% |*******                   | 54528 KB    01:24 ETAInstalling base74.tgz    29% |*******                   | 56448 KB    01:23 ETAInstalling base74.tgz    30% |*******                   | 58368 KB    01:21 ETAInstalling base74.tgz    30% |*******                   | 60160 KB    01:20 ETAInstalling base74.tgz    31% |********                  | 62080 KB    01:18 ETAInstalling base74.tgz    32% |********                  | 63872 KB    01:17 ETAInstalling base74.tgz    33% |********                  | 65664 KB    01:16 ETAInstalling base74.tgz    34% |********                  | 67328 KB    01:15 ETAInstalling base74.tgz    35% |*********                 | 69120 KB    01:14 ETAInstalling base74.tgz    36% |*********                 | 71168 KB    01:12 ETAInstalling base74.tgz    37% |*********                 | 72832 KB    01:11 ETAInstalling base74.tgz    38% |*********                 | 74624 KB    01:10 ETAInstalling base74.tgz    39% |**********                | 76288 KB    01:09 ETAInstalling base74.tgz    40% |**********                | 78080 KB    01:08 ETAInstalling base74.tgz    40% |**********                | 78976 KB    01:08 ETAInstalling base74.tgz    41% |**********                | 80384 KB    01:08 ETAInstalling base74.tgz    42% |**********                | 81920 KB    01:07 ETAInstalling base74.tgz    43% |***********               | 83584 KB    01:06 ETAInstalling base74.tgz    43% |***********               | 85248 KB    01:05 ETAInstalling base74.tgz    44% |***********               | 86784 KB    01:04 ETAInstalling base74.tgz    45% |***********               | 88448 KB    01:03 ETAInstalling base74.tgz    45% |***********               | 89216 KB    01:03 ETAInstalling base74.tgz    46% |***********               | 90240 KB    01:03 ETAInstalling base74.tgz    46% |***********               | 90624 KB    01:04 ETAInstalling base74.tgz    47% |************              | 91392 KB    01:04 ETAInstalling base74.tgz    47% |************              | 92288 KB    01:04 ETAInstalling base74.tgz    48% |************              | 93952 KB    01:03 ETAInstalling base74.tgz    48% |************              | 95104 KB    01:02 ETAInstalling base74.tgz    49% |************              | 96256 KB    01:02 ETAInstalling base74.tgz    50% |*************             | 97280 KB    01:01 ETAInstalling base74.tgz    50% |*************             | 98688 KB    01:01 ETAInstalling base74.tgz    51% |*************             |    97 MB    01:00 ETAInstalling base74.tgz    52% |*************             |    98 MB    00:59 ETAInstalling base74.tgz    52% |*************             |    99 MB    01:00 ETAInstalling base74.tgz    52% |*************             |    99 MB    01:00 ETAInstalling base74.tgz    52% |*************             |   100 MB    01:00 ETAInstalling base74.tgz    53% |*************             |   102 MB    00:59 ETAInstalling base74.tgz    54% |**************            |   103 MB    00:57 ETAInstalling base74.tgz    55% |**************            |   105 MB    00:57 ETAInstalling base74.tgz    56% |**************            |   106 MB    00:56 ETAInstalling base74.tgz    57% |**************            |   108 MB    00:54 ETAInstalling base74.tgz    57% |**************            |   109 MB    00:53 ETAInstalling base74.tgz    58% |***************           |   111 MB    00:52 ETAInstalling base74.tgz    59% |***************           |   113 MB    00:51 ETAInstalling base74.tgz    61% |***************           |   115 MB    00:49 ETAInstalling base74.tgz    62% |****************          |   118 MB    00:46 ETAInstalling base74.tgz    63% |****************          |   121 MB    00:44 ETAInstalling base74.tgz    65% |****************          |   124 MB    00:41 ETAInstalling base74.tgz    67% |*****************         |   127 MB    00:39 ETAInstalling base74.tgz    68% |*****************         |   130 MB    00:37 ETAInstalling base74.tgz    70% |******************        |   132 MB    00:35 ETAInstalling base74.tgz    71% |******************        |   135 MB    00:33 ETAInstalling base74.tgz    72% |******************        |   138 MB    00:31 ETAInstalling base74.tgz    74% |*******************       |   141 MB    00:29 ETAInstalling base74.tgz    76% |*******************       |   144 MB    00:27 ETAInstalling base74.tgz    77% |********************      |   147 MB    00:25 ETAInstalling base74.tgz    78% |********************      |   149 MB    00:23 ETAInstalling base74.tgz    80% |********************      |   152 MB    00:21 ETAInstalling base74.tgz    81% |*********************     |   155 MB    00:20 ETAInstalling base74.tgz    83% |*********************     |   158 MB    00:18 ETAInstalling base74.tgz    84% |*********************     |   161 MB    00:16 ETAInstalling base74.tgz    86% |**********************    |   164 MB    00:14 ETAInstalling base74.tgz    87% |**********************    |   166 MB    00:13 ETAInstalling base74.tgz    89% |***********************   |   169 MB    00:11 ETAInstalling base74.tgz    90% |***********************   |   172 MB    00:09 ETAInstalling base74.tgz    92% |***********************   |   175 MB    00:08 ETAInstalling base74.tgz    94% |************************  |   178 MB    00:06 ETAInstalling base74.tgz    95% |************************  |   181 MB    00:04 ETAInstalling base74.tgz    96% |************************  |   183 MB    00:03 ETAInstalling base74.tgz    97% |************************* |   184 MB    00:02 ETAInstalling base74.tgz    98% |************************* |   186 MB    00:02 ETAInstalling base74.tgz    98% |************************* |   187 MB    00:01 ETAInstalling base74.tgz    99% |************************* |   188 MB    00:00 ETAInstalling base74.tgz    99% |************************* |   188 MB    00:00 ETAInstalling base74.tgz    99% |************************* |   188 MB    00:00 ETAInstalling base74.tgz    99% |************************* |   189 MB    00:00 ETAInstalling base74.tgz   100% |**************************|   189 MB    01:48    
+Extracting etc.tgz        0% |                          |     0       --:-- ETAExtracting etc.tgz      100% |**************************|   257 KB    00:00    
+Installing comp74.tgz     0% |                          |     0       --:-- ETAInstalling comp74.tgz     1% |                          |  1408 KB    00:54 ETAInstalling comp74.tgz     3% |                          |  2816 KB    00:53 ETAInstalling comp74.tgz     5% |*                         |  4096 KB    00:54 ETAInstalling comp74.tgz     6% |*                         |  5376 KB    00:53 ETAInstalling comp74.tgz     9% |**                        |  7040 KB    00:50 ETAInstalling comp74.tgz    11% |**                        |  8576 KB    00:48 ETAInstalling comp74.tgz    12% |***                       |  9984 KB    00:47 ETAInstalling comp74.tgz    14% |***                       | 11520 KB    00:46 ETAInstalling comp74.tgz    16% |****                      | 12672 KB    00:46 ETAInstalling comp74.tgz    17% |****                      | 13696 KB    00:47 ETAInstalling comp74.tgz    19% |****                      | 15360 KB    00:44 ETAInstalling comp74.tgz    21% |*****                     | 16768 KB    00:43 ETAInstalling comp74.tgz    23% |*****                     | 18176 KB    00:42 ETAInstalling comp74.tgz    25% |******                    | 19712 KB    00:41 ETAInstalling comp74.tgz    27% |*******                   | 21248 KB    00:39 ETAInstalling comp74.tgz    29% |*******                   | 22784 KB    00:38 ETAInstalling comp74.tgz    31% |********                  | 24320 KB    00:37 ETAInstalling comp74.tgz    33% |********                  | 25856 KB    00:36 ETAInstalling comp74.tgz    35% |*********                 | 27264 KB    00:35 ETAInstalling comp74.tgz    36% |*********                 | 28544 KB    00:34 ETAInstalling comp74.tgz    38% |*********                 | 29952 KB    00:33 ETAInstalling comp74.tgz    40% |**********                | 31360 KB    00:32 ETAInstalling comp74.tgz    42% |**********                | 32896 KB    00:31 ETAInstalling comp74.tgz    44% |***********               | 34560 KB    00:30 ETAInstalling comp74.tgz    46% |***********               | 36224 KB    00:28 ETAInstalling comp74.tgz    48% |************              | 38016 KB    00:27 ETAInstalling comp74.tgz    50% |*************             | 39680 KB    00:25 ETAInstalling comp74.tgz    53% |*************             | 41600 KB    00:24 ETAInstalling comp74.tgz    55% |**************            | 43392 KB    00:23 ETAInstalling comp74.tgz    58% |***************           | 45184 KB    00:21 ETAInstalling comp74.tgz    60% |***************           | 46848 KB    00:20 ETAInstalling comp74.tgz    62% |****************          | 48768 KB    00:19 ETAInstalling comp74.tgz    64% |****************          | 50560 KB    00:17 ETAInstalling comp74.tgz    67% |*****************         | 52480 KB    00:16 ETAInstalling comp74.tgz    68% |*****************         | 53504 KB    00:15 ETAInstalling comp74.tgz    70% |******************        | 54912 KB    00:15 ETAInstalling comp74.tgz    72% |******************        | 56576 KB    00:13 ETAInstalling comp74.tgz    74% |*******************       | 58240 KB    00:12 ETAInstalling comp74.tgz    75% |*******************       | 58880 KB    00:12 ETAInstalling comp74.tgz    75% |*******************       | 59136 KB    00:12 ETAInstalling comp74.tgz    76% |*******************       | 59904 KB    00:12 ETAInstalling comp74.tgz    78% |********************      | 60800 KB    00:11 ETAInstalling comp74.tgz    79% |********************      | 61568 KB    00:11 ETAInstalling comp74.tgz    79% |********************      | 61952 KB    00:11 ETAInstalling comp74.tgz    80% |********************      | 62592 KB    00:10 ETAInstalling comp74.tgz    81% |*********************     | 63360 KB    00:10 ETAInstalling comp74.tgz    82% |*********************     | 64000 KB    00:10 ETAInstalling comp74.tgz    83% |*********************     | 64768 KB    00:09 ETAInstalling comp74.tgz    84% |*********************     | 65664 KB    00:09 ETAInstalling comp74.tgz    85% |**********************    | 66304 KB    00:08 ETAInstalling comp74.tgz    86% |**********************    | 67072 KB    00:08 ETAInstalling comp74.tgz    88% |**********************    | 68608 KB    00:06 ETAInstalling comp74.tgz    90% |***********************   | 70656 KB    00:05 ETAInstalling comp74.tgz    93% |************************  | 72448 KB    00:03 ETAInstalling comp74.tgz    95% |************************  | 74240 KB    00:02 ETAInstalling comp74.tgz    96% |************************  | 75136 KB    00:01 ETAInstalling comp74.tgz    98% |************************* | 76416 KB    00:01 ETAInstalling comp74.tgz    98% |************************* | 76800 KB    00:00 ETAInstalling comp74.tgz    99% |************************* | 77184 KB    00:00 ETAInstalling comp74.tgz    99% |************************* | 77568 KB    00:00 ETAInstalling comp74.tgz   100% |**************************| 77810 KB    01:00    
+Installing man74.tgz      0% |                          |     0       --:-- ETAInstalling man74.tgz     13% |***                       |  1024 KB    00:06 ETAInstalling man74.tgz     27% |*******                   |  2176 KB    00:05 ETAInstalling man74.tgz     47% |************              |  3712 KB    00:03 ETAInstalling man74.tgz     58% |***************           |  4608 KB    00:02 ETAInstalling man74.tgz     65% |****************          |  5120 KB    00:02 ETAInstalling man74.tgz     73% |******************        |  5760 KB    00:02 ETAInstalling man74.tgz     80% |********************      |  6272 KB    00:01 ETAInstalling man74.tgz     83% |*********************     |  6528 KB    00:01 ETAInstalling man74.tgz     91% |***********************   |  7168 KB    00:00 ETAInstalling man74.tgz     99% |************************* |  7808 KB    00:00 ETAInstalling man74.tgz    100% |**************************|  7837 KB    00:10    
+Installing game74.tgz     0% |                          |     0       --:-- ETAInstalling game74.tgz    63% |****************          |  1792 KB    00:00 ETAInstalling game74.tgz    99% |************************* |  2816 KB    00:00 ETAInstalling game74.tgz   100% |**************************|  2842 KB    00:02    
+Installing xbase74.tgz    0% |                          |     0       --:-- ETAInstalling xbase74.tgz    3% |                          |  1664 KB    00:25 ETAInstalling xbase74.tgz    7% |*                         |  3328 KB    00:24 ETAInstalling xbase74.tgz   12% |***                       |  5248 KB    00:21 ETAInstalling xbase74.tgz   15% |***                       |  6656 KB    00:22 ETAInstalling xbase74.tgz   19% |****                      |  8448 KB    00:20 ETAInstalling xbase74.tgz   23% |*****                     | 10368 KB    00:19 ETAInstalling xbase74.tgz   28% |*******                   | 12160 KB    00:18 ETAInstalling xbase74.tgz   32% |********                  | 14080 KB    00:16 ETAInstalling xbase74.tgz   36% |*********                 | 15872 KB    00:15 ETAInstalling xbase74.tgz   41% |**********                | 17792 KB    00:14 ETAInstalling xbase74.tgz   44% |***********               | 19456 KB    00:13 ETAInstalling xbase74.tgz   48% |************              | 20992 KB    00:12 ETAInstalling xbase74.tgz   51% |*************             | 22272 KB    00:12 ETAInstalling xbase74.tgz   54% |**************            | 23680 KB    00:11 ETAInstalling xbase74.tgz   58% |***************           | 25216 KB    00:10 ETAInstalling xbase74.tgz   61% |***************           | 26752 KB    00:09 ETAInstalling xbase74.tgz   65% |****************          | 28160 KB    00:09 ETAInstalling xbase74.tgz   68% |*****************         | 29568 KB    00:08 ETAInstalling xbase74.tgz   71% |******************        | 30848 KB    00:07 ETAInstalling xbase74.tgz   73% |******************        | 32000 KB    00:07 ETAInstalling xbase74.tgz   75% |*******************       | 32768 KB    00:06 ETAInstalling xbase74.tgz   78% |********************      | 34176 KB    00:05 ETAInstalling xbase74.tgz   82% |*********************     | 35712 KB    00:04 ETAInstalling xbase74.tgz   86% |**********************    | 37376 KB    00:03 ETAInstalling xbase74.tgz   89% |***********************   | 38784 KB    00:02 ETAInstalling xbase74.tgz   92% |***********************   | 40192 KB    00:01 ETAInstalling xbase74.tgz   96% |************************  | 41600 KB    00:01 ETAInstalling xbase74.tgz   97% |************************* | 42368 KB    00:00 ETAInstalling xbase74.tgz   99% |************************* | 43264 KB    00:00 ETAInstalling xbase74.tgz  100% |**************************| 43269 KB    00:29    
+Extracting xetc.tgz       0% |                          |     0       --:-- ETAExtracting xetc.tgz     100% |**************************|  7283       00:00    
+Installing xshare74.tgz   0% |                          |     0       --:-- ETAInstalling xshare74.tgz  11% |**                        |   512 KB    00:08 ETAInstalling xshare74.tgz  22% |*****                     |  1024 KB    00:06 ETAInstalling xshare74.tgz  33% |********                  |  1536 KB    00:05 ETAInstalling xshare74.tgz  39% |**********                |  1792 KB    00:06 ETAInstalling xshare74.tgz  44% |***********               |  2048 KB    00:06 ETAInstalling xshare74.tgz  53% |*************             |  2432 KB    00:05 ETAInstalling xshare74.tgz  69% |*****************         |  3200 KB    00:03 ETAInstalling xshare74.tgz  89% |***********************   |  4096 KB    00:00 ETAInstalling xshare74.tgz 100% |**************************|  4579 KB    00:08    
+Installing xfont74.tgz    0% |                          |     0       --:-- ETAInstalling xfont74.tgz    7% |*                         |  1792 KB    00:11 ETAInstalling xfont74.tgz   13% |***                       |  3072 KB    00:12 ETAInstalling xfont74.tgz   21% |*****                     |  4992 KB    00:10 ETAInstalling xfont74.tgz   28% |*******                   |  6528 KB    00:10 ETAInstalling xfont74.tgz   33% |********                  |  7680 KB    00:09 ETAInstalling xfont74.tgz   40% |**********                |  9344 KB    00:08 ETAInstalling xfont74.tgz   47% |************              | 11008 KB    00:07 ETAInstalling xfont74.tgz   56% |**************            | 12928 KB    00:06 ETAInstalling xfont74.tgz   64% |****************          | 14848 KB    00:04 ETAInstalling xfont74.tgz   72% |******************        | 16640 KB    00:03 ETAInstalling xfont74.tgz   79% |********************      | 18176 KB    00:02 ETAInstalling xfont74.tgz   88% |**********************    | 20352 KB    00:01 ETAInstalling xfont74.tgz   93% |************************  | 21376 KB    00:00 ETAInstalling xfont74.tgz  100% |**************************| 22968 KB    00:13    
+Installing xserv74.tgz    0% |                          |     0       --:-- ETAInstalling xserv74.tgz   16% |****                      |  1792 KB    00:04 ETAInstalling xserv74.tgz   33% |********                  |  3584 KB    00:03 ETAInstalling xserv74.tgz   49% |************              |  5248 KB    00:03 ETAInstalling xserv74.tgz   64% |****************          |  6912 KB    00:02 ETAInstalling xserv74.tgz   81% |*********************     |  8704 KB    00:01 ETAInstalling xserv74.tgz   93% |************************  |  9984 KB    00:00 ETAInstalling xserv74.tgz  100% |**************************| 10673 KB    00:06    
+Location of sets? (cd0 disk http nfs or 'done') [done] 
+Time appears wrong.  Set to 'Wed Feb  7 12:33:35 CET 2024'? [yes] 
+Saving configuration files... done.
+Making all device nodes... done.
+fw_update: add none; update none
+Relinking to create unique kernel... done.
+
+CONGRATULATIONS! Your OpenBSD install has been successfully completed!
+
+When you login to your new system the first time, please read your mail
+using the 'mail' command.
+
+Exit to (S)hell, (H)alt or (R)eboot? [halt] 
+syncing disks... done
+halted
+
+Program terminated
+ok 
+ok 
+ok boot
+Resetting ... 
+
+Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), Keyboard Present
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+Initializing Memory \                                                                      Initializing Memory /-\                                                                      Initializing Memory \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-                                                                      Initializing Memory \|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-                                                                      Rebooting with command: boot
+Boot device: disk:a  File and args: 
+OpenBSD IEEE 1275 Bootblock 2.1
+..>> OpenBSD BOOT 1.25
+|/-\Trying bsd...
+|/-\|/-\|/-\|/Booting /pci@1f,0/pci@1,1/ide@3/disk@0,0:a/bsd
+10090176@0x1000000-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-+2368@0x199f6c0\+154196@0x1c00000|/-\|/-\|/-+4040108@0x1c25a54\ 
+|symbols @ 0xfee74400 489697/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\+165+666912|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\|/-\+462908|/-\|/-\|/-\|/-\|/-\|/-\|/-\| start=0x1000000
+[ using 1620720 bytes of bsd ELF symbol table ]
+console is /pci@1f,0/pci@1,1/ebus@1/se@14,400000:a
+Copyright (c) 1982, 1986, 1989, 1991, 1993
+	The Regents of the University of California.  All rights reserved.
+Copyright (c) 1995-2023 OpenBSD. All rights reserved.  https://www.OpenBSD.org
+
+OpenBSD 7.4 (GENERIC) #1829: Tue Oct 10 09:05:27 MDT 2023
+    deraadt@sparc64.openbsd.org:/usr/src/sys/arch/sparc64/compile/GENERIC
+real mem = 268435456 (256MB)
+avail mem = 246538240 (235MB)
+random: good seed from bootblocks
+mpath0 at root
+scsibus0 at mpath0: 256 targets
+mainbus0 at root: Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz)
+cpu0 at mainbus0: SUNW,UltraSPARC-IIi (rev 1.3) @ 333 MHz
+cpu0: physical 16K instruction (32 b/l), 16K data (32 b/l), 2048K external (64 b/l)
+psycho0 at mainbus0 addr 0xfffc4000: SUNW,sabre, impl 0, version 0, ign 7c0
+psycho0: bus range 0-2, PCI bus 0
+psycho0: dvma map c0000000-dfffffff
+pci0 at psycho0
+ppb0 at pci0 dev 1 function 1 "Sun Simba" rev 0x13
+pci1 at ppb0 bus 1
+ebus0 at pci1 dev 1 function 0 "Sun PCIO EBus2" rev 0x01
+auxio0 at ebus0 addr 726000-726003, 728000-728003, 72a000-72a003, 72c000-72c003, 72f000-72f003
+power0 at ebus0 addr 724000-724003 ivec 0x25
+"SUNW,pll" at ebus0 addr 504000-504002 not configured
+sab0 at ebus0 addr 400000-40007f ivec 0x2b: rev 3.2
+sabtty0 at sab0 port 0: console
+sabtty1 at sab0 port 1
+comkbd0 at ebus0 addr 3083f8-3083ff ivec 0x29: layout 42
+wskbd0 at comkbd0 mux 1
+comms0 at ebus0 addr 3062f8-3062ff ivec 0x2a
+wsmouse0 at comms0 mux 0
+lpt0 at ebus0 addr 3043bc-3043cb, 30015c-30015d, 700000-70000f ivec 0x22: polled
+"fdthree" at ebus0 addr 3023f0-3023f7, 706000-70600f, 720000-720003 ivec 0x27 not configured
+clock1 at ebus0 addr 0-1fff: mk48t59
+"flashprom" at ebus0 addr 0-fffff not configured
+audioce0 at ebus0 addr 200000-2000ff, 702000-70200f, 704000-70400f, 722000-722003 ivec 0x23 ivec 0x24: nvaddrs 0
+audio0 at audioce0
+hme0 at pci1 dev 1 function 1 "Sun HME" rev 0x01: ivec 0x7e1, address 08:00:20:a5:15:a0
+nsphy0 at hme0 phy 1: DP83840 10/100 PHY, rev. 1
+machfb0 at pci1 dev 2 function 0 "ATI Mach64" rev 0x5c
+machfb0: ATY,GT-C, 1280x1024
+wsdisplay0 at machfb0 mux 1
+wskbd0: connecting to wsdisplay0
+wsdisplay0: screen 0 added (std, sun emulation)
+pciide0 at pci1 dev 3 function 0 "CMD Technology PCI0646" rev 0x03: DMA, channel 0 configured to native-PCI, channel 1 configured to native-PCI
+pciide0: using ivec 0x7e0 for native-PCI interrupt
+wd0 at pciide0 channel 0 drive 0: <ST380011A>
+wd0: 16-sector PIO, LBA48, 76319MB, 156301488 sectors
+wd0(pciide0:0:0): using PIO mode 4, DMA mode 2
+atapiscsi0 at pciide0 channel 1 drive 0
+scsibus1 at atapiscsi0: 2 targets
+cd0 at scsibus1 targ 0 lun 0: <TSSTcorp, DVD-ROM SH-D162C, TS04> removable
+cd0(pciide0:1:0): using PIO mode 4, DMA mode 2
+ppb1 at pci0 dev 1 function 0 "Sun Simba" rev 0x13
+pci2 at ppb1 bus 2
+creator0 at mainbus0: Creator3D, model SUNW,501-4788, dac 10, 1152x900
+wsdisplay1 at creator0 mux 1
+wsdisplay1: screen 0 added (std, sun emulation)
+vscsi0 at root
+scsibus2 at vscsi0: 256 targets
+softraid0 at root
+scsibus3 at softraid0: 256 targets
+bootpath: /pci@1f,0/pci@1,1/ide@3,0/disk@0,0
+root on wd0a (54fe9a9bc5539a01.a) swap on wd0b dump on wd0b
+Automatic boot in progress: starting file system checks.
+/dev/wd0a (54fe9a9bc5539a01.a): file system is clean; not checking
+/dev/wd0k (54fe9a9bc5539a01.k): file system is clean; not checking
+/dev/wd0d (54fe9a9bc5539a01.d): file system is clean; not checking
+/dev/wd0f (54fe9a9bc5539a01.f): file system is clean; not checking
+/dev/wd0g (54fe9a9bc5539a01.g): file system is clean; not checking
+/dev/wd0h (54fe9a9bc5539a01.h): file system is clean; not checking
+/dev/wd0j (54fe9a9bc5539a01.j): file system is clean; not checking
+/dev/wd0i (54fe9a9bc5539a01.i): file system is clean; not checking
+/dev/wd0e (54fe9a9bc5539a01.e): file system is clean; not checking
+pf enabled
+machdep.allowaperture: 0 -> 1
+starting network
+reordering: ld.so libc libcrypto sshd.
+openssl: generating isakmpd RSA keys... done.
+openssl: generating iked ECDSA keys... done.
+ssh-keygen: generating new host keys: RSA 
+
+
+
+ECDSA ED25519 
+sshd: (ED25519) SHA256:0AadsA0gChutOpKdOed8nkLuc7i2ROJngmOQkSLVtLM
+starting early daemons: syslogd pflogd ntpd.
+starting RPC daemons:.
+savecore: no core dump
+checking quotas: done.
+clearing /tmp
+kern.securelevel: 0 -> 1
+creating runtime link editor directory cache.
+preserving editor files.
+starting network daemons: sshd smtpd sndiod.
+running rc.firsttime
+fw_update: add none; update none
+starting local daemons: cron.
+Wed Feb  7 12:42:05 CET 2024
+
+OpenBSD/sparc64 (ultra10-openbsd.my.domain) (console)
+
+login: root
+Password:
+OpenBSD 7.4 (GENERIC) #1829: Tue Oct 10 09:05:27 MDT 2023
+
+Welcome to OpenBSD: The proactively secure Unix-like operating system.
+
+Please use the sendbug(1) utility to report bugs in the system.
+Before reporting a bug, please try to reproduce it with the latest
+version of the code.  With bug reports, please try to ensure that
+enough information to reproduce the problem is enclosed, and if a
+known fix for it exists, include that as well.
+
+You have mail.
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# ping 1.1.1.1
+PING 1.1.1.1 (1.1.1.1): 56 data bytes
+64 bytes from 1.1.1.1: icmp_seq=0 ttl=59 time=31.088 ms
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=59 time=21.708 ms
+^C
+--- 1.1.1.1 ping statistics ---
+2 packets transmitted, 2 packets received, 0.0% packet loss
+round-trip min/avg/max/std-dev = 21.708/26.398/31.088/4.690 ms
+ultra10-openbsd# mail
+Mail version 8.1.2 01/15/2001.  Type ? for help.
+"/var/mail/root": 1 message 1 new
+>N  1 deraadt@do-not-re  Mon Oct 16 07:04   71/3841  Welcome to OpenBSD 7.4!
+& 
+Message 1:
+From deraadt@do-not-reply.openbsd.org Mon Oct 16 07:04:00 MDT 2023
+Date: Oct 16 07:04:00 MDT 2023
+From: deraadt@do-not-reply.openbsd.org (Theo de Raadt)
+To: root
+Subject: Welcome to OpenBSD 7.4!
+
+This message attempts to describe the most basic initial questions that a
+system administrator of an OpenBSD box might have.  You are urged to save
+this message for later reference.
+
+For more information on how to set up your OpenBSD system, refer to the
+"afterboot" man page (i.e. after you exit the mail subsystem, type
+"man afterboot").  If you are not familiar with how to read man pages, type
+"man man" at a shell prompt and read the entire thing.  Pay specific
+attention to the "man -k keyword" option, which will permit you to find the
+man page you are looking for more easily; for instance, "man -k ethernet".
+The GNU "info" subsystem is also installed with further documentation
+resources: to read info pages type "info".  (The info subsystem behaves like
+the popular emacs editor.)
+
+Again, PLEASE READ THE MANUAL PAGES.  Our developers have spent countless
+hours improving them so that they are clear and precise.
+
+Several popular binary packages (pre-compiled applications) are
+available from mirror sites.  Mirror selection is usually automatic
+during install/upgrade -- a mirror URL from https://www.openbsd.org/ftp.html
+is stored into the file /etc/installurl.  Installation of packages is
+as simple as:
+
+ # pkg_add -v rsync chromium emacs--no_x11
+
+Significant efforts were made to centralize all system configuration in the
+/etc directory.  You should be able to find each of the configuration files
+you seek there, lightly documented.  In particular, much of the configuration
+has been centralized in the file /etc/rc.conf.  You should not need to ever
+edit the file /etc/rc.   The files /etc/rc.securelevel and /etc/rc.local exist
+for this purpose; the first is run before the system has gone into secure
+mode; the second is run afterwards (if in doubt, add your tools to rc.local).
+
+Please refer to our web pages for any other questions you might have.
+	https://www.OpenBSD.org
+Please pay special attention to the Frequently Asked Questions section at
+	https://www.OpenBSD.org/faq/
+
+OpenBSD is free software.  You can do with it as you like, subject to very few
+conditions (described at www.OpenBSD.org/policy.html).  But free software isn't
+written without money.  Network links, hardware costs, release engineering and
+testing work all take money and significant effort on the part of those who
+have made this OpenBSD release what it is.  Please reward the developers who
+have made OpenBSD what it is, and thus make it possible for this wonderful
+process to continue.  For more information on how you can help, please see
+www.OpenBSD.org/goals.html and visit www.OpenBSD.org/donations.html to see a
+list of those who have donated money, equipment, or other resources to ensure
+OpenBSD continues.
+
+If you wish to ensure that OpenBSD runs better on your machines, please do us
+a favor (after you have your mail system configured!) and type something like:
+ # (dmesg; sysctl hw.sensors) | \
+	mail -s "Sony VAIO 505R laptop, suspend works OK" dmesg@openbsd.org
+so that we can see what kinds of configurations people are running.  As shown,
+including a bit of information about your machine in the subject or the body
+can help us even further.  We will use this information to improve device driver
+support in future releases.  (Please do this using the supplied GENERIC kernel,
+not for a custom compiled kernel, unless you're unable to boot the GENERIC
+kernel.  If you have a multi-processor machine, dmesg results of both GENERIC.MP
+and GENERIC kernels are appreciated.)  The device driver information we get from
+this helps us fix existing drivers. Thank you!
+
+(If you wish to save it, use the "x" command.)
+
+& q
+Saved 1 message in mbox
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# pkg
+pkg-config      pkg_check       pkg_delete      pkg_mklocatedb  
+pkg_add         pkg_create      pkg_info        pkg_sign        
+ultra10-openbsd# pkg 
+pkg-config      pkg_check       pkg_delete      pkg_mklocatedb  
+pkg_add         pkg_create      pkg_info        pkg_sign        
+ultra10-openbsd# pkg _    pkg
+pkg-config      pkg_check       pkg_delete      pkg_mklocatedb  
+pkg_add         pkg_create      pkg_info        pkg_sign        
+ultra10-openbsd# pkg 
+pkg-config      pkg_check       pkg_delete      pkg_mklocatedb  
+pkg_add         pkg_create      pkg_info        pkg_sign        
+ultra10-openbsd# pkg pkg   _info -Q vim
+vim-9.0.2018-gtk3
+vim-9.0.2018-gtk3-lua
+vim-9.0.2018-gtk3-perl-python3-ruby
+vim-9.0.2018-gtk3-python3
+vim-9.0.2018-no_x11
+vim-9.0.2018-no_x11-lua
+vim-9.0.2018-no_x11-perl-python3-ruby
+vim-9.0.2018-no_x11-python3
+vim-9.0.2018-no_x11-ruby
+vim-9.0.2035-gtk3
+vim-9.0.2035-gtk3-lua
+vim-9.0.2035-gtk3-perl-python3-ruby
+vim-9.0.2035-gtk3-python3
+vim-9.0.2035-no_x11
+vim-9.0.2035-no_x11-lua
+vim-9.0.2035-no_x11-perl-python3-ruby
+vim-9.0.2035-no_x11-python3
+vim-9.0.2035-no_x11-ruby
+vim-lang-9.0.2018
+vim-lang-9.0.2035
+ultra10-openbsd# pkg_add vim
+quirks-6.160 (processing)|...quirks-6.160 signed on 2023-12-15T11:33:42Z
+quirks-6.160 (extracting)|                                                | 0%quirks-6.160 (extracting)|**********************************************  | 97%quirks-6.160 (extracting)|************************************************|100%quirks-6.160 (installing)|                                                | 0%quirks-6.160 (installing)|**                                              | 3%quirks-6.160 (installing)|************************************************|100%quirks-6.160: ok
+Reading update info for installed packages|*******************************|100%Ambiguous: choose package for vim
+a	0: <None>
+	1: vim-9.0.2035-gtk3
+	2: vim-9.0.2035-gtk3-lua
+	3: vim-9.0.2035-gtk3-perl-python3-ruby
+	4: vim-9.0.2035-gtk3-python3
+	5: vim-9.0.2035-no_x11-lua
+	6: vim-9.0.2035-no_x11
+	7: vim-9.0.2035-no_x11-perl-python3-ruby
+	8: vim-9.0.2035-no_x11-python3
+	9: vim-9.0.2035-no_x11-ruby
+Your choice: 6
+vim-9.0.2035-no_x11 (processing)|...vim-9.0.2035-no_x11:libsodium-1.0.19 (processing)|...vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|                        | 0%vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|************            | 50%vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|************            | 51%vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|************            | 52%vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|*************           | 52%vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|*************           | 53%vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|*************           | 54%vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|*************           | 55%vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|**********************  | 90%vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|**********************  | 91%vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|**********************  | 92%vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|**********************  | 93%vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|*********************** | 94%vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|*********************** | 95%vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|*********************** | 96%vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|*********************** | 97%vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|*********************** | 98%vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|************************| 98%vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|************************| 99%vim-9.0.2035-no_x11:libsodium-1.0.19 (extracting)|************************|100%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|                        | 0%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|                        | 1%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|                        | 2%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|*                       | 2%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|*                       | 3%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|*                       | 4%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|*                       | 5%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|*                       | 6%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|**                      | 6%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|**                      | 7%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|**                      | 8%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|**                      | 9%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|**                      | 10%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|***                     | 11%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|***                     | 12%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|***                     | 13%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|***                     | 14%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|***                     | 15%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|****                    | 15%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|****************        | 65%vim-9.0.2035-no_x11:libsodium-1.0.19 (installing)|************************|100%vim-9.0.2035-no_x11:libsodium-1.0.19: ok
+vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (processing)|...vim-9.0.2035-no_x11:libiconv-1.17 (processing)|...vim-9.0.2035-no_x11:libiconv-1.17 (extracting)|                           | 0%vim-9.0.2035-no_x11:libiconv-1.17 (extracting)|*************              | 48%vim-9.0.2035-no_x11:libiconv-1.17 (extracting)|**************             | 50%vim-9.0.2035-no_x11:libiconv-1.17 (extracting)|**************             | 51%vim-9.0.2035-no_x11:libiconv-1.17 (extracting)|************************** | 98%vim-9.0.2035-no_x11:libiconv-1.17 (extracting)|***************************| 98%vim-9.0.2035-no_x11:libiconv-1.17 (extracting)|***************************| 99%vim-9.0.2035-no_x11:libiconv-1.17 (extracting)|***************************|100%vim-9.0.2035-no_x11:libiconv-1.17 (installing)|                           | 0%vim-9.0.2035-no_x11:libiconv-1.17 (installing)|                           | 2%vim-9.0.2035-no_x11:libiconv-1.17 (installing)|*                          | 2%vim-9.0.2035-no_x11:libiconv-1.17 (installing)|*                          | 3%vim-9.0.2035-no_x11:libiconv-1.17 (installing)|**************             | 51%vim-9.0.2035-no_x11:libiconv-1.17 (installing)|************************** | 98%vim-9.0.2035-no_x11:libiconv-1.17 (installing)|***************************| 98%vim-9.0.2035-no_x11:libiconv-1.17 (installing)|***************************| 99%vim-9.0.2035-no_x11:libiconv-1.17 (installing)|***************************|100%vim-9.0.2035-no_x11:libiconv-1.17: ok
+vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (processing)|...vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|                  | 0%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|                  | 2%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|****              | 20%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|****              | 25%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|*****             | 29%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|*****             | 30%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|******            | 35%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|*******           | 36%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|*******           | 39%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|*********         | 51%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|*********         | 52%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|*********         | 53%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|**********        | 53%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|**********        | 54%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|**********        | 55%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|**********        | 56%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|**********        | 57%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|**********        | 58%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|***********       | 59%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|***********       | 60%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|***********       | 61%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|***********       | 62%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|***********       | 63%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|***********       | 64%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|************      | 65%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|************      | 66%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|************      | 67%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|************      | 68%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|************      | 69%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|*************     | 70%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|*************     | 71%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|*************     | 72%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|*************     | 73%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|*************     | 74%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|*************     | 75%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|**************    | 76%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|**************    | 77%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|**************    | 78%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|**************    | 79%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|**************    | 80%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|***************   | 81%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|****************  | 87%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|****************  | 88%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|****************  | 89%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|****************  | 90%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|****************  | 91%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|****************  | 92%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|***************** | 92%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|***************** | 93%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|***************** | 94%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (extracting)|******************|100%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|                  | 0%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|*                 | 5%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|**                | 10%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***               | 15%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***               | 17%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|****              | 23%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|*****             | 25%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|*****             | 28%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|********          | 45%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|**********        | 57%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|**********        | 58%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***********       | 59%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***********       | 60%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***********       | 61%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***********       | 62%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***********       | 63%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***********       | 64%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|************      | 64%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|************      | 65%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|************      | 66%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|************      | 67%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|*************     | 73%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|*************     | 74%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|*************     | 75%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|**************    | 75%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|**************    | 76%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|**************    | 77%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|**************    | 78%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|**************    | 79%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|**************    | 80%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***************   | 81%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***************   | 82%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***************   | 83%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***************   | 84%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***************   | 85%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***************   | 86%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|****************  | 86%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|****************  | 87%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|****************  | 88%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|****************  | 89%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|****************  | 90%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|****************  | 91%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***************** | 92%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***************** | 93%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***************** | 94%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***************** | 95%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***************** | 96%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|***************** | 97%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|******************| 98%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|******************| 99%vim-9.0.2035-no_x11:gettext-runtime-0.22.2 (installing)|******************|100%vim-9.0.2035-no_x11:gettext-runtime-0.22.2: ok
+vim-9.0.2035-no_x11 (processing)|...vim-9.0.2035-no_x11 (extracting)|                                         | 0%vim-9.0.2035-no_x11 (extracting)|***                                      | 7%vim-9.0.2035-no_x11 (extracting)|******                                   | 14%vim-9.0.2035-no_x11 (extracting)|******                                   | 15%vim-9.0.2035-no_x11 (extracting)|*******                                  | 17%vim-9.0.2035-no_x11 (extracting)|*******                                  | 18%vim-9.0.2035-no_x11 (extracting)|********                                 | 20%vim-9.0.2035-no_x11 (extracting)|*********                                | 22%vim-9.0.2035-no_x11 (extracting)|*********                                | 23%vim-9.0.2035-no_x11 (extracting)|**********                               | 23%vim-9.0.2035-no_x11 (extracting)|**********                               | 24%vim-9.0.2035-no_x11 (extracting)|**********                               | 25%vim-9.0.2035-no_x11 (extracting)|**********                               | 26%vim-9.0.2035-no_x11 (extracting)|***********                              | 26%vim-9.0.2035-no_x11 (extracting)|***********                              | 27%vim-9.0.2035-no_x11 (extracting)|************                             | 28%vim-9.0.2035-no_x11 (extracting)|************                             | 29%vim-9.0.2035-no_x11 (extracting)|************                             | 30%vim-9.0.2035-no_x11 (extracting)|**************                           | 34%vim-9.0.2035-no_x11 (extracting)|**************                           | 35%vim-9.0.2035-no_x11 (extracting)|***************                          | 35%vim-9.0.2035-no_x11 (extracting)|***************                          | 36%vim-9.0.2035-no_x11 (extracting)|***************                          | 37%vim-9.0.2035-no_x11 (extracting)|***************                          | 38%vim-9.0.2035-no_x11 (extracting)|****************                         | 38%vim-9.0.2035-no_x11 (extracting)|****************                         | 39%vim-9.0.2035-no_x11 (extracting)|****************                         | 40%vim-9.0.2035-no_x11 (extracting)|*****************                        | 40%vim-9.0.2035-no_x11 (extracting)|*****************                        | 41%vim-9.0.2035-no_x11 (extracting)|*****************                        | 42%vim-9.0.2035-no_x11 (extracting)|*****************                        | 43%vim-9.0.2035-no_x11 (extracting)|******************                       | 43%vim-9.0.2035-no_x11 (extracting)|******************                       | 44%vim-9.0.2035-no_x11 (extracting)|******************                       | 45%vim-9.0.2035-no_x11 (extracting)|*******************                      | 45%vim-9.0.2035-no_x11 (extracting)|*******************                      | 46%vim-9.0.2035-no_x11 (extracting)|*******************                      | 47%vim-9.0.2035-no_x11 (extracting)|*******************                      | 48%vim-9.0.2035-no_x11 (extracting)|********************                     | 48%vim-9.0.2035-no_x11 (extracting)|********************                     | 49%vim-9.0.2035-no_x11 (extracting)|********************                     | 50%vim-9.0.2035-no_x11 (extracting)|*********************                    | 50%vim-9.0.2035-no_x11 (extracting)|*********************                    | 51%vim-9.0.2035-no_x11 (extracting)|**********************                   | 53%vim-9.0.2035-no_x11 (extracting)|***********************                  | 56%vim-9.0.2035-no_x11 (extracting)|*************************                | 61%vim-9.0.2035-no_x11 (extracting)|*************************                | 62%vim-9.0.2035-no_x11 (extracting)|**************************               | 62%vim-9.0.2035-no_x11 (extracting)|**************************               | 63%vim-9.0.2035-no_x11 (extracting)|**************************               | 64%vim-9.0.2035-no_x11 (extracting)|***************************              | 65%vim-9.0.2035-no_x11 (extracting)|***************************              | 66%vim-9.0.2035-no_x11 (extracting)|****************************             | 68%vim-9.0.2035-no_x11 (extracting)|*****************************            | 70%vim-9.0.2035-no_x11 (extracting)|******************************           | 72%vim-9.0.2035-no_x11 (extracting)|*******************************          | 74%vim-9.0.2035-no_x11 (extracting)|*******************************          | 77%vim-9.0.2035-no_x11 (extracting)|********************************         | 79%vim-9.0.2035-no_x11 (extracting)|*********************************        | 79%vim-9.0.2035-no_x11 (extracting)|*********************************        | 80%vim-9.0.2035-no_x11 (extracting)|*********************************        | 81%vim-9.0.2035-no_x11 (extracting)|*********************************        | 82%vim-9.0.2035-no_x11 (extracting)|**********************************       | 82%vim-9.0.2035-no_x11 (extracting)|**********************************       | 83%vim-9.0.2035-no_x11 (extracting)|**********************************       | 84%vim-9.0.2035-no_x11 (extracting)|***********************************      | 84%vim-9.0.2035-no_x11 (extracting)|***********************************      | 85%vim-9.0.2035-no_x11 (extracting)|***********************************      | 86%vim-9.0.2035-no_x11 (extracting)|***********************************      | 87%vim-9.0.2035-no_x11 (extracting)|************************************     | 87%vim-9.0.2035-no_x11 (extracting)|************************************     | 88%vim-9.0.2035-no_x11 (extracting)|************************************     | 89%vim-9.0.2035-no_x11 (extracting)|*************************************    | 89%vim-9.0.2035-no_x11 (extracting)|*************************************    | 90%vim-9.0.2035-no_x11 (extracting)|*************************************    | 91%vim-9.0.2035-no_x11 (extracting)|**************************************   | 92%vim-9.0.2035-no_x11 (extracting)|**************************************   | 93%vim-9.0.2035-no_x11 (extracting)|**************************************   | 94%vim-9.0.2035-no_x11 (extracting)|***************************************  | 94%vim-9.0.2035-no_x11 (extracting)|***************************************  | 95%vim-9.0.2035-no_x11 (extracting)|***************************************  | 96%vim-9.0.2035-no_x11 (extracting)|**************************************** | 96%vim-9.0.2035-no_x11 (extracting)|**************************************** | 97%vim-9.0.2035-no_x11 (extracting)|**************************************** | 98%vim-9.0.2035-no_x11 (extracting)|**************************************** | 99%vim-9.0.2035-no_x11 (extracting)|*****************************************| 99%vim-9.0.2035-no_x11 (extracting)|*****************************************|100%vim-9.0.2035-no_x11 (installing)|                                         | 0%vim-9.0.2035-no_x11 (installing)|******                                   | 15%vim-9.0.2035-no_x11 (installing)|******                                   | 16%vim-9.0.2035-no_x11 (installing)|*******                                  | 16%vim-9.0.2035-no_x11 (installing)|*******                                  | 17%vim-9.0.2035-no_x11 (installing)|********                                 | 18%vim-9.0.2035-no_x11 (installing)|********                                 | 19%vim-9.0.2035-no_x11 (installing)|********                                 | 20%vim-9.0.2035-no_x11 (installing)|********                                 | 21%vim-9.0.2035-no_x11 (installing)|*********                                | 21%vim-9.0.2035-no_x11 (installing)|*********                                | 22%vim-9.0.2035-no_x11 (installing)|*********                                | 23%vim-9.0.2035-no_x11 (installing)|**********                               | 23%vim-9.0.2035-no_x11 (installing)|**********                               | 24%vim-9.0.2035-no_x11 (installing)|**********                               | 25%vim-9.0.2035-no_x11 (installing)|***********                              | 27%vim-9.0.2035-no_x11 (installing)|***********                              | 28%vim-9.0.2035-no_x11 (installing)|************                             | 29%vim-9.0.2035-no_x11 (installing)|************                             | 30%vim-9.0.2035-no_x11 (installing)|*************                            | 31%vim-9.0.2035-no_x11 (installing)|*************                            | 32%vim-9.0.2035-no_x11 (installing)|**************                           | 33%vim-9.0.2035-no_x11 (installing)|**************                           | 34%vim-9.0.2035-no_x11 (installing)|**************                           | 35%vim-9.0.2035-no_x11 (installing)|***************                          | 35%vim-9.0.2035-no_x11 (installing)|***************                          | 36%vim-9.0.2035-no_x11 (installing)|***************                          | 37%vim-9.0.2035-no_x11 (installing)|****************                         | 38%vim-9.0.2035-no_x11 (installing)|****************                         | 39%vim-9.0.2035-no_x11 (installing)|****************                         | 40%vim-9.0.2035-no_x11 (installing)|*****************                        | 40%vim-9.0.2035-no_x11 (installing)|*****************                        | 41%vim-9.0.2035-no_x11 (installing)|*****************                        | 42%vim-9.0.2035-no_x11 (installing)|*****************                        | 43%vim-9.0.2035-no_x11 (installing)|******************                       | 44%vim-9.0.2035-no_x11 (installing)|*******************                      | 45%vim-9.0.2035-no_x11 (installing)|********************                     | 48%vim-9.0.2035-no_x11 (installing)|**********************                   | 53%vim-9.0.2035-no_x11 (installing)|***********************                  | 57%vim-9.0.2035-no_x11 (installing)|************************                 | 57%vim-9.0.2035-no_x11 (installing)|************************                 | 58%vim-9.0.2035-no_x11 (installing)|************************                 | 59%vim-9.0.2035-no_x11 (installing)|************************                 | 60%vim-9.0.2035-no_x11 (installing)|*************************                | 60%vim-9.0.2035-no_x11 (installing)|*************************                | 61%vim-9.0.2035-no_x11 (installing)|*************************                | 62%vim-9.0.2035-no_x11 (installing)|**************************               | 62%vim-9.0.2035-no_x11 (installing)|**************************               | 63%vim-9.0.2035-no_x11 (installing)|**************************               | 64%vim-9.0.2035-no_x11 (installing)|**************************               | 65%vim-9.0.2035-no_x11 (installing)|***************************              | 65%vim-9.0.2035-no_x11 (installing)|***************************              | 67%vim-9.0.2035-no_x11 (installing)|****************************             | 69%vim-9.0.2035-no_x11 (installing)|*****************************            | 71%vim-9.0.2035-no_x11 (installing)|******************************           | 73%vim-9.0.2035-no_x11 (installing)|*******************************          | 75%vim-9.0.2035-no_x11 (installing)|********************************         | 77%vim-9.0.2035-no_x11 (installing)|********************************         | 78%vim-9.0.2035-no_x11 (installing)|********************************         | 79%vim-9.0.2035-no_x11 (installing)|*********************************        | 79%vim-9.0.2035-no_x11 (installing)|*********************************        | 80%vim-9.0.2035-no_x11 (installing)|*********************************        | 81%vim-9.0.2035-no_x11 (installing)|*********************************        | 82%vim-9.0.2035-no_x11 (installing)|**********************************       | 82%vim-9.0.2035-no_x11 (installing)|**********************************       | 83%vim-9.0.2035-no_x11 (installing)|**********************************       | 84%vim-9.0.2035-no_x11 (installing)|***********************************      | 84%vim-9.0.2035-no_x11 (installing)|***********************************      | 85%vim-9.0.2035-no_x11 (installing)|***********************************      | 86%vim-9.0.2035-no_x11 (installing)|***********************************      | 87%vim-9.0.2035-no_x11 (installing)|************************************     | 87%vim-9.0.2035-no_x11 (installing)|************************************     | 88%vim-9.0.2035-no_x11 (installing)|************************************     | 89%vim-9.0.2035-no_x11 (installing)|*************************************    | 89%vim-9.0.2035-no_x11 (installing)|*************************************    | 90%vim-9.0.2035-no_x11 (installing)|*************************************    | 91%vim-9.0.2035-no_x11 (installing)|**************************************   | 92%vim-9.0.2035-no_x11 (installing)|**************************************   | 93%vim-9.0.2035-no_x11 (installing)|**************************************   | 94%vim-9.0.2035-no_x11 (installing)|***************************************  | 94%vim-9.0.2035-no_x11 (installing)|***************************************  | 95%vim-9.0.2035-no_x11 (installing)|***************************************  | 96%vim-9.0.2035-no_x11 (installing)|**************************************** | 96%vim-9.0.2035-no_x11 (installing)|**************************************** | 97%vim-9.0.2035-no_x11 (installing)|**************************************** | 98%vim-9.0.2035-no_x11 (installing)|*****************************************| 99%vim-9.0.2035-no_x11 (installing)|*****************************************|100%vim-9.0.2035-no_x11: ok
+ultra10-openbsd# vim
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~0,0-1AllVIM - Vi IMprovedversion 9.0.2035by Bram Moolenaar et al.Vim is open source and freely distributableHelp poor children in Uganda!type  :help iccf<Enter>for informationtype  :q<Enter>to exittype  :help<Enter>  or  <F1>  for on-line helptype  :help version9<Enter>   for version info::qultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# ls
+.Xdefaults .cvsrc     .login     .ssh       mbox
+.cshrc     .forward   .profile   .viminfo
+ultra10-openbsd# adsads   adsads
+ultra10-openbsd# ssh tty.sdf.org
+The authenticity of host 'tty.sdf.org (205.166.94.4)' can't be established.
+ED25519 key fingerprint is SHA256:ZjwbO7AU8rHJExYrmZS2LqGZ7WfdoELfMrF54W92PYA.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'tty.sdf.org' (ED25519) to the list of known hosts.
+root@tty.sdf.org's password: 
+Permission denied, please try again.
+root@tty.sdf.org's password: 
+
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# startx
+xauth:  file /root/.Xauthority does not exist
+xauth: (stdin):1:  bad display name "ultra10-openbsd.my.domain:0" in "add" command
+
+
+X.Org X Server 1.21.1.8
+X Protocol Version 11, Revision 0
+Current Operating System: OpenBSD ultra10-openbsd.my.domain 7.4 GENERIC#1829 sparc64
+ 
+Current version of pixman: 0.42.2
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Wed Feb  7 12:46:40 2024
+(==) Using system config directory "/usr/X11R6/share/X11/xorg.conf.d"
+(EE) 
+Fatal server error:
+(EE) no screens found(EE) 
+(EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+(EE) Please also check the log file at "/var/log/Xorg.0.log" for additional information.
+(EE) 
+(EE) Server terminated with error (1). Closing log file.
+xinit: giving up
+xinit: unable to connect to X server: Connection refused
+xinit: server error
+xauth: (argv):1:  bad display name "ultra10-openbsd.my.domain:0" in "remove" command
+ultra10-openbsd# ls /dev
+MAKEDEV         rfd0i           rvnd3i          ttyC6           ugen4.07
+audio0          rfd1Ba          rvnd3j          ttyC7           ugen4.08
+audio1          rfd1Bb          rvnd3k          ttyC8           ugen4.09
+audio2          rfd1Bc          rvnd3l          ttyC9           ugen4.10
+audio3          rfd1Bi          rvnd3m          ttyCa           ugen4.11
+audioctl0       rfd1Ca          rvnd3n          ttyCb           ugen4.12
+audioctl1       rfd1Cb          rvnd3o          ttyCcfg         ugen4.13
+audioctl2       rfd1Cc          rvnd3p          ttyD0           ugen4.14
+audioctl3       rfd1Ci          rwd0a           ttyD1           ugen4.15
+bio             rfd1Da          rwd0b           ttyD2           ugen5.00
+bpf             rfd1Db          rwd0c           ttyD3           ugen5.01
+bpf0            rfd1Dc          rwd0d           ttyD4           ugen5.02
+bpp0            rfd1Di          rwd0e           ttyD5           ugen5.03
+cd0a            rfd1Ea          rwd0f           ttyD6           ugen5.04
+cd0c            rfd1Eb          rwd0g           ttyD7           ugen5.05
+cd1a            rfd1Ec          rwd0h           ttyD8           ugen5.06
+cd1c            rfd1Ei          rwd0i           ttyD9           ugen5.07
+ch0             rfd1Fa          rwd0j           ttyDa           ugen5.08
+console         rfd1Fb          rwd0k           ttyDb           ugen5.09
+cua00           rfd1Fc          rwd0l           ttyDcfg         ugen5.10
+cua01           rfd1Fi          rwd0m           ttyE0           ugen5.11
+cua02           rfd1Ga          rwd0n           ttyE1           ugen5.12
+cua03           rfd1Gb          rwd0o           ttyE2           ugen5.13
+cua04           rfd1Gc          rwd0p           ttyE3           ugen5.14
+cua05           rfd1Gi          rwd1a           ttyE4           ugen5.15
+cua06           rfd1Ha          rwd1b           ttyE5           ugen6.00
+cua07           rfd1Hb          rwd1c           ttyE6           ugen6.01
+cua08           rfd1Hc          rwd1d           ttyE7           ugen6.02
+cua09           rfd1Hi          rwd1e           ttyE8           ugen6.03
+cua0a           rfd1a           rwd1f           ttyE9           ugen6.04
+cua0b           rfd1b           rwd1g           ttyEa           ugen6.05
+cuaU0           rfd1c           rwd1h           ttyEb           ugen6.06
+cuaU1           rfd1i           rwd1i           ttyEcfg         ugen6.07
+cuaU2           rmidi0          rwd1j           ttyF0           ugen6.08
+cuaU3           rmidi1          rwd1k           ttyF1           ugen6.09
+cuaa            rmidi2          rwd1l           ttyF2           ugen6.10
+cuab            rmidi3          rwd1m           ttyF3           ugen6.11
+cuac            rmidi4          rwd1n           ttyF4           ugen6.12
+cuad            rmidi5          rwd1o           ttyF5           ugen6.13
+dhcpleased.lock rmidi6          rwd1p           ttyF6           ugen6.14
+dhcpleased.sock rmidi7          rwd2a           ttyF7           ugen6.15
+diskmap         rrd0a           rwd2b           ttyF8           ugen7.00
+dri             rrd0c           rwd2c           ttyF9           ugen7.01
+dt              rsd0a           rwd2d           ttyFa           ugen7.02
+enrst0          rsd0b           rwd2e           ttyFb           ugen7.03
+enrst1          rsd0c           rwd2f           ttyFcfg         ugen7.04
+erst0           rsd0d           rwd2g           ttyG0           ugen7.05
+erst1           rsd0e           rwd2h           ttyG1           ugen7.06
+fd              rsd0f           rwd2i           ttyG2           ugen7.07
+fd0Ba           rsd0g           rwd2j           ttyG3           ugen7.08
+fd0Bb           rsd0h           rwd2k           ttyG4           ugen7.09
+fd0Bc           rsd0i           rwd2l           ttyG5           ugen7.10
+fd0Bi           rsd0j           rwd2m           ttyG6           ugen7.11
+fd0Ca           rsd0k           rwd2n           ttyG7           ugen7.12
+fd0Cb           rsd0l           rwd2o           ttyG8           ugen7.13
+fd0Cc           rsd0m           rwd2p           ttyG9           ugen7.14
+fd0Ci           rsd0n           rwd3a           ttyGa           ugen7.15
+fd0Da           rsd0o           rwd3b           ttyGb           uhid0
+fd0Db           rsd0p           rwd3c           ttyGcfg         uhid1
+fd0Dc           rsd1a           rwd3d           ttyH0           uhid2
+fd0Di           rsd1b           rwd3e           ttyH1           uhid3
+fd0Ea           rsd1c           rwd3f           ttyH2           uhid4
+fd0Eb           rsd1d           rwd3g           ttyH3           uhid5
+fd0Ec           rsd1e           rwd3h           ttyH4           uhid6
+fd0Ei           rsd1f           rwd3i           ttyH5           uhid7
+fd0Fa           rsd1g           rwd3j           ttyH6           ujoy
+fd0Fb           rsd1h           rwd3k           ttyH7           uk0
+fd0Fc           rsd1i           rwd3l           ttyH8           ulpt0
+fd0Fi           rsd1j           rwd3m           ttyH9           ulpt1
+fd0Ga           rsd1k           rwd3n           ttyHa           urandom
+fd0Gb           rsd1l           rwd3o           ttyHb           usb0
+fd0Gc           rsd1m           rwd3p           ttyHcfg         usb1
+fd0Gi           rsd1n           sd0a            ttyI0           usb2
+fd0Ha           rsd1o           sd0b            ttyI1           usb3
+fd0Hb           rsd1p           sd0c            ttyI2           usb4
+fd0Hc           rsd2a           sd0d            ttyI3           usb5
+fd0Hi           rsd2b           sd0e            ttyI4           usb6
+fd0a            rsd2c           sd0f            ttyI5           usb7
+fd0b            rsd2d           sd0g            ttyI6           vcons0
+fd0c            rsd2e           sd0h            ttyI7           vdsp0
+fd0i            rsd2f           sd0i            ttyI8           vdsp1
+fd1Ba           rsd2g           sd0j            ttyI9           vdsp10
+fd1Bb           rsd2h           sd0k            ttyIa           vdsp11
+fd1Bc           rsd2i           sd0l            ttyIb           vdsp12
+fd1Bi           rsd2j           sd0m            ttyIcfg         vdsp13
+fd1Ca           rsd2k           sd0n            ttyJ0           vdsp14
+fd1Cb           rsd2l           sd0o            ttyJ1           vdsp15
+fd1Cc           rsd2m           sd0p            ttyJ2           vdsp16
+fd1Ci           rsd2n           sd1a            ttyJ3           vdsp17
+fd1Da           rsd2o           sd1b            ttyJ4           vdsp18
+fd1Db           rsd2p           sd1c            ttyJ5           vdsp19
+fd1Dc           rsd3a           sd1d            ttyJ6           vdsp2
+fd1Di           rsd3b           sd1e            ttyJ7           vdsp20
+fd1Ea           rsd3c           sd1f            ttyJ8           vdsp21
+fd1Eb           rsd3d           sd1g            ttyJ9           vdsp22
+fd1Ec           rsd3e           sd1h            ttyJa           vdsp23
+fd1Ei           rsd3f           sd1i            ttyJb           vdsp3
+fd1Fa           rsd3g           sd1j            ttyJcfg         vdsp4
+fd1Fb      
+ultra10-openbsd# cat /var/log/X          ultra10-openbsd# cat /var/log/Xorg.0.log                                        ultra10-openbsd# cat /var/log/Xorg.0.log  
+[   512.351] (--) Using wscons driver on /dev/ttyC0
+[   512.531] 
+X.Org X Server 1.21.1.8
+X Protocol Version 11, Revision 0
+[   512.533] Current Operating System: OpenBSD ultra10-openbsd.my.domain 7.4 GENERIC#1829 sparc64
+[   512.533]  
+[   512.533] Current version of pixman: 0.42.2
+[   512.533] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[   512.533] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[   512.539] (==) Log file: "/var/log/Xorg.0.log", Time: Wed Feb  7 12:46:40 2024
+[   512.592] (==) Using system config directory "/usr/X11R6/share/X11/xorg.conf.d"
+[   512.611] (==) No Layout section.  Using the first Screen section.
+[   512.618] (==) No screen section available. Using defaults.
+[   512.618] (**) |-->Screen "Default Screen Section" (0)
+[   512.619] (**) |   |-->Monitor "<default monitor>"
+[   512.637] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[   512.638] (==) Automatically adding devices
+[   512.638] (==) Automatically enabling devices
+[   512.638] (==) Not automatically adding GPU devices
+[   512.639] (==) Automatically binding GPU devices
+[   512.649] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[   512.729] (==) FontPath set to:
+	/usr/X11R6/lib/X11/fonts/misc/,
+	/usr/X11R6/lib/X11/fonts/TTF/,
+	/usr/X11R6/lib/X11/fonts/OTF/,
+	/usr/X11R6/lib/X11/fonts/Type1/,
+	/usr/X11R6/lib/X11/fonts/100dpi/,
+	/usr/X11R6/lib/X11/fonts/75dpi/
+[   512.729] (==) ModulePath set to "/usr/X11R6/lib/modules"
+[   512.729] (II) The server relies on wscons to provide the list of input devices.
+	If no devices become available, reconfigure wscons or disable AutoAddDevices.
+[   512.735] (II) Loader magic: 0xb3fcdbe010
+[   512.736] (II) Module ABI versions:
+[   512.736] 	X.Org ANSI C Emulation: 0.4
+[   512.736] 	X.Org Video Driver: 25.2
+[   512.736] 	X.Org XInput driver : 24.4
+[   512.736] 	X.Org Server Extension : 10.0
+[   512.758] (--) PCI:*(1@0:2:0) 1002:4750:0000:0000 rev 92, Mem @ 0xe1000000/16777216, 0xe2000000/4096, I/O @ 0x00000000/256, BIOS @ 0x????????/131072
+[   512.762] (II) LoadModule: "glx"
+[   512.805] (II) Loading /usr/X11R6/lib/modules/extensions/libglx.so
+[   513.125] (II) Module glx: vendor="X.Org Foundation"
+[   513.125] 	compiled for 1.21.1.8, module version = 1.0.0
+[   513.126] 	ABI class: X.Org Server Extension, version 10.0
+[   513.135] (==) Matched ati as autoconfigured driver 0
+[   513.135] (==) Assigned the driver to the xf86ConfigLayout
+[   513.136] (II) LoadModule: "ati"
+[   513.139] (II) Loading /usr/X11R6/lib/modules/drivers/ati_drv.so
+[   513.151] (II) Module ati: vendor="X.Org Foundation"
+[   513.152] 	compiled for 1.21.1.8, module version = 22.0.0
+[   513.152] 	Module class: X.Org Video Driver
+[   513.152] 	ABI class: X.Org Video Driver, version 25.2
+[   513.153] (II) LoadModule: "mach64"
+[   513.157] (II) Loading /usr/X11R6/lib/modules/drivers/mach64_drv.so
+[   513.170] (II) Module mach64: vendor="X.Org Foundation"
+[   513.170] 	compiled for 1.21.1.8, module version = 6.9.7
+[   513.170] 	Module class: X.Org Video Driver
+[   513.171] 	ABI class: X.Org Video Driver, version 25.2
+[   513.173] (II) MACH64: Driver for ATI Mach64 chipsets
+[   513.179] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[   513.181] (II) MACH64(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[   513.182] (==) MACH64(0): Depth 24, (--) framebuffer bpp 32
+[   513.184] (==) MACH64(0): Using EXA acceleration architecture
+[   513.185] (II) MACH64: Mach64 in slot 1:2:0 detected.
+[   513.187] (EE) MACH64(0): Adapter has not been initialised.
+[   513.194] (II) UnloadModule: "mach64"
+[   513.194] (EE) Screen(s) found, but none have a usable configuration.
+[   513.195] (EE) 
+Fatal server error:
+[   513.195] (EE) no screens found(EE) 
+[   513.196] (EE) 
+Please consult the The X.Org Foundation support 
+	 at http://wiki.x.org
+ for help. 
+[   513.196] (EE) Please also check the log file at "/var/log/Xorg.0.log" for additional information.
+[   513.196] (EE) 
+[   513.201] (EE) Server terminated with error (1). Closing log file.
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# 
+ultra10-openbsd# reboot
+syncing disks... done
+rebooting
+
+Resetting ... 
+
+Sun Ultra 5/10 UPA/PCI (UltraSPARC-IIi 333MHz), Keyboard Present
+OpenBoot 3.15, 256 MB memory installed, Serial #10818976.
+Ethernet address 8:0:20:a5:15:a0, Host ID: 80a515a0.
+
+
+
+Initializing
+ok 
+ok 
+ok setenv output-device screen
+output-device =       screen
+ok set   devalias
+screen                   /SUNW,ffb@1e,0
+net                      /pci@1f,0/pci@1,1/network@1,1
+cdrom                    /pci@1f,0/pci@1,1/ide@3/cdrom@2,0:f
+disk                     /pci@1f,0/pci@1,1/ide@3/disk@0,0
+disk3                    /pci@1f,0/pci@1,1/ide@3/disk@3,0
+disk2                    /pci@1f,0/pci@1,1/ide@3/disk@2,0
+disk1                    /pci@1f,0/pci@1,1/ide@3/disk@1,0
+disk0                    /pci@1f,0/pci@1,1/ide@3/disk@0,0
+ide                      /pci@1f,0/pci@1,1/ide@3
+floppy                   /pci@1f,0/pci@1,1/ebus@1/fdthree
+ttyb                     /pci@1f,0/pci@1,1/ebus@1/se:b
+ttya                     /pci@1f,0/pci@1,1/ebus@1/se:a
+keyboard!                /pci@1f,0/pci@1,1/ebus@1/su@14,3083f8:forcemode
+keyboard                 /pci@1f,0/pci@1,1/ebus@1/su@14,3083f8
+mouse                    /pci@1f,0/pci@1,1/ebus@1/su@14,3062f8
+name                     aliases
+ok list-out	     puts
+listputs ?
+ok listputs    -output
+list-output ?
+ok list-outputs
+list-outputs ?
+ok show-displays
+a) /SUNW,ffb@1e,0
+b) /pci@1f,0/pci@1,1/SUNW,m64B@2
+q) NO SELECTION 
+Enter Selection, q to quit: b
+/pci@1f,0/pci@1,1/SUNW,m64B@2 has been selected.
+Type ^Y ( Control-Y ) to insert it in the command line. 
+e.g. ok nvalias mydev ^Y 
+         for creating devalias mydev for 
+/pci@1f,0/pci@1,1/SUNW,m64B@2
+ok setenv output-device /pci@1f,0/pci@1,1/SUNW,m64B@2
+output-device =       /pci@1f,0/pci@1,1/SUNW,m64B@2
+ok 
+ok 
+ok setenv input-device keyboard
+input-device =        keyboard
+ok reset
+Resetting ... 
+

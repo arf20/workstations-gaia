@@ -1,0 +1,1 @@
+show-displays followed by setenv output-device mydev and setenv use-nvramrc? true
